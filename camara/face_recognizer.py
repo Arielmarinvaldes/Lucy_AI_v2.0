@@ -2,7 +2,6 @@ import cv2
 import os
 import threading as tr
 import winsound
-import sys
 import numpy as np
 import time
 from voices.voices import talk
@@ -17,7 +16,7 @@ def reconocimiento(rec):
         talk("Desactivando reconocimiento")
         face_rec(1)
 
-intrusos_path = 'C:\\Users\\amval\\OneDrive\\Escritorio\\whisper-python-assistant-main\\intrusos'
+intrusos_path = 'C:\\Users\\amval\\OneDrive\\Escritorio\\Lucy_AI_v2.0\\\intrusos'
 data_path = 'Data_Face'
 
 if os.path.exists(data_path):
@@ -31,7 +30,7 @@ face_recognizer = cv2.face.LBPHFaceRecognizer_create()
 
 try:
     # Leyendo el modelo
-    face_recognizer.read('C:\\Users\\amval\\OneDrive\\Escritorio\\whisper-python-assistant-main\\LBPHFaceModel.xml')
+    face_recognizer.read('C:\\Users\\amval\\OneDrive\\Escritorio\\Lucy_AI_v2.0\\camara\\LBPHFaceModel.xml')
     print("Modelo cargado correctamente.")
 except cv2.error as e:
     print(f"Error al cargar el modelo: {e}")

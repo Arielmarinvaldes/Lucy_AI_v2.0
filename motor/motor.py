@@ -28,6 +28,7 @@ def listen():
 
     except Exception as e:
         print(e)
+        talk("Error al escuchar")
     return save_path
 
 

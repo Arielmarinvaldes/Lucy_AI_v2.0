@@ -1,0 +1,1364 @@
+2023-10-24 17:45:48,789 - INFO - Beginning search for close text match
+2023-10-24 17:45:48,789 - INFO - Processing search results
+2023-10-24 17:45:48,797 - INFO - Using "câmera" as a close match to "câmera" with a confidence of 0
+2023-10-24 17:45:48,807 - INFO - 0. Excluding recent repeated response of ""
+2023-10-24 17:45:48,807 - INFO - 1. Excluding recent repeated response of "hola"
+2023-10-24 17:45:48,818 - INFO - No responses found. Generating alternate response list.
+2023-10-24 17:45:48,835 - INFO - No known response to the input was found. Selecting a random response.
+2023-10-24 17:45:48,835 - INFO - BestMatch selected "En mi interfaz de usuario puedes ver lo que puedo hacer" as a response with a confidence of 0
+2023-10-24 17:45:48,835 - INFO - Adding "câmera" as a response to "hola"
+2023-10-24 17:46:14,908 - INFO - Beginning search for close text match
+2023-10-24 17:46:14,908 - INFO - Processing search results
+2023-10-24 17:46:14,908 - INFO - Similar text found: quién fue el primer ser humano en viajar al espacio 0.19
+2023-10-24 17:46:14,923 - INFO - Similar text found: El primer ser humano en viajar al espacio fue Yuri Gagarin 0.26
+2023-10-24 17:46:14,925 - INFO - Similar text found: Por supuesto En qué puedo ayudarte 0.27
+2023-10-24 17:46:14,933 - INFO - Similar text found: cuál fue la dinastía que gobernó en el antiguo egipto 0.28
+2023-10-24 17:46:14,939 - INFO - Similar text found: qué juego popular de estrategia en tiempo real fue lanzado en 1998 0.32
+2023-10-24 17:46:14,980 - INFO - Using "quién fue el primer ser humano en viajar al espacio" as a close match to "y en ese tiempo vis vos\u8b8a happened" with a confidence of 0.19
+2023-10-24 17:46:14,988 - INFO - 0. Excluding recent repeated response of ""
+2023-10-24 17:46:14,988 - INFO - 1. Excluding recent repeated response of "hola"
+2023-10-24 17:46:14,996 - INFO - Selecting response from 2 optimal responses.
+2023-10-24 17:46:14,996 - INFO - Selecting first response from list of 2 options.
+2023-10-24 17:46:14,996 - INFO - Response selected. Using "El primer ser humano en viajar al espacio fue Yuri Gagarin"
+2023-10-24 17:46:14,996 - INFO - BestMatch selected "El primer ser humano en viajar al espacio fue Yuri Gagarin" as a response with a confidence of 0.19
+2023-10-24 17:46:15,005 - INFO - Adding "y en ese tiempo vis vos\u8b8a happened" as a response to "câmera"
+2023-10-24 17:46:31,237 - INFO - Beginning search for close text match
+2023-10-24 17:46:31,237 - INFO - Processing search results
+2023-10-24 17:46:31,237 - INFO - Similar text found: hola 1.0
+2023-10-24 17:46:31,253 - INFO - Using "hola" as a close match to "hola" with a confidence of 1.0
+2023-10-24 17:46:31,266 - INFO - 0. Excluding recent repeated response of ""
+2023-10-24 17:46:31,266 - INFO - 1. Excluding recent repeated response of "hola"
+2023-10-24 17:46:31,269 - INFO - Selecting response from 4 optimal responses.
+2023-10-24 17:46:31,269 - INFO - Selecting first response from list of 4 options.
+2023-10-24 17:46:31,269 - INFO - Response selected. Using "hola que tal"
+2023-10-24 17:46:31,269 - INFO - BestMatch selected "hola que tal" as a response with a confidence of 1.0
+2023-10-24 17:46:31,286 - INFO - Adding "hola" as a response to "y en ese tiempo vis vos\u8b8a happened"
+2023-10-24 17:46:49,313 - INFO - Beginning search for close text match
+2023-10-24 17:46:49,313 - INFO - Processing search results
+2023-10-24 17:46:49,327 - INFO - Similar text found: cómo se escribe hola en inglés 0.32
+2023-10-24 17:46:49,327 - INFO - Similar text found: La palabra hola se escribe hello en inglés 0.35
+2023-10-24 17:46:49,335 - INFO - Using "cómo se escribe hola en inglés" as a close match to "tavilla. hola. hola." with a confidence of 0.32
+2023-10-24 17:46:49,345 - INFO - 0. Excluding recent repeated response of "hola"
+2023-10-24 17:46:49,353 - INFO - Selecting response from 2 optimal responses.
+2023-10-24 17:46:49,353 - INFO - Selecting first response from list of 2 options.
+2023-10-24 17:46:49,353 - INFO - Response selected. Using "La palabra hola se escribe hello en inglés"
+2023-10-24 17:46:49,353 - INFO - BestMatch selected "La palabra hola se escribe hello en inglés" as a response with a confidence of 0.32
+2023-10-24 17:46:49,365 - INFO - Adding "tavilla. hola. hola." as a response to "hola"
+2023-10-24 17:47:02,719 - INFO - Beginning search for close text match
+2023-10-24 17:47:02,719 - INFO - Processing search results
+2023-10-24 17:47:02,719 - INFO - Using "¡hey basu!" as a close match to "¡hey basu!" with a confidence of 0
+2023-10-24 17:47:02,743 - INFO - No responses found. Generating alternate response list.
+2023-10-24 17:47:02,757 - INFO - No known response to the input was found. Selecting a random response.
+2023-10-24 17:47:02,757 - INFO - BestMatch selected "en qué año se produjo la revolución rusa" as a response with a confidence of 0
+2023-10-24 17:47:02,774 - INFO - Adding "¡hey basu!" as a response to "tavilla. hola. hola."
+2023-10-24 17:47:15,703 - INFO - Beginning search for close text match
+2023-10-24 17:47:15,703 - INFO - Processing search results
+2023-10-24 17:47:15,720 - INFO - Using "que orais" as a close match to "que orais" with a confidence of 0
+2023-10-24 17:47:15,735 - INFO - No responses found. Generating alternate response list.
+2023-10-24 17:47:15,751 - INFO - No known response to the input was found. Selecting a random response.
+2023-10-24 17:47:15,751 - INFO - BestMatch selected "qué planes tienes para hoy" as a response with a confidence of 0
+2023-10-24 17:47:15,772 - INFO - Adding "que orais" as a response to "¡hey basu!"
+2023-10-24 17:47:32,475 - INFO - Beginning search for close text match
+2023-10-24 17:47:32,475 - INFO - Processing search results
+2023-10-24 17:47:32,483 - INFO - Similar text found: qué hora es 0.87
+2023-10-24 17:47:32,491 - INFO - Using "qué hora es" as a close match to "que hora es." with a confidence of 0.87
+2023-10-24 17:47:32,507 - INFO - Selecting response from 2 optimal responses.
+2023-10-24 17:47:32,507 - INFO - Selecting first response from list of 2 options.
+2023-10-24 17:47:32,507 - INFO - Response selected. Using "Son las {hora}"
+2023-10-24 17:47:32,507 - INFO - BestMatch selected "Son las {hora}" as a response with a confidence of 0.87
+2023-10-24 17:47:32,529 - INFO - Adding "que hora es." as a response to "que orais"
+2023-10-24 17:48:02,469 - INFO - Beginning search for close text match
+2023-10-24 17:48:02,469 - INFO - Processing search results
+2023-10-24 17:48:02,477 - INFO - Similar text found: quién fue el primer ser humano en viajar al espacio 0.32
+2023-10-24 17:48:02,486 - INFO - Similar text found: cuál es el metal más abundante en la corteza terrestre 0.35
+2023-10-24 17:48:02,506 - INFO - Similar text found: cuál es el récord de la carrera más larga en la historia del atletismo 0.37
+2023-10-24 17:48:02,561 - INFO - Using "quién fue el primer ser humano en viajar al espacio" as a close match to "¿qué\u5929oya soy en alarmingin?, ¿no? or que ties soy" with a confidence of 0.32
+2023-10-24 17:48:02,586 - INFO - Selecting response from 2 optimal responses.
+2023-10-24 17:48:02,586 - INFO - Selecting first response from list of 2 options.
+2023-10-24 17:48:02,586 - INFO - Response selected. Using "El primer ser humano en viajar al espacio fue Yuri Gagarin"
+2023-10-24 17:48:02,586 - INFO - BestMatch selected "El primer ser humano en viajar al espacio fue Yuri Gagarin" as a response with a confidence of 0.32
+2023-10-24 17:48:02,602 - INFO - Adding "¿qué\u5929oya soy en alarmingin?, ¿no? or que ties soy" as a response to "que hora es."
+2023-10-24 17:48:17,116 - INFO - Beginning search for close text match
+2023-10-24 17:48:17,116 - INFO - Processing search results
+2023-10-24 17:48:17,116 - INFO - Using "termino." as a close match to "termino." with a confidence of 0
+2023-10-24 17:48:17,147 - INFO - No responses found. Generating alternate response list.
+2023-10-24 17:48:17,150 - INFO - No known response to the input was found. Selecting a random response.
+2023-10-24 17:48:17,150 - INFO - BestMatch selected "La fotosíntesis es el proceso por el cual las plantas convierten la energía solar en energía química" as a response with a confidence of 0
+2023-10-24 17:48:17,181 - INFO - Adding "termino." as a response to "¿qué\u5929oya soy en alarmingin?, ¿no? or que ties soy"
+2023-10-24 17:48:45,691 - INFO - Beginning search for close text match
+2023-10-24 17:48:45,691 - INFO - Processing search results
+2023-10-24 17:48:45,691 - INFO - Using "¡demena!" as a close match to "¡demena!" with a confidence of 0
+2023-10-24 17:48:45,724 - INFO - No responses found. Generating alternate response list.
+2023-10-24 17:48:45,741 - INFO - No known response to the input was found. Selecting a random response.
+2023-10-24 17:48:45,741 - INFO - BestMatch selected "qué juego popular de lucha fue lanzado por primera vez en 1991" as a response with a confidence of 0
+2023-10-24 17:48:45,754 - INFO - Adding "¡demena!" as a response to "termino."
+2023-10-24 17:49:36,268 - INFO - Beginning search for close text match
+2023-10-24 17:49:36,268 - INFO - Processing search results
+2023-10-24 17:49:36,305 - INFO - Similar text found: hola que tal 0.08
+2023-10-24 17:49:36,321 - INFO - Similar text found: me alegro yo tambien estoy muy bien 0.15
+2023-10-24 17:49:36,322 - INFO - Similar text found: cuál es la montaña más alta del mundo 0.18
+2023-10-24 17:49:36,322 - INFO - Similar text found: cuál es el país más poblado del mundo 0.19
+2023-10-24 17:49:36,322 - INFO - Similar text found: El animal más rápido del mundo es el guepardo, que puede alcanzar velocidades de hasta 110 km/h 0.23
+2023-10-24 17:49:36,370 - INFO - Similar text found: La realidad virtual es un entorno generado por ordenador que simula la sensación de estar inmerso en un entorno físico 0.28
+2023-10-24 17:49:36,534 - INFO - Using "hola que tal" as a close match to "pues que, ya se tight, yo, yo... le do inadvertente. comence mi passieren. sí, siempre este. ¡yo estás...ok, yo estoy ahí extraño! ¡soy bien! gracias. al final cuando por ahora todos, nya, por fin y trae\u03af\u03bde, yo estoy que tu ¡ah, era del pew,\u06beaxcommunopiog crowno on" with a confidence of 0.08
+2023-10-24 17:49:36,550 - INFO - Selecting response from 8 optimal responses.
+2023-10-24 17:49:36,550 - INFO - Selecting first response from list of 8 options.
+2023-10-24 17:49:36,550 - INFO - Response selected. Using "cómo estas"
+2023-10-24 17:49:36,550 - INFO - BestMatch selected "cómo estas" as a response with a confidence of 0.08
+2023-10-24 17:49:36,566 - INFO - Adding "pues que, ya se tight, yo, yo... le do inadvertente. comence mi passieren. sí, siempre este. ¡yo estás...ok, yo estoy ahí extraño! ¡soy bien! gracias. al final cuando por ahora todos, nya, por fin y trae\u03af\u03bde, yo estoy que tu ¡ah, era del pew,\u06beaxcommunopiog crowno on" as a response to "¡demena!"
+2023-10-24 17:50:12,999 - INFO - Beginning search for close text match
+2023-10-24 17:50:12,999 - INFO - Processing search results
+2023-10-24 17:50:13,015 - INFO - Similar text found: un programa creado para ti tonto 0.41
+2023-10-24 17:50:13,100 - INFO - Similar text found: que es el codigo binario 0.46
+2023-10-24 17:50:13,182 - INFO - Using "un programa creado para ti tonto" as a close match to "porque no te ha reconocido bien, eso es para venturosos" with a confidence of 0.41
+2023-10-24 17:50:13,198 - INFO - Selecting response from 4 optimal responses.
+2023-10-24 17:50:13,198 - INFO - Selecting first response from list of 4 options.
+2023-10-24 17:50:13,198 - INFO - Response selected. Using "que eres"
+2023-10-24 17:50:13,198 - INFO - BestMatch selected "que eres" as a response with a confidence of 0.41
+2023-10-24 17:50:13,213 - INFO - Adding "porque no te ha reconocido bien, eso es para venturosos" as a response to "pues que, ya se tight, yo, yo... le do inadvertente. comence mi passieren. sí, siempre este. ¡yo estás...ok, yo estoy ahí extraño! ¡soy bien! gracias. al final cuando por ahora todos, nya, por fin y trae\u03af\u03bde, yo estoy que tu ¡ah, era del pew,\u06beaxcommunopiog crowno on"
+2023-10-24 17:51:06,441 - INFO - Beginning search for close text match
+2023-10-24 17:51:06,441 - INFO - Processing search results
+2023-10-24 17:51:06,457 - INFO - Using "que loráis?" as a close match to "que loráis?" with a confidence of 0
+2023-10-24 17:51:06,474 - INFO - No responses found. Generating alternate response list.
+2023-10-24 17:51:06,493 - INFO - No known response to the input was found. Selecting a random response.
+2023-10-24 17:51:06,493 - INFO - BestMatch selected "hola." as a response with a confidence of 0
+2023-10-24 17:51:06,509 - INFO - Adding "que loráis?" as a response to "porque no te ha reconocido bien, eso es para venturosos"
+2023-10-24 17:51:20,857 - INFO - Beginning search for close text match
+2023-10-24 17:51:20,857 - INFO - Processing search results
+2023-10-24 17:51:20,865 - INFO - Using "adina." as a close match to "adina." with a confidence of 0
+2023-10-24 17:51:20,889 - INFO - No responses found. Generating alternate response list.
+2023-10-24 17:51:20,905 - INFO - No known response to the input was found. Selecting a random response.
+2023-10-24 17:51:20,905 - INFO - BestMatch selected "quién eres" as a response with a confidence of 0
+2023-10-24 17:51:20,921 - INFO - Adding "adina." as a response to "que loráis?"
+2023-10-24 17:51:33,351 - INFO - Beginning search for close text match
+2023-10-24 17:51:33,351 - WARNING - No value for search_text was available on the provided input
+2023-10-24 17:51:33,351 - INFO - Processing search results
+2023-10-24 17:51:33,551 - INFO - Using "" as a close match to "" with a confidence of 0
+2023-10-24 17:51:33,575 - INFO - Selecting response from 38 optimal responses.
+2023-10-24 17:51:33,575 - INFO - Selecting first response from list of 38 options.
+2023-10-24 17:51:33,575 - INFO - Response selected. Using "hola"
+2023-10-24 17:51:33,575 - INFO - BestMatch selected "hola" as a response with a confidence of 0
+2023-10-24 17:51:33,599 - INFO - Adding "" as a response to "adina."
+2023-10-24 18:01:40,267 - INFO - Beginning search for close text match
+2023-10-24 18:01:40,267 - WARNING - No value for search_text was available on the provided input
+2023-10-24 18:01:40,267 - INFO - Processing search results
+2023-10-24 18:01:40,672 - INFO - Using "" as a close match to "" with a confidence of 0
+2023-10-24 18:01:40,703 - INFO - Selecting response from 46 optimal responses.
+2023-10-24 18:01:40,703 - INFO - Selecting first response from list of 46 options.
+2023-10-24 18:01:40,703 - INFO - Response selected. Using "hola"
+2023-10-24 18:01:40,703 - INFO - BestMatch selected "hola" as a response with a confidence of 0
+2023-10-24 18:01:40,719 - INFO - Adding "" as a response to "hola"
+2023-10-24 18:01:53,067 - INFO - Beginning search for close text match
+2023-10-24 18:01:53,067 - INFO - Processing search results
+2023-10-24 18:01:53,067 - INFO - Similar text found: hola 0.89
+2023-10-24 18:01:53,083 - INFO - Similar text found: hola.. 0.91
+2023-10-24 18:01:53,083 - INFO - Similar text found: hola. 1.0
+2023-10-24 18:01:53,083 - INFO - Using "hola." as a close match to "hola." with a confidence of 1.0
+2023-10-24 18:01:53,106 - INFO - Selecting response from 10 optimal responses.
+2023-10-24 18:01:53,106 - INFO - Selecting first response from list of 10 options.
+2023-10-24 18:01:53,106 - INFO - Response selected. Using "hola que tal"
+2023-10-24 18:01:53,106 - INFO - BestMatch selected "hola que tal" as a response with a confidence of 1.0
+2023-10-24 18:01:53,123 - INFO - Adding "hola." as a response to "hola"
+2023-10-24 18:02:06,591 - INFO - Beginning search for close text match
+2023-10-24 18:02:06,591 - INFO - Processing search results
+2023-10-24 18:02:06,617 - INFO - Similar text found: cómo se llama el presidente de francia 0.45
+2023-10-24 18:02:06,620 - INFO - Similar text found: como te llamas 0.97
+2023-10-24 18:02:06,620 - INFO - Using "como te llamas" as a close match to "como te llamas." with a confidence of 0.97
+2023-10-24 18:02:06,659 - INFO - Selecting response from 5 optimal responses.
+2023-10-24 18:02:06,659 - INFO - Selecting first response from list of 5 options.
+2023-10-24 18:02:06,659 - INFO - Response selected. Using "mi nombre es lucy ya lo deverias saber"
+2023-10-24 18:02:06,659 - INFO - BestMatch selected "mi nombre es lucy ya lo deverias saber" as a response with a confidence of 0.97
+2023-10-24 18:02:06,675 - INFO - Adding "como te llamas." as a response to "hola."
+2023-10-27 13:08:51,645 - INFO - Beginning search for close text match
+2023-10-27 13:08:51,645 - INFO - Processing search results
+2023-10-27 13:08:51,670 - INFO - Using "¿son ranchas? ¿son ranchas?" as a close match to "¿son ranchas? ¿son ranchas?" with a confidence of 0
+2023-10-27 13:08:51,719 - INFO - No responses found. Generating alternate response list.
+2023-10-27 13:08:51,751 - INFO - No known response to the input was found. Selecting a random response.
+2023-10-27 13:08:51,751 - INFO - BestMatch selected "Un ecosistema es un conjunto de organismos vivos y no vivos que interactúan entre sí en un ambiente determinado" as a response with a confidence of 0
+2023-10-27 13:08:51,808 - INFO - Adding "¿son ranchas? ¿son ranchas?" as a response to "como te llamas."
+2023-10-27 13:09:54,070 - INFO - Beginning search for close text match
+2023-10-27 13:09:54,070 - INFO - Processing search results
+2023-10-27 13:09:54,088 - INFO - Similar text found: mi nombre es lucy ya lo deverias saber 0.17
+2023-10-27 13:09:54,098 - INFO - Using "mi nombre es lucy ya lo deverias saber" as a close match to "gemein y" with a confidence of 0.17
+2023-10-27 13:09:54,167 - INFO - Selecting response from 12 optimal responses.
+2023-10-27 13:09:54,167 - INFO - Selecting first response from list of 12 options.
+2023-10-27 13:09:54,167 - INFO - Response selected. Using "que tiempo hace hoy"
+2023-10-27 13:09:54,168 - INFO - BestMatch selected "que tiempo hace hoy" as a response with a confidence of 0.17
+2023-10-27 13:09:54,258 - INFO - Adding "gemein y" as a response to "¿son ranchas? ¿son ranchas?"
+2023-10-27 13:10:29,453 - INFO - Beginning search for close text match
+2023-10-27 13:10:29,453 - INFO - Processing search results
+2023-10-27 13:10:29,519 - INFO - Similar text found: cómo estas 0.15
+2023-10-27 13:10:29,520 - INFO - Similar text found: me alegro yo tambien estoy muy bien 0.29
+2023-10-27 13:10:29,521 - INFO - Similar text found: mi nombre es lucy ya lo deverias saber 0.33
+2023-10-27 13:10:29,525 - INFO - Similar text found: El Quijote fue escrito por Miguel de Cervantes 0.35
+2023-10-27 13:10:29,539 - INFO - Similar text found: La gravedad es la fuerza que atrae a los objetos hacia el centro de la Tierra 0.37
+2023-10-27 13:10:29,561 - INFO - Similar text found: qué juego popular de estrategia en tiempo real fue lanzado en 1998 0.4
+2023-10-27 13:10:29,911 - INFO - Using "cómo estas" as a close match to "temperatur no, te es clima, no puedo poner en el deparato igual que lo vemos. clima." with a confidence of 0.15
+2023-10-27 13:10:29,944 - INFO - Selecting response from 6 optimal responses.
+2023-10-27 13:10:29,944 - INFO - Selecting first response from list of 6 options.
+2023-10-27 13:10:29,944 - INFO - Response selected. Using "me alegro yo tambien estoy muy bien"
+2023-10-27 13:10:29,944 - INFO - BestMatch selected "me alegro yo tambien estoy muy bien" as a response with a confidence of 0.15
+2023-10-27 13:10:29,974 - INFO - Adding "temperatur no, te es clima, no puedo poner en el deparato igual que lo vemos. clima." as a response to "gemein y"
+2023-10-27 13:11:02,068 - INFO - Beginning search for close text match
+2023-10-27 13:11:02,068 - INFO - Processing search results
+2023-10-27 13:11:02,087 - INFO - Using "here you are." as a close match to "here you are." with a confidence of 0
+2023-10-27 13:11:02,140 - INFO - No responses found. Generating alternate response list.
+2023-10-27 13:11:02,176 - INFO - No known response to the input was found. Selecting a random response.
+2023-10-27 13:11:02,176 - INFO - BestMatch selected "que tiempo hace hoy" as a response with a confidence of 0
+2023-10-27 13:11:02,225 - INFO - Adding "here you are." as a response to "temperatur no, te es clima, no puedo poner en el deparato igual que lo vemos. clima."
+2023-10-27 13:11:30,295 - INFO - Beginning search for close text match
+2023-10-27 13:11:30,296 - INFO - Processing search results
+2023-10-27 13:11:30,311 - INFO - Using "rendre mucho immigrants" as a close match to "rendre mucho immigrants" with a confidence of 0
+2023-10-27 13:11:30,383 - INFO - No responses found. Generating alternate response list.
+2023-10-27 13:11:30,418 - INFO - No known response to the input was found. Selecting a random response.
+2023-10-27 13:11:30,419 - INFO - BestMatch selected "qué es un sistema de gestión de contenidos" as a response with a confidence of 0
+2023-10-27 13:11:30,469 - INFO - Adding "rendre mucho immigrants" as a response to "here you are."
+2023-10-27 13:11:44,039 - INFO - Beginning search for close text match
+2023-10-27 13:11:44,040 - INFO - Processing search results
+2023-10-27 13:11:44,051 - INFO - Using "dima!" as a close match to "dima!" with a confidence of 0
+2023-10-27 13:11:44,100 - INFO - No responses found. Generating alternate response list.
+2023-10-27 13:11:44,125 - INFO - No known response to the input was found. Selecting a random response.
+2023-10-27 13:11:44,125 - INFO - BestMatch selected "qué juego popular de rol fue lanzado en 2011" as a response with a confidence of 0
+2023-10-27 13:11:44,170 - INFO - Adding "dima!" as a response to "rendre mucho immigrants"
+2023-10-27 13:12:13,449 - INFO - Beginning search for close text match
+2023-10-27 13:12:13,449 - INFO - Processing search results
+2023-10-27 13:12:13,465 - INFO - Using "klima" as a close match to "klima" with a confidence of 0
+2023-10-27 13:12:13,515 - INFO - No responses found. Generating alternate response list.
+2023-10-27 13:12:13,547 - INFO - No known response to the input was found. Selecting a random response.
+2023-10-27 13:12:13,547 - INFO - BestMatch selected "None" as a response with a confidence of 0
+2023-10-27 13:12:13,594 - INFO - Adding "klima" as a response to "dima!"
+2023-10-27 13:13:08,771 - INFO - Beginning search for close text match
+2023-10-27 13:13:08,772 - INFO - Processing search results
+2023-10-27 13:13:08,787 - INFO - Similar text found: dima! 1.0
+2023-10-27 13:13:08,790 - INFO - Using "dima!" as a close match to "dima!" with a confidence of 1.0
+2023-10-27 13:13:08,841 - INFO - No responses found. Generating alternate response list.
+2023-10-27 13:13:08,873 - INFO - No known response to the input was found. Selecting a random response.
+2023-10-27 13:13:08,873 - INFO - BestMatch selected "cómo funcionan las antenas de wifi" as a response with a confidence of 0
+2023-10-27 13:13:08,925 - INFO - Adding "dima!" as a response to "klima"
+2023-10-27 13:13:38,010 - INFO - Beginning search for close text match
+2023-10-27 13:13:38,011 - INFO - Processing search results
+2023-10-27 13:13:38,029 - INFO - Using "eeee maine" as a close match to "eeee maine" with a confidence of 0
+2023-10-27 13:13:38,093 - INFO - No responses found. Generating alternate response list.
+2023-10-27 13:13:38,125 - INFO - No known response to the input was found. Selecting a random response.
+2023-10-27 13:13:38,126 - INFO - BestMatch selected "quién escribió hamlet" as a response with a confidence of 0
+2023-10-27 13:13:38,181 - INFO - Adding "eeee maine" as a response to "dima!"
+2023-10-27 13:13:50,846 - INFO - Beginning search for close text match
+2023-10-27 13:13:50,846 - INFO - Processing search results
+2023-10-27 13:13:50,857 - INFO - Using "¡glima!" as a close match to "¡glima!" with a confidence of 0
+2023-10-27 13:13:50,907 - INFO - No responses found. Generating alternate response list.
+2023-10-27 13:13:50,940 - INFO - No known response to the input was found. Selecting a random response.
+2023-10-27 13:13:50,940 - INFO - BestMatch selected "qué juego popular de rol multijugador masivo en línea fue lanzado en 2004" as a response with a confidence of 0
+2023-10-27 13:13:50,992 - INFO - Adding "¡glima!" as a response to "eeee maine"
+2023-10-27 13:14:25,429 - INFO - Beginning search for close text match
+2023-10-27 13:14:25,429 - INFO - Processing search results
+2023-10-27 13:14:25,447 - INFO - Using "... sitting there." as a close match to "... sitting there." with a confidence of 0
+2023-10-27 13:14:25,514 - INFO - No responses found. Generating alternate response list.
+2023-10-27 13:14:25,543 - INFO - No known response to the input was found. Selecting a random response.
+2023-10-27 13:14:25,543 - INFO - BestMatch selected "cuál es la montaña más alta de europa" as a response with a confidence of 0
+2023-10-27 13:14:25,589 - INFO - Adding "... sitting there." as a response to "¡glima!"
+2023-10-27 13:14:39,708 - INFO - Beginning search for close text match
+2023-10-27 13:14:39,708 - INFO - Processing search results
+2023-10-27 13:14:39,722 - INFO - Similar text found: dima! 1.0
+2023-10-27 13:14:39,726 - INFO - Using "dima!" as a close match to "dima!" with a confidence of 1.0
+2023-10-27 13:14:39,786 - INFO - No responses found. Generating alternate response list.
+2023-10-27 13:14:39,815 - INFO - No known response to the input was found. Selecting a random response.
+2023-10-27 13:14:39,815 - INFO - BestMatch selected "qué es la criptomoneda" as a response with a confidence of 0
+2023-10-27 13:14:39,871 - INFO - Adding "dima!" as a response to "... sitting there."
+2023-10-27 13:15:28,880 - INFO - Beginning search for close text match
+2023-10-27 13:15:28,880 - INFO - Processing search results
+2023-10-27 13:15:28,920 - INFO - Similar text found: La energía nuclear es la energía liberada durante la fisión o fusión de núcleos atómicos. En los procesos de fisión nuclear, los núcleos de los átomos se dividen en dos o más fragmentos más pequeños, liberando una gran cantidad de energía en forma de calor y radiación. En los procesos de fusión nuclear, los núcleos de los átomos se combinan para formar un núcleo más pesado, también liberando una gran cantidad de energía. La energía nuclear se utiliza en la producción de electricidad en centrales nucleares, en la propulsión de barcos y submarinos nucleares, y en la fabricación de armas nucleares. La energía nuclear tiene el potencial de ser una fuente de energía limpia y sostenible, pero también presenta riesgos significativos en términos de seguridad y medio ambiente 0.01
+2023-10-27 13:15:28,922 - INFO - Similar text found: un planeta enano es un cuerpo celeste que orbita alrededor del sol y tiene suficiente masa para formar una esfera, pero que no ha "limpiado" su órbita de otros objetos 0.29
+2023-10-27 13:15:28,934 - INFO - Using "La energía nuclear es la energía liberada durante la fisión o fusión de núcleos atómicos. En los procesos de fisión nuclear, los núcleos de los átomos se dividen en dos o más fragmentos más pequeños, liberando una gran cantidad de energía en forma de calor y radiación. En los procesos de fusión nuclear, los núcleos de los átomos se combinan para formar un núcleo más pesado, también liberando una gran cantidad de energía. La energía nuclear se utiliza en la producción de electricidad en centrales nucleares, en la propulsión de barcos y submarinos nucleares, y en la fabricación de armas nucleares. La energía nuclear tiene el potencial de ser una fuente de energía limpia y sostenible, pero también presenta riesgos significativos en términos de seguridad y medio ambiente" as a close match to "pero bueno, pero bueno, pero bueno." with a confidence of 0.01
+2023-10-27 13:15:28,990 - INFO - Selecting response from 14 optimal responses.
+2023-10-27 13:15:28,990 - INFO - Selecting first response from list of 14 options.
+2023-10-27 13:15:28,990 - INFO - Response selected. Using "energía nuclear"
+2023-10-27 13:15:28,990 - INFO - BestMatch selected "energía nuclear" as a response with a confidence of 0.01
+2023-10-27 13:15:29,041 - INFO - Adding "pero bueno, pero bueno, pero bueno." as a response to "dima!"
+2023-10-27 13:15:44,265 - INFO - Beginning search for close text match
+2023-10-27 13:15:44,266 - WARNING - No value for search_text was available on the provided input
+2023-10-27 13:15:44,266 - INFO - Processing search results
+2023-10-27 13:15:45,038 - INFO - Using "" as a close match to "" with a confidence of 0
+2023-10-27 13:15:45,095 - INFO - Selecting response from 82 optimal responses.
+2023-10-27 13:15:45,096 - INFO - Selecting first response from list of 82 options.
+2023-10-27 13:15:45,096 - INFO - Response selected. Using "hola"
+2023-10-27 13:15:45,096 - INFO - BestMatch selected "hola" as a response with a confidence of 0
+2023-10-27 13:15:45,137 - INFO - Adding "" as a response to "pero bueno, pero bueno, pero bueno."
+2023-10-31 19:26:29,548 - INFO - Beginning search for close text match
+2023-10-31 19:26:29,549 - WARNING - No value for search_text was available on the provided input
+2023-10-31 19:26:29,549 - INFO - Processing search results
+2023-10-31 19:26:29,941 - INFO - Using "" as a close match to "" with a confidence of 0
+2023-10-31 19:26:29,971 - INFO - Selecting response from 86 optimal responses.
+2023-10-31 19:26:29,971 - INFO - Selecting first response from list of 86 options.
+2023-10-31 19:26:29,971 - INFO - Response selected. Using "hola"
+2023-10-31 19:26:29,971 - INFO - BestMatch selected "hola" as a response with a confidence of 0
+2023-10-31 19:26:29,982 - INFO - Adding "" as a response to "hola"
+2023-10-31 19:26:32,291 - INFO - Beginning search for close text match
+2023-10-31 19:26:32,291 - WARNING - No value for search_text was available on the provided input
+2023-10-31 19:26:32,291 - INFO - Processing search results
+2023-10-31 19:26:32,673 - INFO - Using "" as a close match to "" with a confidence of 0
+2023-10-31 19:26:32,712 - INFO - Selecting response from 88 optimal responses.
+2023-10-31 19:26:32,713 - INFO - Selecting first response from list of 88 options.
+2023-10-31 19:26:32,713 - INFO - Response selected. Using "hola"
+2023-10-31 19:26:32,713 - INFO - BestMatch selected "hola" as a response with a confidence of 0
+2023-10-31 19:26:32,724 - INFO - Adding "" as a response to "hola"
+2023-10-31 19:26:35,049 - INFO - Beginning search for close text match
+2023-10-31 19:26:35,050 - WARNING - No value for search_text was available on the provided input
+2023-10-31 19:26:35,050 - INFO - Processing search results
+2023-10-31 19:26:35,427 - INFO - Using "" as a close match to "" with a confidence of 0
+2023-10-31 19:26:35,440 - INFO - 0. Excluding recent repeated response of ""
+2023-10-31 19:26:35,441 - INFO - 1. Excluding recent repeated response of "hola"
+2023-10-31 19:26:35,454 - INFO - Selecting response from 65 optimal responses.
+2023-10-31 19:26:35,454 - INFO - Selecting first response from list of 65 options.
+2023-10-31 19:26:35,454 - INFO - Response selected. Using "c"
+2023-10-31 19:26:35,454 - INFO - BestMatch selected "c" as a response with a confidence of 0
+2023-10-31 19:26:35,466 - INFO - Adding "" as a response to "hola"
+2023-10-31 19:26:37,746 - INFO - Beginning search for close text match
+2023-10-31 19:26:37,746 - WARNING - No value for search_text was available on the provided input
+2023-10-31 19:26:37,746 - INFO - Processing search results
+2023-10-31 19:26:38,210 - INFO - Using "" as a close match to "" with a confidence of 0
+2023-10-31 19:26:38,221 - INFO - 0. Excluding recent repeated response of ""
+2023-10-31 19:26:38,221 - INFO - 1. Excluding recent repeated response of "hola"
+2023-10-31 19:26:38,232 - INFO - Selecting response from 66 optimal responses.
+2023-10-31 19:26:38,233 - INFO - Selecting first response from list of 66 options.
+2023-10-31 19:26:38,233 - INFO - Response selected. Using "c"
+2023-10-31 19:26:38,233 - INFO - BestMatch selected "c" as a response with a confidence of 0
+2023-10-31 19:26:38,245 - INFO - Adding "" as a response to "c"
+2023-10-31 19:26:40,520 - INFO - Beginning search for close text match
+2023-10-31 19:26:40,520 - WARNING - No value for search_text was available on the provided input
+2023-10-31 19:26:40,520 - INFO - Processing search results
+2023-10-31 19:26:40,910 - INFO - Using "" as a close match to "" with a confidence of 0
+2023-10-31 19:26:40,930 - INFO - 0. Excluding recent repeated response of ""
+2023-10-31 19:26:40,930 - INFO - 1. Excluding recent repeated response of "hola"
+2023-10-31 19:26:40,941 - INFO - Selecting response from 67 optimal responses.
+2023-10-31 19:26:40,941 - INFO - Selecting first response from list of 67 options.
+2023-10-31 19:26:40,941 - INFO - Response selected. Using "c"
+2023-10-31 19:26:40,942 - INFO - BestMatch selected "c" as a response with a confidence of 0
+2023-10-31 19:26:40,953 - INFO - Adding "" as a response to "c"
+2023-10-31 19:26:43,227 - INFO - Beginning search for close text match
+2023-10-31 19:26:43,227 - WARNING - No value for search_text was available on the provided input
+2023-10-31 19:26:43,227 - INFO - Processing search results
+2023-10-31 19:26:43,614 - INFO - Using "" as a close match to "" with a confidence of 0
+2023-10-31 19:26:43,628 - INFO - 0. Excluding recent repeated response of ""
+2023-10-31 19:26:43,628 - INFO - 1. Excluding recent repeated response of "c"
+2023-10-31 19:26:43,640 - INFO - Selecting response from 74 optimal responses.
+2023-10-31 19:26:43,640 - INFO - Selecting first response from list of 74 options.
+2023-10-31 19:26:43,640 - INFO - Response selected. Using "hola"
+2023-10-31 19:26:43,640 - INFO - BestMatch selected "hola" as a response with a confidence of 0
+2023-10-31 19:26:43,653 - INFO - Adding "" as a response to "c"
+2023-10-31 19:26:45,997 - INFO - Beginning search for close text match
+2023-10-31 19:26:45,997 - WARNING - No value for search_text was available on the provided input
+2023-10-31 19:26:45,997 - INFO - Processing search results
+2023-10-31 19:26:46,524 - INFO - Using "" as a close match to "" with a confidence of 0
+2023-10-31 19:26:46,539 - INFO - 0. Excluding recent repeated response of ""
+2023-10-31 19:26:46,539 - INFO - 1. Excluding recent repeated response of "c"
+2023-10-31 19:26:46,554 - INFO - Selecting response from 75 optimal responses.
+2023-10-31 19:26:46,554 - INFO - Selecting first response from list of 75 options.
+2023-10-31 19:26:46,554 - INFO - Response selected. Using "hola"
+2023-10-31 19:26:46,554 - INFO - BestMatch selected "hola" as a response with a confidence of 0
+2023-10-31 19:26:46,571 - INFO - Adding "" as a response to "hola"
+2023-10-31 19:26:48,927 - INFO - Beginning search for close text match
+2023-10-31 19:26:48,927 - WARNING - No value for search_text was available on the provided input
+2023-10-31 19:26:48,927 - INFO - Processing search results
+2023-10-31 19:26:49,342 - INFO - Using "" as a close match to "" with a confidence of 0
+2023-10-31 19:26:49,356 - INFO - 0. Excluding recent repeated response of ""
+2023-10-31 19:26:49,356 - INFO - 1. Excluding recent repeated response of "c"
+2023-10-31 19:26:49,374 - INFO - Selecting response from 76 optimal responses.
+2023-10-31 19:26:49,374 - INFO - Selecting first response from list of 76 options.
+2023-10-31 19:26:49,374 - INFO - Response selected. Using "hola"
+2023-10-31 19:26:49,374 - INFO - BestMatch selected "hola" as a response with a confidence of 0
+2023-10-31 19:26:49,390 - INFO - Adding "" as a response to "hola"
+2023-10-31 19:26:51,754 - INFO - Beginning search for close text match
+2023-10-31 19:26:51,755 - WARNING - No value for search_text was available on the provided input
+2023-10-31 19:26:51,755 - INFO - Processing search results
+2023-10-31 19:26:52,278 - INFO - Using "" as a close match to "" with a confidence of 0
+2023-10-31 19:26:52,298 - INFO - 0. Excluding recent repeated response of ""
+2023-10-31 19:26:52,298 - INFO - 1. Excluding recent repeated response of "hola"
+2023-10-31 19:26:52,313 - INFO - Selecting response from 68 optimal responses.
+2023-10-31 19:26:52,313 - INFO - Selecting first response from list of 68 options.
+2023-10-31 19:26:52,313 - INFO - Response selected. Using "c"
+2023-10-31 19:26:52,313 - INFO - BestMatch selected "c" as a response with a confidence of 0
+2023-10-31 19:26:52,330 - INFO - Adding "" as a response to "hola"
+2023-11-07 10:28:57,269 - INFO - Beginning search for close text match
+2023-11-07 10:28:57,270 - WARNING - No value for search_text was available on the provided input
+2023-11-07 10:28:57,270 - INFO - Processing search results
+2023-11-07 10:28:57,761 - INFO - Using "" as a close match to "" with a confidence of 0
+2023-11-07 10:28:57,776 - INFO - 0. Excluding recent repeated response of ""
+2023-11-07 10:28:57,776 - INFO - 1. Excluding recent repeated response of "hola"
+2023-11-07 10:28:57,788 - INFO - Selecting response from 69 optimal responses.
+2023-11-07 10:28:57,788 - INFO - Selecting first response from list of 69 options.
+2023-11-07 10:28:57,788 - INFO - Response selected. Using "c"
+2023-11-07 10:28:57,788 - INFO - BestMatch selected "c" as a response with a confidence of 0
+2023-11-07 10:28:57,803 - INFO - Adding "" as a response to "hola"
+2023-11-07 10:29:05,785 - INFO - Beginning search for close text match
+2023-11-07 10:29:05,785 - WARNING - No value for search_text was available on the provided input
+2023-11-07 10:29:05,785 - INFO - Processing search results
+2023-11-07 10:29:06,215 - INFO - Using "" as a close match to "" with a confidence of 0
+2023-11-07 10:29:06,236 - INFO - 0. Excluding recent repeated response of ""
+2023-11-07 10:29:06,237 - INFO - 1. Excluding recent repeated response of "hola"
+2023-11-07 10:29:06,249 - INFO - Selecting response from 70 optimal responses.
+2023-11-07 10:29:06,249 - INFO - Selecting first response from list of 70 options.
+2023-11-07 10:29:06,249 - INFO - Response selected. Using "c"
+2023-11-07 10:29:06,249 - INFO - BestMatch selected "c" as a response with a confidence of 0
+2023-11-07 10:29:06,263 - INFO - Adding "" as a response to "c"
+2023-11-07 10:29:12,695 - INFO - Beginning search for close text match
+2023-11-07 10:29:12,695 - WARNING - No value for search_text was available on the provided input
+2023-11-07 10:29:12,695 - INFO - Processing search results
+2023-11-07 10:29:13,147 - INFO - Using "" as a close match to "" with a confidence of 0
+2023-11-07 10:29:13,170 - INFO - 0. Excluding recent repeated response of ""
+2023-11-07 10:29:13,170 - INFO - 1. Excluding recent repeated response of "hola"
+2023-11-07 10:29:13,184 - INFO - Selecting response from 71 optimal responses.
+2023-11-07 10:29:13,185 - INFO - Selecting first response from list of 71 options.
+2023-11-07 10:29:13,185 - INFO - Response selected. Using "c"
+2023-11-07 10:29:13,185 - INFO - BestMatch selected "c" as a response with a confidence of 0
+2023-11-07 10:29:13,199 - INFO - Adding "" as a response to "c"
+2023-11-07 10:29:24,120 - INFO - Beginning search for close text match
+2023-11-07 10:29:24,120 - WARNING - No value for search_text was available on the provided input
+2023-11-07 10:29:24,120 - INFO - Processing search results
+2023-11-07 10:29:24,647 - INFO - Using "" as a close match to "" with a confidence of 0
+2023-11-07 10:29:24,664 - INFO - 0. Excluding recent repeated response of ""
+2023-11-07 10:29:24,664 - INFO - 1. Excluding recent repeated response of "c"
+2023-11-07 10:29:24,675 - INFO - Selecting response from 78 optimal responses.
+2023-11-07 10:29:24,675 - INFO - Selecting first response from list of 78 options.
+2023-11-07 10:29:24,675 - INFO - Response selected. Using "hola"
+2023-11-07 10:29:24,675 - INFO - BestMatch selected "hola" as a response with a confidence of 0
+2023-11-07 10:29:24,688 - INFO - Adding "" as a response to "c"
+2023-11-07 10:29:32,995 - INFO - Beginning search for close text match
+2023-11-07 10:29:32,996 - WARNING - No value for search_text was available on the provided input
+2023-11-07 10:29:32,996 - INFO - Processing search results
+2023-11-07 10:29:33,424 - INFO - Using "" as a close match to "" with a confidence of 0
+2023-11-07 10:29:33,441 - INFO - 0. Excluding recent repeated response of ""
+2023-11-07 10:29:33,442 - INFO - 1. Excluding recent repeated response of "c"
+2023-11-07 10:29:33,454 - INFO - Selecting response from 79 optimal responses.
+2023-11-07 10:29:33,454 - INFO - Selecting first response from list of 79 options.
+2023-11-07 10:29:33,454 - INFO - Response selected. Using "hola"
+2023-11-07 10:29:33,454 - INFO - BestMatch selected "hola" as a response with a confidence of 0
+2023-11-07 10:29:33,468 - INFO - Adding "" as a response to "hola"
+2023-11-07 10:29:56,376 - INFO - Beginning search for close text match
+2023-11-07 10:29:56,377 - WARNING - No value for search_text was available on the provided input
+2023-11-07 10:29:56,377 - INFO - Processing search results
+2023-11-07 10:29:56,831 - INFO - Using "" as a close match to "" with a confidence of 0
+2023-11-07 10:29:56,852 - INFO - 0. Excluding recent repeated response of ""
+2023-11-07 10:29:56,852 - INFO - 1. Excluding recent repeated response of "c"
+2023-11-07 10:29:56,864 - INFO - Selecting response from 80 optimal responses.
+2023-11-07 10:29:56,865 - INFO - Selecting first response from list of 80 options.
+2023-11-07 10:29:56,865 - INFO - Response selected. Using "hola"
+2023-11-07 10:29:56,865 - INFO - BestMatch selected "hola" as a response with a confidence of 0
+2023-11-07 10:29:56,879 - INFO - Adding "" as a response to "hola"
+2023-11-07 10:37:03,865 - INFO - Beginning search for close text match
+2023-11-07 10:37:03,866 - WARNING - No value for search_text was available on the provided input
+2023-11-07 10:37:03,866 - INFO - Processing search results
+2023-11-07 10:37:04,376 - INFO - Using "" as a close match to "" with a confidence of 0
+2023-11-07 10:37:04,398 - INFO - 0. Excluding recent repeated response of ""
+2023-11-07 10:37:04,398 - INFO - 1. Excluding recent repeated response of "hola"
+2023-11-07 10:37:04,414 - INFO - Selecting response from 73 optimal responses.
+2023-11-07 10:37:04,414 - INFO - Selecting first response from list of 73 options.
+2023-11-07 10:37:04,414 - INFO - Response selected. Using "c"
+2023-11-07 10:37:04,414 - INFO - BestMatch selected "c" as a response with a confidence of 0
+2023-11-07 10:37:04,431 - INFO - Adding "" as a response to "hola"
+2023-11-07 10:37:16,050 - INFO - Beginning search for close text match
+2023-11-07 10:37:16,050 - WARNING - No value for search_text was available on the provided input
+2023-11-07 10:37:16,050 - INFO - Processing search results
+2023-11-07 10:37:16,537 - INFO - Using "" as a close match to "" with a confidence of 0
+2023-11-07 10:37:16,561 - INFO - 0. Excluding recent repeated response of ""
+2023-11-07 10:37:16,561 - INFO - 1. Excluding recent repeated response of "hola"
+2023-11-07 10:37:16,574 - INFO - Selecting response from 74 optimal responses.
+2023-11-07 10:37:16,574 - INFO - Selecting first response from list of 74 options.
+2023-11-07 10:37:16,574 - INFO - Response selected. Using "c"
+2023-11-07 10:37:16,574 - INFO - BestMatch selected "c" as a response with a confidence of 0
+2023-11-07 10:37:16,589 - INFO - Adding "" as a response to "c"
+2023-11-07 10:37:29,409 - INFO - Beginning search for close text match
+2023-11-07 10:37:29,410 - WARNING - No value for search_text was available on the provided input
+2023-11-07 10:37:29,410 - INFO - Processing search results
+2023-11-07 10:37:29,989 - INFO - Using "" as a close match to "" with a confidence of 0
+2023-11-07 10:37:30,010 - INFO - 0. Excluding recent repeated response of ""
+2023-11-07 10:37:30,010 - INFO - 1. Excluding recent repeated response of "hola"
+2023-11-07 10:37:30,025 - INFO - Selecting response from 75 optimal responses.
+2023-11-07 10:37:30,025 - INFO - Selecting first response from list of 75 options.
+2023-11-07 10:37:30,025 - INFO - Response selected. Using "c"
+2023-11-07 10:37:30,025 - INFO - BestMatch selected "c" as a response with a confidence of 0
+2023-11-07 10:37:30,042 - INFO - Adding "" as a response to "c"
+2023-11-07 10:37:53,231 - INFO - Beginning search for close text match
+2023-11-07 10:37:53,232 - WARNING - No value for search_text was available on the provided input
+2023-11-07 10:37:53,232 - INFO - Processing search results
+2023-11-07 10:37:53,734 - INFO - Using "" as a close match to "" with a confidence of 0
+2023-11-07 10:37:53,752 - INFO - 0. Excluding recent repeated response of ""
+2023-11-07 10:37:53,752 - INFO - 1. Excluding recent repeated response of "c"
+2023-11-07 10:37:53,768 - INFO - Selecting response from 82 optimal responses.
+2023-11-07 10:37:53,768 - INFO - Selecting first response from list of 82 options.
+2023-11-07 10:37:53,768 - INFO - Response selected. Using "hola"
+2023-11-07 10:37:53,768 - INFO - BestMatch selected "hola" as a response with a confidence of 0
+2023-11-07 10:37:53,784 - INFO - Adding "" as a response to "c"
+2023-11-07 10:41:07,551 - INFO - Beginning search for close text match
+2023-11-07 10:41:07,552 - WARNING - No value for search_text was available on the provided input
+2023-11-07 10:41:07,552 - INFO - Processing search results
+2023-11-07 10:41:08,111 - INFO - Using "" as a close match to "" with a confidence of 0
+2023-11-07 10:41:08,130 - INFO - 0. Excluding recent repeated response of ""
+2023-11-07 10:41:08,130 - INFO - 1. Excluding recent repeated response of "c"
+2023-11-07 10:41:08,145 - INFO - Selecting response from 84 optimal responses.
+2023-11-07 10:41:08,145 - INFO - Selecting first response from list of 84 options.
+2023-11-07 10:41:08,145 - INFO - Response selected. Using "hola"
+2023-11-07 10:41:08,145 - INFO - BestMatch selected "hola" as a response with a confidence of 0
+2023-11-07 10:41:08,166 - INFO - Adding "" as a response to "hola"
+2023-11-07 10:42:07,510 - INFO - Beginning search for close text match
+2023-11-07 10:42:07,510 - WARNING - No value for search_text was available on the provided input
+2023-11-07 10:42:07,510 - INFO - Processing search results
+2023-11-07 10:42:08,120 - INFO - Using "" as a close match to "" with a confidence of 0
+2023-11-07 10:42:08,141 - INFO - 0. Excluding recent repeated response of ""
+2023-11-07 10:42:08,141 - INFO - 1. Excluding recent repeated response of "c"
+2023-11-07 10:42:08,157 - INFO - Selecting response from 86 optimal responses.
+2023-11-07 10:42:08,157 - INFO - Selecting first response from list of 86 options.
+2023-11-07 10:42:08,157 - INFO - Response selected. Using "hola"
+2023-11-07 10:42:08,157 - INFO - BestMatch selected "hola" as a response with a confidence of 0
+2023-11-07 10:42:08,174 - INFO - Adding "" as a response to "hola"
+2023-11-07 10:42:19,614 - INFO - Beginning search for close text match
+2023-11-07 10:42:19,614 - WARNING - No value for search_text was available on the provided input
+2023-11-07 10:42:19,614 - INFO - Processing search results
+2023-11-07 10:42:20,235 - INFO - Using "" as a close match to "" with a confidence of 0
+2023-11-07 10:42:20,253 - INFO - 0. Excluding recent repeated response of ""
+2023-11-07 10:42:20,253 - INFO - 1. Excluding recent repeated response of "hola"
+2023-11-07 10:42:20,267 - INFO - Selecting response from 78 optimal responses.
+2023-11-07 10:42:20,267 - INFO - Selecting first response from list of 78 options.
+2023-11-07 10:42:20,267 - INFO - Response selected. Using "c"
+2023-11-07 10:42:20,267 - INFO - BestMatch selected "c" as a response with a confidence of 0
+2023-11-07 10:42:20,285 - INFO - Adding "" as a response to "hola"
+2023-11-11 03:17:56,496 - INFO - Beginning search for close text match
+2023-11-11 03:17:56,498 - WARNING - No value for search_text was available on the provided input
+2023-11-11 03:17:56,498 - INFO - Processing search results
+2023-11-11 03:17:57,135 - INFO - Using "" as a close match to "" with a confidence of 0
+2023-11-11 03:17:57,161 - INFO - 0. Excluding recent repeated response of ""
+2023-11-11 03:17:57,162 - INFO - 1. Excluding recent repeated response of "hola"
+2023-11-11 03:17:57,176 - INFO - Selecting response from 80 optimal responses.
+2023-11-11 03:17:57,176 - INFO - Selecting first response from list of 80 options.
+2023-11-11 03:17:57,176 - INFO - Response selected. Using "c"
+2023-11-11 03:17:57,176 - INFO - BestMatch selected "c" as a response with a confidence of 0
+2023-11-11 03:17:57,193 - INFO - Adding "" as a response to "c"
+2023-11-11 03:18:10,530 - INFO - Beginning search for close text match
+2023-11-11 03:18:10,530 - WARNING - No value for search_text was available on the provided input
+2023-11-11 03:18:10,530 - INFO - Processing search results
+2023-11-11 03:18:11,183 - INFO - Using "" as a close match to "" with a confidence of 0
+2023-11-11 03:18:11,204 - INFO - 0. Excluding recent repeated response of ""
+2023-11-11 03:18:11,204 - INFO - 1. Excluding recent repeated response of "hola"
+2023-11-11 03:18:11,218 - INFO - Selecting response from 81 optimal responses.
+2023-11-11 03:18:11,219 - INFO - Selecting first response from list of 81 options.
+2023-11-11 03:18:11,219 - INFO - Response selected. Using "c"
+2023-11-11 03:18:11,219 - INFO - BestMatch selected "c" as a response with a confidence of 0
+2023-11-11 03:18:11,237 - INFO - Adding "" as a response to "c"
+2023-11-12 03:53:55,448 - INFO - Beginning search for close text match
+2023-11-12 03:53:55,449 - WARNING - No value for search_text was available on the provided input
+2023-11-12 03:53:55,449 - INFO - Processing search results
+2023-11-12 03:53:56,191 - INFO - Using "" as a close match to "" with a confidence of 0
+2023-11-12 03:53:56,212 - INFO - 0. Excluding recent repeated response of ""
+2023-11-12 03:53:56,212 - INFO - 1. Excluding recent repeated response of "c"
+2023-11-12 03:53:56,233 - INFO - Selecting response from 89 optimal responses.
+2023-11-12 03:53:56,233 - INFO - Selecting first response from list of 89 options.
+2023-11-12 03:53:56,233 - INFO - Response selected. Using "hola"
+2023-11-12 03:53:56,233 - INFO - BestMatch selected "hola" as a response with a confidence of 0
+2023-11-12 03:53:56,252 - INFO - Adding "" as a response to "c"
+2023-11-13 02:02:31,269 - INFO - Beginning search for close text match
+2023-11-13 02:02:31,271 - WARNING - No value for search_text was available on the provided input
+2023-11-13 02:02:31,272 - INFO - Processing search results
+2023-11-13 02:02:32,923 - INFO - Using "" as a close match to "" with a confidence of 0
+2023-11-13 02:02:32,951 - INFO - 0. Excluding recent repeated response of ""
+2023-11-13 02:02:32,951 - INFO - 1. Excluding recent repeated response of "c"
+2023-11-13 02:02:32,972 - INFO - Selecting response from 93 optimal responses.
+2023-11-13 02:02:32,972 - INFO - Selecting first response from list of 93 options.
+2023-11-13 02:02:32,972 - INFO - Response selected. Using "hola"
+2023-11-13 02:02:32,972 - INFO - BestMatch selected "hola" as a response with a confidence of 0
+2023-11-13 02:02:32,997 - INFO - Adding "" as a response to "hola"
+2023-11-13 02:03:03,451 - INFO - Beginning search for close text match
+2023-11-13 02:03:03,451 - INFO - Processing search results
+2023-11-13 02:03:03,469 - INFO - Similar text found: hola 1.0
+2023-11-13 02:03:03,487 - INFO - Using "hola" as a close match to "hola" with a confidence of 1.0
+2023-11-13 02:03:03,514 - INFO - 0. Excluding recent repeated response of ""
+2023-11-13 02:03:03,514 - INFO - 1. Excluding recent repeated response of "c"
+2023-11-13 02:03:03,530 - INFO - Selecting response from 36 optimal responses.
+2023-11-13 02:03:03,530 - INFO - Selecting first response from list of 36 options.
+2023-11-13 02:03:03,530 - INFO - Response selected. Using "hola que tal"
+2023-11-13 02:03:03,530 - INFO - BestMatch selected "hola que tal" as a response with a confidence of 1.0
+2023-11-13 02:03:03,555 - INFO - Adding "hola" as a response to "hola"
+2023-11-13 02:03:12,963 - INFO - Beginning search for close text match
+2023-11-13 02:03:12,963 - INFO - Processing search results
+2023-11-13 02:03:12,990 - INFO - Similar text found: cómo se llama el presidente de francia 0.45
+2023-11-13 02:03:12,990 - INFO - Similar text found: como te llamas 0.97
+2023-11-13 02:03:12,990 - INFO - Using "como te llamas" as a close match to "como te llamas." with a confidence of 0.97
+2023-11-13 02:03:13,011 - INFO - 0. Excluding recent repeated response of ""
+2023-11-13 02:03:13,011 - INFO - 1. Excluding recent repeated response of "hola"
+2023-11-13 02:03:13,020 - INFO - Selecting response from 18 optimal responses.
+2023-11-13 02:03:13,021 - INFO - Selecting first response from list of 18 options.
+2023-11-13 02:03:13,021 - INFO - Response selected. Using "mi nombre es lucy ya lo deverias saber"
+2023-11-13 02:03:13,021 - INFO - BestMatch selected "mi nombre es lucy ya lo deverias saber" as a response with a confidence of 0.97
+2023-11-13 02:03:13,053 - INFO - Adding "como te llamas." as a response to "hola"
+2023-11-21 02:20:31,940 - INFO - Beginning search for close text match
+2023-11-21 02:20:31,940 - INFO - Processing search results
+2023-11-21 02:20:31,955 - INFO - Using "klr." as a close match to "klr." with a confidence of 0
+2023-11-21 02:20:31,978 - INFO - 0. Excluding recent repeated response of ""
+2023-11-21 02:20:31,978 - INFO - 1. Excluding recent repeated response of "hola"
+2023-11-21 02:20:31,985 - INFO - No responses found. Generating alternate response list.
+2023-11-21 02:20:31,998 - INFO - No known response to the input was found. Selecting a random response.
+2023-11-21 02:20:31,998 - INFO - BestMatch selected "en qué año se produjo la revolución industrial" as a response with a confidence of 0
+2023-11-21 02:20:32,027 - INFO - Adding "klr." as a response to "como te llamas."
+2023-11-21 02:20:44,584 - INFO - Beginning search for close text match
+2023-11-21 02:20:44,584 - INFO - Processing search results
+2023-11-21 02:20:44,605 - INFO - Similar text found: un programa creado para ti tonto 0.24
+2023-11-21 02:20:44,605 - INFO - Similar text found: quál es la capital de francia 0.43
+2023-11-21 02:20:44,607 - INFO - Similar text found: qué es la fotosíntesis 0.51
+2023-11-21 02:20:44,608 - INFO - Similar text found: qué es la célula 0.55
+2023-11-21 02:20:44,611 - INFO - Similar text found: qué es el adn 0.6
+2023-11-21 02:20:44,623 - INFO - Similar text found: qué es cms 0.67
+2023-11-21 02:20:45,365 - INFO - Similar text found: quien es meralis 0.91
+2023-11-21 02:20:45,366 - INFO - Using "un programa creado para ti tonto" as a close match to "quién es meralis." with a confidence of 0.24
+2023-11-21 02:20:45,385 - INFO - 0. Excluding recent repeated response of "hola"
+2023-11-21 02:20:45,395 - INFO - Selecting response from 38 optimal responses.
+2023-11-21 02:20:45,395 - INFO - Selecting first response from list of 38 options.
+2023-11-21 02:20:45,395 - INFO - Response selected. Using "que eres"
+2023-11-21 02:20:45,395 - INFO - BestMatch selected "que eres" as a response with a confidence of 0.24
+2023-11-21 02:20:45,419 - INFO - Adding "quién es meralis." as a response to "klr."
+2023-11-21 02:21:02,503 - INFO - Beginning search for close text match
+2023-11-21 02:21:02,504 - WARNING - No value for search_text was available on the provided input
+2023-11-21 02:21:02,504 - INFO - Processing search results
+2023-11-21 02:21:03,421 - INFO - Using "" as a close match to "" with a confidence of 0
+2023-11-21 02:21:03,468 - INFO - Selecting response from 166 optimal responses.
+2023-11-21 02:21:03,468 - INFO - Selecting first response from list of 166 options.
+2023-11-21 02:21:03,468 - INFO - Response selected. Using "hola"
+2023-11-21 02:21:03,468 - INFO - BestMatch selected "hola" as a response with a confidence of 0
+2023-11-21 02:21:03,495 - INFO - Adding "" as a response to "quién es meralis."
+2023-11-21 02:21:11,994 - INFO - Beginning search for close text match
+2023-11-21 02:21:11,994 - INFO - Processing search results
+2023-11-21 02:21:12,007 - INFO - Similar text found: quien es meralis 0.69
+2023-11-21 02:21:12,008 - INFO - Similar text found: quién es meralis. 0.74
+2023-11-21 02:21:12,008 - INFO - Using "quien es meralis" as a close match to "es merali." with a confidence of 0.69
+2023-11-21 02:21:12,040 - INFO - Selecting response from 1 optimal responses.
+2023-11-21 02:21:12,040 - INFO - Selecting first response from list of 1 options.
+2023-11-21 02:21:12,040 - INFO - Response selected. Using "Una pérra hay que vive tocandote en el trabajo"
+2023-11-21 02:21:12,040 - INFO - BestMatch selected "Una pérra hay que vive tocandote en el trabajo" as a response with a confidence of 0.69
+2023-11-21 02:21:12,061 - INFO - Adding "es merali." as a response to "hola"
+2023-11-21 02:21:27,834 - INFO - Beginning search for close text match
+2023-11-21 02:21:27,834 - INFO - Processing search results
+2023-11-21 02:21:27,857 - INFO - Similar text found: cual es tu nombre 0.4
+2023-11-21 02:21:27,956 - INFO - Similar text found: quien es meralis 0.88
+2023-11-21 02:21:27,956 - INFO - Similar text found: quién es meralis. 0.91
+2023-11-21 02:21:27,957 - INFO - Using "cual es tu nombre" as a close match to "¿quién es meralis?" with a confidence of 0.4
+2023-11-21 02:21:27,986 - INFO - Selecting response from 19 optimal responses.
+2023-11-21 02:21:27,986 - INFO - Selecting first response from list of 19 options.
+2023-11-21 02:21:27,986 - INFO - Response selected. Using "mi nombre es lucy ya lo deverias saber"
+2023-11-21 02:21:27,987 - INFO - BestMatch selected "mi nombre es lucy ya lo deverias saber" as a response with a confidence of 0.4
+2023-11-21 02:21:28,012 - INFO - Adding "¿quién es meralis?" as a response to "es merali."
+2023-11-21 02:21:37,571 - INFO - Beginning search for close text match
+2023-11-21 02:21:37,571 - INFO - Processing search results
+2023-11-21 02:21:37,578 - INFO - Using "merales." as a close match to "merales." with a confidence of 0
+2023-11-21 02:21:37,605 - INFO - No responses found. Generating alternate response list.
+2023-11-21 02:21:37,617 - INFO - No known response to the input was found. Selecting a random response.
+2023-11-21 02:21:37,617 - INFO - BestMatch selected "cuál fue la primera civilización que desarrolló la escritura" as a response with a confidence of 0
+2023-11-21 02:21:37,645 - INFO - Adding "merales." as a response to "¿quién es meralis?"
+2023-11-21 02:21:52,480 - INFO - Beginning search for close text match
+2023-11-21 02:21:52,480 - INFO - Processing search results
+2023-11-21 02:21:52,504 - INFO - Similar text found: cual es tu nombre 0.4
+2023-11-21 02:21:52,598 - INFO - Similar text found: quien es meralis 0.88
+2023-11-21 02:21:52,599 - INFO - Similar text found: quién es meralis. 0.91
+2023-11-21 02:21:52,599 - INFO - Similar text found: ¿quién es meralis? 1.0
+2023-11-21 02:21:52,599 - INFO - Using "¿quién es meralis?" as a close match to "¿quién es meralis?" with a confidence of 1.0
+2023-11-21 02:21:52,623 - INFO - No responses found. Generating alternate response list.
+2023-11-21 02:21:52,631 - INFO - No known response to the input was found. Selecting a random response.
+2023-11-21 02:21:52,632 - INFO - BestMatch selected "sócrates es considerado el padre de la filosofía." as a response with a confidence of 0
+2023-11-21 02:21:52,658 - INFO - Adding "¿quién es meralis?" as a response to "merales."
+2023-11-21 02:22:03,509 - INFO - Beginning search for close text match
+2023-11-21 02:22:03,509 - INFO - Processing search results
+2023-11-21 02:22:03,519 - INFO - Similar text found: merales. 1.0
+2023-11-21 02:22:03,519 - INFO - Using "merales." as a close match to "merales." with a confidence of 1.0
+2023-11-21 02:22:03,546 - INFO - No responses found. Generating alternate response list.
+2023-11-21 02:22:03,558 - INFO - No known response to the input was found. Selecting a random response.
+2023-11-21 02:22:03,558 - INFO - BestMatch selected "JavaScript es un lenguaje de programación utilizado para crear aplicaciones web interactivas" as a response with a confidence of 0
+2023-11-21 02:22:03,586 - INFO - Adding "merales." as a response to "¿quién es meralis?"
+2023-11-21 02:22:23,933 - INFO - Beginning search for close text match
+2023-11-21 02:22:23,933 - WARNING - No value for search_text was available on the provided input
+2023-11-21 02:22:23,933 - INFO - Processing search results
+2023-11-21 02:22:24,934 - INFO - Using "" as a close match to "" with a confidence of 0
+2023-11-21 02:22:24,981 - INFO - Selecting response from 178 optimal responses.
+2023-11-21 02:22:24,981 - INFO - Selecting first response from list of 178 options.
+2023-11-21 02:22:24,981 - INFO - Response selected. Using "hola"
+2023-11-21 02:22:24,981 - INFO - BestMatch selected "hola" as a response with a confidence of 0
+2023-11-21 02:22:25,012 - INFO - Adding "" as a response to "merales."
+2023-11-21 02:22:32,796 - INFO - Beginning search for close text match
+2023-11-21 02:22:32,796 - WARNING - No value for search_text was available on the provided input
+2023-11-21 02:22:32,796 - INFO - Processing search results
+2023-11-21 02:22:33,828 - INFO - Using "" as a close match to "" with a confidence of 0
+2023-11-21 02:22:33,875 - INFO - Selecting response from 180 optimal responses.
+2023-11-21 02:22:33,875 - INFO - Selecting first response from list of 180 options.
+2023-11-21 02:22:33,875 - INFO - Response selected. Using "hola"
+2023-11-21 02:22:33,875 - INFO - BestMatch selected "hola" as a response with a confidence of 0
+2023-11-21 02:22:33,896 - INFO - Adding "" as a response to "hola"
+2023-11-21 02:22:52,542 - INFO - Beginning search for close text match
+2023-11-21 02:22:52,542 - INFO - Processing search results
+2023-11-21 02:22:52,550 - INFO - Using "quien es<|no|>" as a close match to "quien es<|no|>" with a confidence of 0
+2023-11-21 02:22:52,580 - INFO - No responses found. Generating alternate response list.
+2023-11-21 02:22:52,590 - INFO - No known response to the input was found. Selecting a random response.
+2023-11-21 02:22:52,590 - INFO - BestMatch selected "que es una estrella" as a response with a confidence of 0
+2023-11-21 02:22:52,612 - INFO - Adding "quien es<|no|>" as a response to "hola"
+2023-11-21 02:23:04,220 - INFO - Beginning search for close text match
+2023-11-21 02:23:04,220 - INFO - Processing search results
+2023-11-21 02:23:04,239 - INFO - Similar text found: un programa creado para ti tonto 0.21
+2023-11-21 02:23:04,240 - INFO - Similar text found: quál es la capital de francia 0.4
+2023-11-21 02:23:04,241 - INFO - Similar text found: qué es la fotosíntesis 0.42
+2023-11-21 02:23:04,242 - INFO - Similar text found: qué es la teoría de la relatividad 0.44
+2023-11-21 02:23:04,243 - INFO - Similar text found: qué es la célula 0.56
+2023-11-21 02:23:04,245 - INFO - Similar text found: qué es el adn 0.62
+2023-11-21 02:23:04,905 - INFO - Similar text found: quien es meralis 0.81
+2023-11-21 02:23:04,906 - INFO - Similar text found: quién es meralis. 0.91
+2023-11-21 02:23:04,907 - INFO - Using "un programa creado para ti tonto" as a close match to "quién es meraly." with a confidence of 0.21
+2023-11-21 02:23:04,939 - INFO - Selecting response from 38 optimal responses.
+2023-11-21 02:23:04,939 - INFO - Selecting first response from list of 38 options.
+2023-11-21 02:23:04,939 - INFO - Response selected. Using "que eres"
+2023-11-21 02:23:04,939 - INFO - BestMatch selected "que eres" as a response with a confidence of 0.21
+2023-11-21 02:23:04,965 - INFO - Adding "quién es meraly." as a response to "quien es<|no|>"
+2023-11-21 02:23:15,216 - INFO - Beginning search for close text match
+2023-11-21 02:23:15,216 - INFO - Processing search results
+2023-11-21 02:23:15,238 - INFO - Similar text found: cual es tu nombre 0.4
+2023-11-21 02:23:15,338 - INFO - Similar text found: ¿quién es meralis? 0.94
+2023-11-21 02:23:15,339 - INFO - Using "cual es tu nombre" as a close match to "¿quién es meraliz?" with a confidence of 0.4
+2023-11-21 02:23:15,372 - INFO - Selecting response from 19 optimal responses.
+2023-11-21 02:23:15,372 - INFO - Selecting first response from list of 19 options.
+2023-11-21 02:23:15,372 - INFO - Response selected. Using "mi nombre es lucy ya lo deverias saber"
+2023-11-21 02:23:15,372 - INFO - BestMatch selected "mi nombre es lucy ya lo deverias saber" as a response with a confidence of 0.4
+2023-11-21 02:23:15,400 - INFO - Adding "¿quién es meraliz?" as a response to "quién es meraly."
+2023-11-21 02:23:26,194 - INFO - Beginning search for close text match
+2023-11-21 02:23:26,194 - WARNING - No value for search_text was available on the provided input
+2023-11-21 02:23:26,194 - INFO - Processing search results
+2023-11-21 02:23:27,120 - INFO - Using "" as a close match to "" with a confidence of 0
+2023-11-21 02:23:27,168 - INFO - Selecting response from 188 optimal responses.
+2023-11-21 02:23:27,168 - INFO - Selecting first response from list of 188 options.
+2023-11-21 02:23:27,168 - INFO - Response selected. Using "hola"
+2023-11-21 02:23:27,168 - INFO - BestMatch selected "hola" as a response with a confidence of 0
+2023-11-21 02:23:27,195 - INFO - Adding "" as a response to "¿quién es meraliz?"
+2023-11-21 02:23:36,209 - INFO - Beginning search for close text match
+2023-11-21 02:23:36,209 - WARNING - No value for search_text was available on the provided input
+2023-11-21 02:23:36,209 - INFO - Processing search results
+2023-11-21 02:23:37,084 - INFO - Using "" as a close match to "" with a confidence of 0
+2023-11-21 02:23:37,128 - INFO - Selecting response from 190 optimal responses.
+2023-11-21 02:23:37,128 - INFO - Selecting first response from list of 190 options.
+2023-11-21 02:23:37,128 - INFO - Response selected. Using "hola"
+2023-11-21 02:23:37,128 - INFO - BestMatch selected "hola" as a response with a confidence of 0
+2023-11-21 02:23:37,149 - INFO - Adding "" as a response to "hola"
+2023-11-21 02:23:48,835 - INFO - Beginning search for close text match
+2023-11-21 02:23:48,836 - WARNING - No value for search_text was available on the provided input
+2023-11-21 02:23:48,836 - INFO - Processing search results
+2023-11-21 02:23:49,738 - INFO - Using "" as a close match to "" with a confidence of 0
+2023-11-21 02:23:49,782 - INFO - Selecting response from 192 optimal responses.
+2023-11-21 02:23:49,782 - INFO - Selecting first response from list of 192 options.
+2023-11-21 02:23:49,782 - INFO - Response selected. Using "hola"
+2023-11-21 02:23:49,782 - INFO - BestMatch selected "hola" as a response with a confidence of 0
+2023-11-21 02:23:49,806 - INFO - Adding "" as a response to "hola"
+2023-11-21 02:24:04,041 - INFO - Beginning search for close text match
+2023-11-21 02:24:04,041 - WARNING - No value for search_text was available on the provided input
+2023-11-21 02:24:04,041 - INFO - Processing search results
+2023-11-21 02:24:04,981 - INFO - Using "" as a close match to "" with a confidence of 0
+2023-11-21 02:24:05,002 - INFO - 0. Excluding recent repeated response of ""
+2023-11-21 02:24:05,002 - INFO - 1. Excluding recent repeated response of "hola"
+2023-11-21 02:24:05,021 - INFO - Selecting response from 111 optimal responses.
+2023-11-21 02:24:05,021 - INFO - Selecting first response from list of 111 options.
+2023-11-21 02:24:05,021 - INFO - Response selected. Using "c"
+2023-11-21 02:24:05,021 - INFO - BestMatch selected "c" as a response with a confidence of 0
+2023-11-21 02:24:05,042 - INFO - Adding "" as a response to "hola"
+2023-11-21 02:24:23,471 - INFO - Beginning search for close text match
+2023-11-21 02:24:23,471 - INFO - Processing search results
+2023-11-21 02:24:23,480 - INFO - Using "...w\uc77cend es mural\u0440\u0435\u0432." as a close match to "...w\uc77cend es mural\u0440\u0435\u0432." with a confidence of 0
+2023-11-21 02:24:23,508 - INFO - 0. Excluding recent repeated response of ""
+2023-11-21 02:24:23,509 - INFO - 1. Excluding recent repeated response of "hola"
+2023-11-21 02:24:23,514 - INFO - No responses found. Generating alternate response list.
+2023-11-21 02:24:23,526 - INFO - No known response to the input was found. Selecting a random response.
+2023-11-21 02:24:23,526 - INFO - BestMatch selected "una escultura es una obra de arte tridimensional que se crea mediante la talla, el moldeado o la fundición de materiales como la piedra, el bronce o la madera" as a response with a confidence of 0
+2023-11-21 02:24:23,549 - INFO - Adding "...w\uc77cend es mural\u0440\u0435\u0432." as a response to "c"
+2023-11-21 02:24:41,093 - INFO - Beginning search for close text match
+2023-11-21 02:24:41,093 - INFO - Processing search results
+2023-11-21 02:24:41,109 - INFO - Similar text found: quien es meralis 0.74
+2023-11-21 02:24:41,110 - INFO - Similar text found: quién es meralis. 0.79
+2023-11-21 02:24:41,111 - INFO - Using "quien es meralis" as a close match to "es meralis." with a confidence of 0.74
+2023-11-21 02:24:41,144 - INFO - 0. Excluding recent repeated response of ""
+2023-11-21 02:24:41,145 - INFO - 1. Excluding recent repeated response of "hola"
+2023-11-21 02:24:41,156 - INFO - Selecting response from 1 optimal responses.
+2023-11-21 02:24:41,156 - INFO - Selecting first response from list of 1 options.
+2023-11-21 02:24:41,156 - INFO - Response selected. Using "Una pérra hay que vive tocandote en el trabajo"
+2023-11-21 02:24:41,156 - INFO - BestMatch selected "Una pérra hay que vive tocandote en el trabajo" as a response with a confidence of 0.74
+2023-11-21 02:24:41,194 - INFO - Adding "es meralis." as a response to "...w\uc77cend es mural\u0440\u0435\u0432."
+2023-11-21 02:24:51,262 - INFO - Beginning search for close text match
+2023-11-21 02:24:51,262 - INFO - Processing search results
+2023-11-21 02:24:51,270 - INFO - Using "es merales." as a close match to "es merales." with a confidence of 0
+2023-11-21 02:24:51,295 - INFO - 0. Excluding recent repeated response of ""
+2023-11-21 02:24:51,301 - INFO - No responses found. Generating alternate response list.
+2023-11-21 02:24:51,313 - INFO - No known response to the input was found. Selecting a random response.
+2023-11-21 02:24:51,313 - INFO - BestMatch selected "qué es un terremoto" as a response with a confidence of 0
+2023-11-21 02:24:51,344 - INFO - Adding "es merales." as a response to "es meralis."
+2023-11-21 02:25:00,118 - INFO - Beginning search for close text match
+2023-11-21 02:25:00,118 - INFO - Processing search results
+2023-11-21 02:25:00,133 - INFO - Similar text found: quien es meralis 0.74
+2023-11-21 02:25:00,133 - INFO - Similar text found: quién es meralis. 0.79
+2023-11-21 02:25:00,134 - INFO - Similar text found: es meralis. 1.0
+2023-11-21 02:25:00,134 - INFO - Using "es meralis." as a close match to "es meralis." with a confidence of 1.0
+2023-11-21 02:25:00,166 - INFO - No responses found. Generating alternate response list.
+2023-11-21 02:25:00,176 - INFO - No known response to the input was found. Selecting a random response.
+2023-11-21 02:25:00,176 - INFO - BestMatch selected "Claro puedes proporcionarme tu número de cuenta o correo electrónico asociado a tu cuenta" as a response with a confidence of 0
+2023-11-21 02:25:00,207 - INFO - Adding "es meralis." as a response to "es merales."
+2023-11-21 02:25:13,879 - INFO - Beginning search for close text match
+2023-11-21 02:25:13,879 - INFO - Processing search results
+2023-11-21 02:25:13,892 - INFO - Similar text found: quién es meraly. 0.77
+2023-11-21 02:25:13,893 - INFO - Using "quién es meraly." as a close match to "es meraly." with a confidence of 0.77
+2023-11-21 02:25:13,923 - INFO - No responses found. Generating alternate response list.
+2023-11-21 02:25:13,931 - INFO - No known response to the input was found. Selecting a random response.
+2023-11-21 02:25:13,931 - INFO - BestMatch selected "diferencia entre 4g y 5g" as a response with a confidence of 0
+2023-11-21 02:25:13,960 - INFO - Adding "es meraly." as a response to "es meralis."
+2023-11-21 02:25:25,685 - INFO - Beginning search for close text match
+2023-11-21 02:25:25,685 - INFO - Processing search results
+2023-11-21 02:25:25,698 - INFO - Similar text found: quien es meralis 0.74
+2023-11-21 02:25:25,699 - INFO - Similar text found: quién es meralis. 0.79
+2023-11-21 02:25:25,699 - INFO - Similar text found: es meralis. 1.0
+2023-11-21 02:25:25,699 - INFO - Using "es meralis." as a close match to "es meralis." with a confidence of 1.0
+2023-11-21 02:25:25,730 - INFO - No responses found. Generating alternate response list.
+2023-11-21 02:25:25,738 - INFO - No known response to the input was found. Selecting a random response.
+2023-11-21 02:25:25,738 - INFO - BestMatch selected "5g es una tecnología inalámbrica de alta velocidad que permite la conexión de dispositivos a internet y entre sí." as a response with a confidence of 0
+2023-11-21 02:25:25,767 - INFO - Adding "es meralis." as a response to "es meraly."
+2023-11-21 02:25:44,025 - INFO - Beginning search for close text match
+2023-11-21 02:25:44,025 - WARNING - No value for search_text was available on the provided input
+2023-11-21 02:25:44,025 - INFO - Processing search results
+2023-11-21 02:25:44,833 - INFO - Using "" as a close match to "" with a confidence of 0
+2023-11-21 02:25:44,854 - INFO - 0. Excluding recent repeated response of "es meralis."
+2023-11-21 02:25:44,877 - INFO - Selecting response from 205 optimal responses.
+2023-11-21 02:25:44,877 - INFO - Selecting first response from list of 205 options.
+2023-11-21 02:25:44,877 - INFO - Response selected. Using "hola"
+2023-11-21 02:25:44,877 - INFO - BestMatch selected "hola" as a response with a confidence of 0
+2023-11-21 02:25:44,904 - INFO - Adding "" as a response to "es meralis."
+2023-11-21 02:25:52,960 - INFO - Beginning search for close text match
+2023-11-21 02:25:52,960 - WARNING - No value for search_text was available on the provided input
+2023-11-21 02:25:52,960 - INFO - Processing search results
+2023-11-21 02:25:53,853 - INFO - Using "" as a close match to "" with a confidence of 0
+2023-11-21 02:25:53,899 - INFO - Selecting response from 210 optimal responses.
+2023-11-21 02:25:53,899 - INFO - Selecting first response from list of 210 options.
+2023-11-21 02:25:53,899 - INFO - Response selected. Using "hola"
+2023-11-21 02:25:53,899 - INFO - BestMatch selected "hola" as a response with a confidence of 0
+2023-11-21 02:25:53,921 - INFO - Adding "" as a response to "hola"
+2023-11-21 02:26:19,141 - INFO - Beginning search for close text match
+2023-11-21 02:26:19,141 - INFO - Processing search results
+2023-11-21 02:26:19,165 - INFO - Similar text found: cual es tu nombre 0.4
+2023-11-21 02:26:19,261 - INFO - Similar text found: quien es meralis 0.88
+2023-11-21 02:26:19,261 - INFO - Similar text found: quién es meralis. 0.91
+2023-11-21 02:26:19,261 - INFO - Similar text found: ¿quién es meralis? 1.0
+2023-11-21 02:26:19,262 - INFO - Using "¿quién es meralis?" as a close match to "¿quién es meralis?" with a confidence of 1.0
+2023-11-21 02:26:19,289 - INFO - No responses found. Generating alternate response list.
+2023-11-21 02:26:19,299 - INFO - No known response to the input was found. Selecting a random response.
+2023-11-21 02:26:19,300 - INFO - BestMatch selected "El primer Campeonato Mundial de Fórmula 1 se celebró en 1950" as a response with a confidence of 0
+2023-11-21 02:26:19,323 - INFO - Adding "¿quién es meralis?" as a response to "hola"
+2023-11-21 02:26:32,209 - INFO - Beginning search for close text match
+2023-11-21 02:26:32,209 - WARNING - No value for search_text was available on the provided input
+2023-11-21 02:26:32,209 - INFO - Processing search results
+2023-11-21 02:26:33,104 - INFO - Using "" as a close match to "" with a confidence of 0
+2023-11-21 02:26:33,154 - INFO - Selecting response from 214 optimal responses.
+2023-11-21 02:26:33,154 - INFO - Selecting first response from list of 214 options.
+2023-11-21 02:26:33,154 - INFO - Response selected. Using "hola"
+2023-11-21 02:26:33,154 - INFO - BestMatch selected "hola" as a response with a confidence of 0
+2023-11-21 02:26:33,184 - INFO - Adding "" as a response to "¿quién es meralis?"
+2023-11-21 02:28:29,237 - INFO - Beginning search for close text match
+2023-11-21 02:28:29,237 - INFO - Processing search results
+2023-11-21 02:28:29,248 - INFO - Similar text found: ¿quién es meraliz? 0.54
+2023-11-21 02:28:29,249 - INFO - Using "¿quién es meraliz?" as a close match to "meraliz." with a confidence of 0.54
+2023-11-21 02:28:29,281 - INFO - 0. Excluding recent repeated response of ""
+2023-11-21 02:28:29,281 - INFO - 1. Excluding recent repeated response of "hola"
+2023-11-21 02:28:29,290 - INFO - Selecting response from 1 optimal responses.
+2023-11-21 02:28:29,290 - INFO - Selecting first response from list of 1 options.
+2023-11-21 02:28:29,290 - INFO - Response selected. Using "Una pérra hay que vive tocandote en el trabajo"
+2023-11-21 02:28:29,290 - INFO - BestMatch selected "Una pérra hay que vive tocandote en el trabajo" as a response with a confidence of 0.54
+2023-11-21 02:28:29,318 - INFO - Adding "meraliz." as a response to "hola"
+2023-11-21 02:28:46,992 - INFO - Beginning search for close text match
+2023-11-21 02:28:46,992 - INFO - Processing search results
+2023-11-21 02:28:47,003 - INFO - Similar text found: ¿quién es meraliz? 0.54
+2023-11-21 02:28:47,003 - INFO - Similar text found: meraliz. 1.0
+2023-11-21 02:28:47,003 - INFO - Using "meraliz." as a close match to "meraliz." with a confidence of 1.0
+2023-11-21 02:28:47,030 - INFO - 0. Excluding recent repeated response of ""
+2023-11-21 02:28:47,030 - INFO - 1. Excluding recent repeated response of "hola"
+2023-11-21 02:28:47,035 - INFO - No responses found. Generating alternate response list.
+2023-11-21 02:28:47,046 - INFO - No known response to the input was found. Selecting a random response.
+2023-11-21 02:28:47,046 - INFO - BestMatch selected "qué es el cambio climático" as a response with a confidence of 0
+2023-11-21 02:28:47,080 - INFO - Adding "meraliz." as a response to "meraliz."
+2023-11-21 02:29:05,355 - INFO - Beginning search for close text match
+2023-11-21 02:29:05,355 - INFO - Processing search results
+2023-11-21 02:29:05,364 - INFO - Using "meralys" as a close match to "meralys" with a confidence of 0
+2023-11-21 02:29:05,396 - INFO - No responses found. Generating alternate response list.
+2023-11-21 02:29:05,406 - INFO - No known response to the input was found. Selecting a random response.
+2023-11-21 02:29:05,406 - INFO - BestMatch selected "cómo se conecta un dispositivo a una red wifi" as a response with a confidence of 0
+2023-11-21 02:29:05,437 - INFO - Adding "meralys" as a response to "meraliz."
+2023-11-21 02:29:15,684 - INFO - Beginning search for close text match
+2023-11-21 02:29:15,685 - WARNING - No value for search_text was available on the provided input
+2023-11-21 02:29:15,685 - INFO - Processing search results
+2023-11-21 02:29:16,641 - INFO - Using "" as a close match to "" with a confidence of 0
+2023-11-21 02:29:16,691 - INFO - Selecting response from 224 optimal responses.
+2023-11-21 02:29:16,691 - INFO - Selecting first response from list of 224 options.
+2023-11-21 02:29:16,691 - INFO - Response selected. Using "hola"
+2023-11-21 02:29:16,691 - INFO - BestMatch selected "hola" as a response with a confidence of 0
+2023-11-21 02:29:16,722 - INFO - Adding "" as a response to "meralys"
+2023-11-21 02:29:26,996 - INFO - Beginning search for close text match
+2023-11-21 02:29:26,997 - INFO - Processing search results
+2023-11-21 02:29:27,024 - INFO - Similar text found: un programa creado para ti tonto 0.33
+2023-11-21 02:29:27,025 - INFO - Similar text found: quál es la capital de francia 0.43
+2023-11-21 02:29:27,029 - INFO - Similar text found: qué es la célula 0.48
+2023-11-21 02:29:27,031 - INFO - Similar text found: qué es el adn 0.53
+2023-11-21 02:29:27,035 - INFO - Similar text found: quién escribió la odisea 0.59
+2023-11-21 02:29:27,040 - INFO - Similar text found: qué es la informática 0.63
+2023-11-21 02:29:27,062 - INFO - Similar text found: qué es wifi 0.64
+2023-11-21 02:29:27,704 - INFO - Similar text found: quién es meralis. 0.71
+2023-11-21 02:29:27,705 - INFO - Similar text found: quién es meraly. 0.73
+2023-11-21 02:29:27,739 - INFO - Using "un programa creado para ti tonto" as a close match to "quién es minobia." with a confidence of 0.33
+2023-11-21 02:29:27,772 - INFO - Selecting response from 40 optimal responses.
+2023-11-21 02:29:27,772 - INFO - Selecting first response from list of 40 options.
+2023-11-21 02:29:27,772 - INFO - Response selected. Using "que eres"
+2023-11-21 02:29:27,772 - INFO - BestMatch selected "que eres" as a response with a confidence of 0.33
+2023-11-21 02:29:27,795 - INFO - Adding "quién es minobia." as a response to "hola"
+2023-11-21 02:29:42,776 - INFO - Beginning search for close text match
+2023-11-21 02:29:42,776 - INFO - Processing search results
+2023-11-21 02:29:42,802 - INFO - Similar text found: cuál es el río más largo del mundo 0.31
+2023-11-21 02:29:42,803 - INFO - Similar text found: cuál es el país más grande del mundo 0.33
+2023-11-21 02:29:42,804 - INFO - Similar text found: cuál es el idioma más hablado del mundo 0.38
+2023-11-21 02:29:42,804 - INFO - Similar text found: cuál es el continente más grande 0.42
+2023-11-21 02:29:42,939 - INFO - Using "cuál es el río más largo del mundo" as a close match to "quantidade más. freshacer" with a confidence of 0.31
+2023-11-21 02:29:42,972 - INFO - Selecting response from 20 optimal responses.
+2023-11-21 02:29:42,972 - INFO - Selecting first response from list of 20 options.
+2023-11-21 02:29:42,972 - INFO - Response selected. Using "El río más largo del mundo es el Nilo, con una longitud de aproximadamente 6,650 kilómetros"
+2023-11-21 02:29:42,972 - INFO - BestMatch selected "El río más largo del mundo es el Nilo, con una longitud de aproximadamente 6,650 kilómetros" as a response with a confidence of 0.31
+2023-11-21 02:29:43,003 - INFO - Adding "quantidade más. freshacer" as a response to "quién es minobia."
+2023-11-21 02:30:02,612 - INFO - Beginning search for close text match
+2023-11-21 02:30:02,612 - WARNING - No value for search_text was available on the provided input
+2023-11-21 02:30:02,612 - INFO - Processing search results
+2023-11-21 02:30:03,565 - INFO - Using "" as a close match to "" with a confidence of 0
+2023-11-21 02:30:03,614 - INFO - Selecting response from 230 optimal responses.
+2023-11-21 02:30:03,614 - INFO - Selecting first response from list of 230 options.
+2023-11-21 02:30:03,614 - INFO - Response selected. Using "hola"
+2023-11-21 02:30:03,614 - INFO - BestMatch selected "hola" as a response with a confidence of 0
+2023-11-21 02:30:03,648 - INFO - Adding "" as a response to "quantidade más. freshacer"
+2023-11-23 02:44:04,299 - INFO - Beginning search for close text match
+2023-11-23 02:44:04,300 - WARNING - No value for search_text was available on the provided input
+2023-11-23 02:44:04,300 - INFO - Processing search results
+2023-11-23 02:44:05,354 - INFO - Using "" as a close match to "" with a confidence of 0
+2023-11-23 02:44:05,412 - INFO - Selecting response from 236 optimal responses.
+2023-11-23 02:44:05,412 - INFO - Selecting first response from list of 236 options.
+2023-11-23 02:44:05,413 - INFO - Response selected. Using "hola"
+2023-11-23 02:44:05,413 - INFO - BestMatch selected "hola" as a response with a confidence of 0
+2023-11-23 02:44:05,440 - INFO - Adding "" as a response to "hola"
+2023-11-23 02:44:14,954 - INFO - Beginning search for close text match
+2023-11-23 02:44:14,954 - INFO - Processing search results
+2023-11-23 02:44:14,983 - INFO - Similar text found: hola 1.0
+2023-11-23 02:44:15,001 - INFO - Using "hola" as a close match to "hola" with a confidence of 1.0
+2023-11-23 02:44:15,035 - INFO - 0. Excluding recent repeated response of ""
+2023-11-23 02:44:15,035 - INFO - 1. Excluding recent repeated response of "hola"
+2023-11-23 02:44:15,050 - INFO - Selecting response from 44 optimal responses.
+2023-11-23 02:44:15,050 - INFO - Selecting first response from list of 44 options.
+2023-11-23 02:44:15,050 - INFO - Response selected. Using "hola que tal"
+2023-11-23 02:44:15,050 - INFO - BestMatch selected "hola que tal" as a response with a confidence of 1.0
+2023-11-23 02:44:15,083 - INFO - Adding "hola" as a response to "hola"
+2023-11-23 02:45:07,538 - INFO - Beginning search for close text match
+2023-11-23 02:45:07,538 - INFO - Processing search results
+2023-11-23 02:45:07,589 - INFO - Similar text found: cómo se llama el presidente de francia 0.49
+2023-11-23 02:45:07,591 - INFO - Similar text found: cómo se llama mi novia 0.58
+2023-11-23 02:45:07,631 - INFO - Using "cómo se llama el presidente de francia" as a close match to "cómo te llamas mss no rappundas tú o qué" with a confidence of 0.49
+2023-11-23 02:45:07,665 - INFO - 0. Excluding recent repeated response of "hola"
+2023-11-23 02:45:07,679 - INFO - Selecting response from 22 optimal responses.
+2023-11-23 02:45:07,679 - INFO - Selecting first response from list of 22 options.
+2023-11-23 02:45:07,679 - INFO - Response selected. Using "El presidente de Francia actualmente es Emmanuel Macron"
+2023-11-23 02:45:07,679 - INFO - BestMatch selected "El presidente de Francia actualmente es Emmanuel Macron" as a response with a confidence of 0.49
+2023-11-23 02:45:07,727 - INFO - Adding "cómo te llamas mss no rappundas tú o qué" as a response to "hola"
+2023-11-23 02:45:20,560 - INFO - Beginning search for close text match
+2023-11-23 02:45:20,560 - INFO - Processing search results
+2023-11-23 02:45:20,588 - INFO - Similar text found: cómo se llama el presidente de francia 0.46
+2023-11-23 02:45:20,588 - INFO - Similar text found: como te llamas 1.0
+2023-11-23 02:45:20,588 - INFO - Using "como te llamas" as a close match to "como te llamas" with a confidence of 1.0
+2023-11-23 02:45:20,616 - INFO - 0. Excluding recent repeated response of "hola"
+2023-11-23 02:45:20,626 - INFO - Selecting response from 22 optimal responses.
+2023-11-23 02:45:20,626 - INFO - Selecting first response from list of 22 options.
+2023-11-23 02:45:20,626 - INFO - Response selected. Using "mi nombre es lucy ya lo deverias saber"
+2023-11-23 02:45:20,627 - INFO - BestMatch selected "mi nombre es lucy ya lo deverias saber" as a response with a confidence of 1.0
+2023-11-23 02:45:20,665 - INFO - Adding "como te llamas" as a response to "cómo te llamas mss no rappundas tú o qué"
+2023-11-23 02:45:49,234 - INFO - Beginning search for close text match
+2023-11-23 02:45:49,234 - INFO - Processing search results
+2023-11-23 02:45:49,249 - INFO - Using "que dié soy" as a close match to "que dié soy" with a confidence of 0
+2023-11-23 02:45:49,285 - INFO - 0. Excluding recent repeated response of "hola"
+2023-11-23 02:45:49,292 - INFO - No responses found. Generating alternate response list.
+2023-11-23 02:45:49,307 - INFO - No known response to the input was found. Selecting a random response.
+2023-11-23 02:45:49,307 - INFO - BestMatch selected "cuál es el continente más grande" as a response with a confidence of 0
+2023-11-23 02:45:49,348 - INFO - Adding "que dié soy" as a response to "como te llamas"
+2023-11-23 02:46:00,815 - INFO - Beginning search for close text match
+2023-11-23 02:46:00,815 - INFO - Processing search results
+2023-11-23 02:46:00,847 - INFO - Similar text found: La montaña más alta del mundo es el Monte Everest, con una altura de 8,848 metros 0.19
+2023-11-23 02:46:00,847 - INFO - Similar text found: qué es la teoría de la relatividad 0.21
+2023-11-23 02:46:00,848 - INFO - Similar text found: quién fue el primer ser humano en viajar al espacio 0.22
+2023-11-23 02:46:00,849 - INFO - Similar text found: La película más taquillera de la historia es Avatar. 0.27
+2023-11-23 02:46:00,849 - INFO - Similar text found: El océano más grande del mundo es el Pacífico. 0.33
+2023-11-23 02:46:01,071 - INFO - Using "La montaña más alta del mundo es el Monte Everest, con una altura de 8,848 metros" as a close match to "de día es hoy." with a confidence of 0.19
+2023-11-23 02:46:01,109 - INFO - Selecting response from 22 optimal responses.
+2023-11-23 02:46:01,109 - INFO - Selecting first response from list of 22 options.
+2023-11-23 02:46:01,109 - INFO - Response selected. Using "quién escribió el quijote"
+2023-11-23 02:46:01,109 - INFO - BestMatch selected "quién escribió el quijote" as a response with a confidence of 0.19
+2023-11-23 02:46:01,151 - INFO - Adding "de día es hoy." as a response to "que dié soy"
+2023-11-23 02:46:23,029 - INFO - Beginning search for close text match
+2023-11-23 02:46:23,029 - INFO - Processing search results
+2023-11-23 02:46:23,038 - INFO - Using "épeis" as a close match to "épeis" with a confidence of 0
+2023-11-23 02:46:23,084 - INFO - No responses found. Generating alternate response list.
+2023-11-23 02:46:23,101 - INFO - No known response to the input was found. Selecting a random response.
+2023-11-23 02:46:23,101 - INFO - BestMatch selected "cómo se llama la persona que hace las leyes" as a response with a confidence of 0
+2023-11-23 02:46:23,154 - INFO - Adding "épeis" as a response to "de día es hoy."
+2023-11-23 02:46:42,316 - INFO - Beginning search for close text match
+2023-11-23 02:46:42,317 - INFO - Processing search results
+2023-11-23 02:46:42,331 - INFO - Similar text found: klima 1.0
+2023-11-23 02:46:42,332 - INFO - Using "klima" as a close match to "klima" with a confidence of 1.0
+2023-11-23 02:46:42,377 - INFO - No responses found. Generating alternate response list.
+2023-11-23 02:46:42,392 - INFO - No known response to the input was found. Selecting a random response.
+2023-11-23 02:46:42,392 - INFO - BestMatch selected "La nube o cloud computing es un modelo de servicio que permite el acceso bajo demanda a recursos informáticos compartidos a través de Internet" as a response with a confidence of 0
+2023-11-23 02:46:42,440 - INFO - Adding "klima" as a response to "épeis"
+2023-11-23 02:46:57,963 - INFO - Beginning search for close text match
+2023-11-23 02:46:57,963 - WARNING - No value for search_text was available on the provided input
+2023-11-23 02:46:57,963 - INFO - Processing search results
+2023-11-23 02:46:59,042 - INFO - Using "" as a close match to "" with a confidence of 0
+2023-11-23 02:46:59,106 - INFO - Selecting response from 252 optimal responses.
+2023-11-23 02:46:59,107 - INFO - Selecting first response from list of 252 options.
+2023-11-23 02:46:59,107 - INFO - Response selected. Using "hola"
+2023-11-23 02:46:59,107 - INFO - BestMatch selected "hola" as a response with a confidence of 0
+2023-11-23 02:46:59,155 - INFO - Adding "" as a response to "klima"
+2023-11-23 02:47:08,315 - INFO - Beginning search for close text match
+2023-11-23 02:47:08,315 - INFO - Processing search results
+2023-11-23 02:47:08,324 - INFO - Using "¡clima!" as a close match to "¡clima!" with a confidence of 0
+2023-11-23 02:47:08,371 - INFO - No responses found. Generating alternate response list.
+2023-11-23 02:47:08,385 - INFO - No known response to the input was found. Selecting a random response.
+2023-11-23 02:47:08,385 - INFO - BestMatch selected "qué hora es" as a response with a confidence of 0
+2023-11-23 02:47:08,418 - INFO - Adding "¡clima!" as a response to "hola"
+2023-11-23 02:47:30,782 - INFO - Beginning search for close text match
+2023-11-23 02:47:30,782 - INFO - Processing search results
+2023-11-23 02:47:30,790 - INFO - Using "¡unal!" as a close match to "¡unal!" with a confidence of 0
+2023-11-23 02:47:30,833 - INFO - No responses found. Generating alternate response list.
+2023-11-23 02:47:30,848 - INFO - No known response to the input was found. Selecting a random response.
+2023-11-23 02:47:30,848 - INFO - BestMatch selected "Un circuito impreso es una placa de material aislante en la que se imprimen las pistas conductoras que conectan los componentes electrónicos de un circuito." as a response with a confidence of 0
+2023-11-23 02:47:30,893 - INFO - Adding "¡unal!" as a response to "¡clima!"
+2023-11-23 02:47:50,142 - INFO - Beginning search for close text match
+2023-11-23 02:47:50,142 - WARNING - No value for search_text was available on the provided input
+2023-11-23 02:47:50,143 - INFO - Processing search results
+2023-11-23 02:47:51,188 - INFO - Using "" as a close match to "" with a confidence of 0
+2023-11-23 02:47:51,250 - INFO - Selecting response from 258 optimal responses.
+2023-11-23 02:47:51,250 - INFO - Selecting first response from list of 258 options.
+2023-11-23 02:47:51,250 - INFO - Response selected. Using "hola"
+2023-11-23 02:47:51,251 - INFO - BestMatch selected "hola" as a response with a confidence of 0
+2023-11-23 02:47:51,290 - INFO - Adding "" as a response to "¡unal!"
+2023-11-23 02:48:36,297 - INFO - Beginning search for close text match
+2023-11-23 02:48:36,297 - WARNING - No value for search_text was available on the provided input
+2023-11-23 02:48:36,297 - INFO - Processing search results
+2023-11-23 02:48:37,261 - INFO - Using "" as a close match to "" with a confidence of 0
+2023-11-23 02:48:37,337 - INFO - Selecting response from 260 optimal responses.
+2023-11-23 02:48:37,337 - INFO - Selecting first response from list of 260 options.
+2023-11-23 02:48:37,337 - INFO - Response selected. Using "hola"
+2023-11-23 02:48:37,337 - INFO - BestMatch selected "hola" as a response with a confidence of 0
+2023-11-23 02:48:37,369 - INFO - Adding "" as a response to "hola"
+2023-12-02 11:33:15,888 - INFO - Beginning search for close text match
+2023-12-02 11:33:15,889 - WARNING - No value for search_text was available on the provided input
+2023-12-02 11:33:15,889 - INFO - Processing search results
+2023-12-02 11:33:17,127 - INFO - Using "" as a close match to "" with a confidence of 0
+2023-12-02 11:33:17,161 - INFO - 0. Excluding recent repeated response of ""
+2023-12-02 11:33:17,161 - INFO - 1. Excluding recent repeated response of "hola"
+2023-12-02 11:33:17,184 - INFO - Selecting response from 157 optimal responses.
+2023-12-02 11:33:17,184 - INFO - Selecting first response from list of 157 options.
+2023-12-02 11:33:17,184 - INFO - Response selected. Using "c"
+2023-12-02 11:33:17,184 - INFO - BestMatch selected "c" as a response with a confidence of 0
+2023-12-02 11:33:17,215 - INFO - Adding "" as a response to "hola"
+2023-12-18 18:11:01,651 - INFO - Beginning search for close text match
+2023-12-18 18:11:01,652 - INFO - Processing search results
+2023-12-18 18:11:01,678 - INFO - Similar text found: hola 1.0
+2023-12-18 18:11:01,696 - INFO - Using "hola" as a close match to "hola" with a confidence of 1.0
+2023-12-18 18:11:01,731 - INFO - 0. Excluding recent repeated response of ""
+2023-12-18 18:11:01,748 - INFO - Selecting response from 48 optimal responses.
+2023-12-18 18:11:01,748 - INFO - Selecting first response from list of 48 options.
+2023-12-18 18:11:01,748 - INFO - Response selected. Using "hola que tal"
+2023-12-18 18:11:01,748 - INFO - BestMatch selected "hola que tal" as a response with a confidence of 1.0
+2023-12-18 18:11:01,785 - INFO - Adding "hola" as a response to "c"
+2023-12-18 18:11:11,310 - INFO - Beginning search for close text match
+2023-12-18 18:11:11,310 - INFO - Processing search results
+2023-12-18 18:11:11,342 - INFO - Similar text found: cómo se llama el presidente de francia 0.46
+2023-12-18 18:11:11,342 - INFO - Similar text found: como te llamas 1.0
+2023-12-18 18:11:11,342 - INFO - Using "como te llamas" as a close match to "como te llamas" with a confidence of 1.0
+2023-12-18 18:11:11,375 - INFO - 0. Excluding recent repeated response of ""
+2023-12-18 18:11:11,375 - INFO - 1. Excluding recent repeated response of "hola"
+2023-12-18 18:11:11,386 - INFO - Selecting response from 24 optimal responses.
+2023-12-18 18:11:11,386 - INFO - Selecting first response from list of 24 options.
+2023-12-18 18:11:11,386 - INFO - Response selected. Using "mi nombre es lucy ya lo deverias saber"
+2023-12-18 18:11:11,386 - INFO - BestMatch selected "mi nombre es lucy ya lo deverias saber" as a response with a confidence of 1.0
+2023-12-18 18:11:11,431 - INFO - Adding "como te llamas" as a response to "hola"
+2023-12-18 18:11:23,894 - INFO - Beginning search for close text match
+2023-12-18 18:11:23,894 - INFO - Processing search results
+2023-12-18 18:11:23,920 - INFO - Similar text found: un programa creado para ti tonto 0.17
+2023-12-18 18:11:23,921 - INFO - Similar text found: cual es tu nombre 0.39
+2023-12-18 18:11:23,921 - INFO - Similar text found: quál es la capital de francia 0.42
+2023-12-18 18:11:23,923 - INFO - Similar text found: qué es la fotosíntesis 0.56
+2023-12-18 18:11:23,924 - INFO - Similar text found: qué es la célula 0.67
+2023-12-18 18:11:23,933 - INFO - Similar text found: qué es la gravedad 0.69
+2023-12-18 18:11:23,937 - INFO - Similar text found: qué es la nube 0.71
+2023-12-18 18:11:24,860 - INFO - Using "un programa creado para ti tonto" as a close match to "¿qué es la 5g?" with a confidence of 0.17
+2023-12-18 18:11:24,895 - INFO - 0. Excluding recent repeated response of ""
+2023-12-18 18:11:24,896 - INFO - 1. Excluding recent repeated response of "hola"
+2023-12-18 18:11:24,917 - INFO - Selecting response from 48 optimal responses.
+2023-12-18 18:11:24,917 - INFO - Selecting first response from list of 48 options.
+2023-12-18 18:11:24,917 - INFO - Response selected. Using "que eres"
+2023-12-18 18:11:24,917 - INFO - BestMatch selected "que eres" as a response with a confidence of 0.17
+2023-12-18 18:11:24,958 - INFO - Adding "¿qué es la 5g?" as a response to "como te llamas"
+2023-12-18 18:11:35,722 - INFO - Beginning search for close text match
+2023-12-18 18:11:35,722 - WARNING - No value for search_text was available on the provided input
+2023-12-18 18:11:35,722 - INFO - Processing search results
+2023-12-18 18:11:36,856 - INFO - Using "" as a close match to "" with a confidence of 0
+2023-12-18 18:11:36,927 - INFO - Selecting response from 274 optimal responses.
+2023-12-18 18:11:36,927 - INFO - Selecting first response from list of 274 options.
+2023-12-18 18:11:36,927 - INFO - Response selected. Using "hola"
+2023-12-18 18:11:36,927 - INFO - BestMatch selected "hola" as a response with a confidence of 0
+2023-12-18 18:11:36,970 - INFO - Adding "" as a response to "¿qué es la 5g?"
+2023-12-18 18:11:50,789 - INFO - Beginning search for close text match
+2023-12-18 18:11:50,789 - INFO - Processing search results
+2023-12-18 18:11:50,810 - INFO - Similar text found: hola cómo estás 0.72
+2023-12-18 18:11:50,814 - INFO - Using "hola cómo estás" as a close match to "como estás" with a confidence of 0.72
+2023-12-18 18:11:50,869 - INFO - Selecting response from 24 optimal responses.
+2023-12-18 18:11:50,869 - INFO - Selecting first response from list of 24 options.
+2023-12-18 18:11:50,870 - INFO - Response selected. Using "Yo muy bien , como estas tu"
+2023-12-18 18:11:50,870 - INFO - BestMatch selected "Yo muy bien , como estas tu" as a response with a confidence of 0.72
+2023-12-18 18:11:50,910 - INFO - Adding "como estás" as a response to "hola"
+2023-12-18 18:12:00,404 - INFO - Beginning search for close text match
+2023-12-18 18:12:00,404 - WARNING - No value for search_text was available on the provided input
+2023-12-18 18:12:00,404 - INFO - Processing search results
+2023-12-18 18:12:01,585 - INFO - Using "" as a close match to "" with a confidence of 0
+2023-12-18 18:12:01,667 - INFO - Selecting response from 278 optimal responses.
+2023-12-18 18:12:01,667 - INFO - Selecting first response from list of 278 options.
+2023-12-18 18:12:01,667 - INFO - Response selected. Using "hola"
+2023-12-18 18:12:01,668 - INFO - BestMatch selected "hola" as a response with a confidence of 0
+2023-12-18 18:12:01,712 - INFO - Adding "" as a response to "como estás"
+2023-12-18 18:12:09,809 - INFO - Beginning search for close text match
+2023-12-18 18:12:09,809 - INFO - Processing search results
+2023-12-18 18:12:09,826 - INFO - Similar text found: me alegro yo tambien estoy muy bien 0.2
+2023-12-18 18:12:09,826 - INFO - Similar text found: estas bien 0.53
+2023-12-18 18:12:09,854 - INFO - Using "me alegro yo tambien estoy muy bien" as a close match to "bien." with a confidence of 0.2
+2023-12-18 18:12:09,908 - INFO - Selecting response from 24 optimal responses.
+2023-12-18 18:12:09,908 - INFO - Selecting first response from list of 24 options.
+2023-12-18 18:12:09,908 - INFO - Response selected. Using "adiós"
+2023-12-18 18:12:09,908 - INFO - BestMatch selected "adiós" as a response with a confidence of 0.2
+2023-12-18 18:12:09,944 - INFO - Adding "bien." as a response to "hola"
+2023-12-21 13:04:54,182 - INFO - Beginning search for close text match
+2023-12-21 13:04:54,183 - INFO - Processing search results
+2023-12-21 13:04:54,218 - INFO - Similar text found: cómo se llama el presidente de francia 0.44
+2023-12-21 13:04:54,219 - INFO - Similar text found: como te llamas 0.93
+2023-12-21 13:04:54,262 - INFO - Using "cómo se llama el presidente de francia" as a close match to "¡como te llamas!" with a confidence of 0.44
+2023-12-21 13:04:54,315 - INFO - Selecting response from 25 optimal responses.
+2023-12-21 13:04:54,315 - INFO - Selecting first response from list of 25 options.
+2023-12-21 13:04:54,315 - INFO - Response selected. Using "El presidente de Francia actualmente es Emmanuel Macron"
+2023-12-21 13:04:54,315 - INFO - BestMatch selected "El presidente de Francia actualmente es Emmanuel Macron" as a response with a confidence of 0.44
+2023-12-21 13:04:54,360 - INFO - Adding "¡como te llamas!" as a response to "bien."
+2023-12-21 13:05:05,661 - INFO - Beginning search for close text match
+2023-12-21 13:05:05,661 - INFO - Processing search results
+2023-12-21 13:05:05,684 - INFO - Similar text found: cómo se llama el presidente de francia 0.33
+2023-12-21 13:05:05,684 - INFO - Similar text found: como te llamas 0.75
+2023-12-21 13:05:05,690 - INFO - Similar text found: como te llamas. 0.8
+2023-12-21 13:05:05,716 - INFO - Using "cómo se llama el presidente de francia" as a close match to "te llamas." with a confidence of 0.33
+2023-12-21 13:05:05,766 - INFO - Selecting response from 25 optimal responses.
+2023-12-21 13:05:05,766 - INFO - Selecting first response from list of 25 options.
+2023-12-21 13:05:05,766 - INFO - Response selected. Using "El presidente de Francia actualmente es Emmanuel Macron"
+2023-12-21 13:05:05,766 - INFO - BestMatch selected "El presidente de Francia actualmente es Emmanuel Macron" as a response with a confidence of 0.33
+2023-12-21 13:05:05,807 - INFO - Adding "te llamas." as a response to "¡como te llamas!"
+2023-12-21 13:05:19,597 - INFO - Beginning search for close text match
+2023-12-21 13:05:19,598 - INFO - Processing search results
+2023-12-21 13:05:19,637 - INFO - Similar text found: cómo se llama el presidente de francia 0.46
+2023-12-21 13:05:19,637 - INFO - Similar text found: como te llamas 1.0
+2023-12-21 13:05:19,637 - INFO - Using "como te llamas" as a close match to "como te llamas" with a confidence of 1.0
+2023-12-21 13:05:19,686 - INFO - Selecting response from 25 optimal responses.
+2023-12-21 13:05:19,686 - INFO - Selecting first response from list of 25 options.
+2023-12-21 13:05:19,686 - INFO - Response selected. Using "mi nombre es lucy ya lo deverias saber"
+2023-12-21 13:05:19,686 - INFO - BestMatch selected "mi nombre es lucy ya lo deverias saber" as a response with a confidence of 1.0
+2023-12-21 13:05:19,731 - INFO - Adding "como te llamas" as a response to "te llamas."
+2023-12-21 13:05:40,427 - INFO - Beginning search for close text match
+2023-12-21 13:05:40,428 - INFO - Processing search results
+2023-12-21 13:05:40,440 - INFO - Using "acudas al bubé" as a close match to "acudas al bubé" with a confidence of 0
+2023-12-21 13:05:40,484 - INFO - No responses found. Generating alternate response list.
+2023-12-21 13:05:40,497 - INFO - No known response to the input was found. Selecting a random response.
+2023-12-21 13:05:40,497 - INFO - BestMatch selected "El chatbot es un programa que utiliza inteligencia artificial para responder a tus preguntas En qué puedo ayudarte" as a response with a confidence of 0
+2023-12-21 13:05:40,543 - INFO - Adding "acudas al bubé" as a response to "como te llamas"
+2023-12-21 13:06:59,179 - INFO - Beginning search for close text match
+2023-12-21 13:06:59,179 - INFO - Processing search results
+2023-12-21 13:06:59,186 - INFO - Using "resp\u751avo<|es|>" as a close match to "resp\u751avo<|es|>" with a confidence of 0
+2023-12-21 13:06:59,229 - INFO - No responses found. Generating alternate response list.
+2023-12-21 13:06:59,241 - INFO - No known response to the input was found. Selecting a random response.
+2023-12-21 13:06:59,241 - INFO - BestMatch selected "." as a response with a confidence of 0
+2023-12-21 13:06:59,284 - INFO - Adding "resp\u751avo<|es|>" as a response to "acudas al bubé"
+2023-12-21 13:07:53,620 - INFO - Beginning search for close text match
+2023-12-21 13:07:53,620 - INFO - Processing search results
+2023-12-21 13:07:53,631 - INFO - Using "la temperatura." as a close match to "la temperatura." with a confidence of 0
+2023-12-21 13:07:53,674 - INFO - No responses found. Generating alternate response list.
+2023-12-21 13:07:53,686 - INFO - No known response to the input was found. Selecting a random response.
+2023-12-21 13:07:53,686 - INFO - BestMatch selected "la banda ancha es una conexión a internet de alta velocidad que permite la transferencia rápida de datos." as a response with a confidence of 0
+2023-12-21 13:07:53,729 - INFO - Adding "la temperatura." as a response to "resp\u751avo<|es|>"
+2023-12-21 13:08:08,421 - INFO - Beginning search for close text match
+2023-12-21 13:08:08,421 - WARNING - No value for search_text was available on the provided input
+2023-12-21 13:08:08,421 - INFO - Processing search results
+2023-12-21 13:08:09,747 - INFO - Using "" as a close match to "" with a confidence of 0
+2023-12-21 13:08:09,833 - INFO - Selecting response from 296 optimal responses.
+2023-12-21 13:08:09,833 - INFO - Selecting first response from list of 296 options.
+2023-12-21 13:08:09,833 - INFO - Response selected. Using "hola"
+2023-12-21 13:08:09,833 - INFO - BestMatch selected "hola" as a response with a confidence of 0
+2023-12-21 13:08:09,880 - INFO - Adding "" as a response to "la temperatura."
+2024-01-02 19:01:50,508 - INFO - Beginning search for close text match
+2024-01-02 19:01:50,509 - INFO - Processing search results
+2024-01-02 19:01:50,530 - INFO - Using "ä" as a close match to "ä" with a confidence of 0
+2024-01-02 19:01:50,583 - INFO - No responses found. Generating alternate response list.
+2024-01-02 19:01:50,603 - INFO - No known response to the input was found. Selecting a random response.
+2024-01-02 19:01:50,603 - INFO - BestMatch selected "cuál es el continente más grande" as a response with a confidence of 0
+2024-01-02 19:01:50,645 - INFO - Adding "ä" as a response to "hola"
+2024-01-02 19:02:09,118 - INFO - Beginning search for close text match
+2024-01-02 19:02:09,119 - INFO - Processing search results
+2024-01-02 19:02:09,128 - INFO - Using "¡bostiguin!" as a close match to "¡bostiguin!" with a confidence of 0
+2024-01-02 19:02:09,186 - INFO - No responses found. Generating alternate response list.
+2024-01-02 19:02:09,205 - INFO - No known response to the input was found. Selecting a random response.
+2024-01-02 19:02:09,206 - INFO - BestMatch selected "La programación en electrónica se refiere al uso de lenguajes de programación para controlar y operar dispositivos electrónicos." as a response with a confidence of 0
+2024-01-02 19:02:09,274 - INFO - Adding "¡bostiguin!" as a response to "ä"
+2024-01-02 19:02:34,330 - INFO - Beginning search for close text match
+2024-01-02 19:02:34,330 - INFO - Processing search results
+2024-01-02 19:02:34,343 - INFO - Using "bosque inglés." as a close match to "bosque inglés." with a confidence of 0
+2024-01-02 19:02:34,399 - INFO - No responses found. Generating alternate response list.
+2024-01-02 19:02:34,415 - INFO - No known response to the input was found. Selecting a random response.
+2024-01-02 19:02:34,415 - INFO - BestMatch selected "augusto fue el primer emperador romano." as a response with a confidence of 0
+2024-01-02 19:02:34,470 - INFO - Adding "bosque inglés." as a response to "¡bostiguin!"
+2024-01-02 19:02:54,298 - INFO - Beginning search for close text match
+2024-01-02 19:02:54,298 - INFO - Processing search results
+2024-01-02 19:02:54,310 - INFO - Using "isty" as a close match to "isty" with a confidence of 0
+2024-01-02 19:02:54,365 - INFO - No responses found. Generating alternate response list.
+2024-01-02 19:02:54,383 - INFO - No known response to the input was found. Selecting a random response.
+2024-01-02 19:02:54,383 - INFO - BestMatch selected "a" as a response with a confidence of 0
+2024-01-02 19:02:54,441 - INFO - Adding "isty" as a response to "bosque inglés."
+2024-01-02 19:03:05,254 - INFO - Beginning search for close text match
+2024-01-02 19:03:05,255 - INFO - Processing search results
+2024-01-02 19:03:05,289 - INFO - Similar text found: En los Juegos Olímpicos se practican una gran variedad de deportes, como atletismo, natación, gimnasia, ciclismo, esgrima, entre otros 0.1
+2024-01-02 19:03:05,289 - INFO - Similar text found: qué es la energía nuclear 0.37
+2024-01-02 19:03:05,411 - INFO - Using "En los Juegos Olímpicos se practican una gran variedad de deportes, como atletismo, natación, gimnasia, ciclismo, esgrima, entre otros" as a close match to "vos en inglés" with a confidence of 0.1
+2024-01-02 19:03:05,465 - INFO - Selecting response from 29 optimal responses.
+2024-01-02 19:03:05,465 - INFO - Selecting first response from list of 29 options.
+2024-01-02 19:03:05,465 - INFO - Response selected. Using "cuál es el río más largo del mundo"
+2024-01-02 19:03:05,466 - INFO - BestMatch selected "cuál es el río más largo del mundo" as a response with a confidence of 0.1
+2024-01-02 19:03:05,522 - INFO - Adding "vos en inglés" as a response to "isty"
+2024-01-02 19:03:23,575 - INFO - Beginning search for close text match
+2024-01-02 19:03:23,575 - INFO - Processing search results
+2024-01-02 19:03:23,589 - INFO - Using "¡p faro!" as a close match to "¡p faro!" with a confidence of 0
+2024-01-02 19:03:23,644 - INFO - No responses found. Generating alternate response list.
+2024-01-02 19:03:23,663 - INFO - No known response to the input was found. Selecting a random response.
+2024-01-02 19:03:23,663 - INFO - BestMatch selected "La criptomoneda es una moneda digital que utiliza la criptografía para asegurar y verificar las transacciones y para controlar la creación de nuevas unidades" as a response with a confidence of 0
+2024-01-02 19:03:23,720 - INFO - Adding "¡p faro!" as a response to "vos en inglés"
+2024-01-02 19:03:50,109 - INFO - Beginning search for close text match
+2024-01-02 19:03:50,109 - INFO - Processing search results
+2024-01-02 19:03:50,122 - INFO - Using "roth en inglés" as a close match to "roth en inglés" with a confidence of 0
+2024-01-02 19:03:50,181 - INFO - No responses found. Generating alternate response list.
+2024-01-02 19:03:50,196 - INFO - No known response to the input was found. Selecting a random response.
+2024-01-02 19:03:50,196 - INFO - BestMatch selected "quién fue el conquistador del imperio inca" as a response with a confidence of 0
+2024-01-02 19:03:50,253 - INFO - Adding "roth en inglés" as a response to "¡p faro!"
+2024-01-02 19:04:02,240 - INFO - Beginning search for close text match
+2024-01-02 19:04:02,240 - INFO - Processing search results
+2024-01-02 19:04:02,271 - INFO - Similar text found: En los Juegos Olímpicos se practican una gran variedad de deportes, como atletismo, natación, gimnasia, ciclismo, esgrima, entre otros 0.09
+2024-01-02 19:04:02,272 - INFO - Similar text found: qué es la energía nuclear 0.36
+2024-01-02 19:04:02,473 - INFO - Similar text found: vos en inglés 0.81
+2024-01-02 19:04:02,475 - INFO - Using "En los Juegos Olímpicos se practican una gran variedad de deportes, como atletismo, natación, gimnasia, ciclismo, esgrima, entre otros" as a close match to "boa en inglés." with a confidence of 0.09
+2024-01-02 19:04:02,526 - INFO - Selecting response from 29 optimal responses.
+2024-01-02 19:04:02,526 - INFO - Selecting first response from list of 29 options.
+2024-01-02 19:04:02,526 - INFO - Response selected. Using "cuál es el río más largo del mundo"
+2024-01-02 19:04:02,526 - INFO - BestMatch selected "cuál es el río más largo del mundo" as a response with a confidence of 0.09
+2024-01-02 19:04:02,585 - INFO - Adding "boa en inglés." as a response to "roth en inglés"
+2024-01-02 19:04:21,886 - INFO - Beginning search for close text match
+2024-01-02 19:04:21,886 - WARNING - No value for search_text was available on the provided input
+2024-01-02 19:04:21,886 - INFO - Processing search results
+2024-01-02 19:04:23,303 - INFO - Using "" as a close match to "" with a confidence of 0
+2024-01-02 19:04:23,477 - INFO - Selecting response from 322 optimal responses.
+2024-01-02 19:04:23,478 - INFO - Selecting first response from list of 322 options.
+2024-01-02 19:04:23,478 - INFO - Response selected. Using "hola"
+2024-01-02 19:04:23,478 - INFO - BestMatch selected "hola" as a response with a confidence of 0
+2024-01-02 19:04:23,529 - INFO - Adding "" as a response to "boa en inglés."
+2024-01-02 19:28:28,250 - INFO - Beginning search for close text match
+2024-01-02 19:28:28,250 - INFO - Processing search results
+2024-01-02 19:28:28,282 - INFO - Similar text found: quién fue el primer ser humano en viajar al espacio 0.28
+2024-01-02 19:28:28,284 - INFO - Similar text found: cómo se escribe hola en inglés 0.47
+2024-01-02 19:28:28,650 - INFO - Using "quién fue el primer ser humano en viajar al espacio" as a close match to "voz en ingles" with a confidence of 0.28
+2024-01-02 19:28:28,699 - INFO - Selecting response from 30 optimal responses.
+2024-01-02 19:28:28,699 - INFO - Selecting first response from list of 30 options.
+2024-01-02 19:28:28,699 - INFO - Response selected. Using "El primer ser humano en viajar al espacio fue Yuri Gagarin"
+2024-01-02 19:28:28,699 - INFO - BestMatch selected "El primer ser humano en viajar al espacio fue Yuri Gagarin" as a response with a confidence of 0.28
+2024-01-02 19:28:28,743 - INFO - Adding "voz en ingles" as a response to "hola"
+2024-01-02 19:33:54,888 - INFO - Beginning search for close text match
+2024-01-02 19:33:54,888 - INFO - Processing search results
+2024-01-02 19:33:54,902 - INFO - Using "reconocimineto activado" as a close match to "reconocimineto activado" with a confidence of 0
+2024-01-02 19:33:54,953 - INFO - No responses found. Generating alternate response list.
+2024-01-02 19:33:54,967 - INFO - No known response to the input was found. Selecting a random response.
+2024-01-02 19:33:54,968 - INFO - BestMatch selected "quién fue el primer presidente de estados unidos" as a response with a confidence of 0
+2024-01-02 19:33:55,015 - INFO - Adding "reconocimineto activado" as a response to "voz en ingles"
+2024-01-02 19:34:10,276 - INFO - Beginning search for close text match
+2024-01-02 19:34:10,276 - INFO - Processing search results
+2024-01-02 19:34:10,286 - INFO - Using "reconocimientoç" as a close match to "reconocimientoç" with a confidence of 0
+2024-01-02 19:34:10,335 - INFO - No responses found. Generating alternate response list.
+2024-01-02 19:34:10,351 - INFO - No known response to the input was found. Selecting a random response.
+2024-01-02 19:34:10,351 - INFO - BestMatch selected "cuál es la capital de México" as a response with a confidence of 0
+2024-01-02 19:34:10,410 - INFO - Adding "reconocimientoç" as a response to "reconocimineto activado"
+2024-01-02 19:37:26,590 - INFO - Beginning search for close text match
+2024-01-02 19:37:26,591 - INFO - Processing search results
+2024-01-02 19:37:26,610 - INFO - Similar text found: hola 1.0
+2024-01-02 19:37:26,632 - INFO - Using "hola" as a close match to "hola" with a confidence of 1.0
+2024-01-02 19:37:26,692 - INFO - Selecting response from 62 optimal responses.
+2024-01-02 19:37:26,692 - INFO - Selecting first response from list of 62 options.
+2024-01-02 19:37:26,692 - INFO - Response selected. Using "hola que tal"
+2024-01-02 19:37:26,692 - INFO - BestMatch selected "hola que tal" as a response with a confidence of 1.0
+2024-01-02 19:37:26,743 - INFO - Adding "hola" as a response to "reconocimientoç"
+2024-01-02 19:37:37,009 - INFO - Beginning search for close text match
+2024-01-02 19:37:37,010 - INFO - Processing search results
+2024-01-02 19:37:37,031 - INFO - Similar text found: cómo estas 0.9
+2024-01-02 19:37:37,040 - INFO - Using "cómo estas" as a close match to "como estas" with a confidence of 0.9
+2024-01-02 19:37:37,097 - INFO - Selecting response from 31 optimal responses.
+2024-01-02 19:37:37,098 - INFO - Selecting first response from list of 31 options.
+2024-01-02 19:37:37,098 - INFO - Response selected. Using "me alegro yo tambien estoy muy bien"
+2024-01-02 19:37:37,098 - INFO - BestMatch selected "me alegro yo tambien estoy muy bien" as a response with a confidence of 0.9
+2024-01-02 19:37:37,154 - INFO - Adding "como estas" as a response to "hola"
+2024-01-02 19:37:45,788 - INFO - Beginning search for close text match
+2024-01-02 19:37:45,788 - INFO - Processing search results
+2024-01-02 19:37:45,811 - INFO - Similar text found: cómo estas 1.0
+2024-01-02 19:37:45,821 - INFO - Using "cómo estas" as a close match to "cómo estas" with a confidence of 1.0
+2024-01-02 19:37:45,876 - INFO - Selecting response from 31 optimal responses.
+2024-01-02 19:37:45,876 - INFO - Selecting first response from list of 31 options.
+2024-01-02 19:37:45,876 - INFO - Response selected. Using "me alegro yo tambien estoy muy bien"
+2024-01-02 19:37:45,876 - INFO - BestMatch selected "me alegro yo tambien estoy muy bien" as a response with a confidence of 1.0
+2024-01-02 19:37:45,930 - INFO - Adding "cómo estas" as a response to "como estas"
+2024-01-02 19:37:52,875 - INFO - Beginning search for close text match
+2024-01-02 19:37:52,875 - INFO - Processing search results
+2024-01-02 19:37:52,908 - INFO - Similar text found: cómo se llama el presidente de francia 0.46
+2024-01-02 19:37:52,909 - INFO - Similar text found: como te llamas 1.0
+2024-01-02 19:37:52,909 - INFO - Using "como te llamas" as a close match to "como te llamas" with a confidence of 1.0
+2024-01-02 19:37:52,960 - INFO - Selecting response from 31 optimal responses.
+2024-01-02 19:37:52,960 - INFO - Selecting first response from list of 31 options.
+2024-01-02 19:37:52,960 - INFO - Response selected. Using "mi nombre es lucy ya lo deverias saber"
+2024-01-02 19:37:52,960 - INFO - BestMatch selected "mi nombre es lucy ya lo deverias saber" as a response with a confidence of 1.0
+2024-01-02 19:37:53,090 - INFO - Adding "como te llamas" as a response to "cómo estas"
+2024-01-02 19:38:04,254 - INFO - Beginning search for close text match
+2024-01-02 19:38:04,255 - INFO - Processing search results
+2024-01-02 19:38:04,288 - INFO - Similar text found: qué hora es 0.91
+2024-01-02 19:38:04,289 - INFO - Similar text found: que hora es. 0.96
+2024-01-02 19:38:04,289 - INFO - Using "que hora es." as a close match to "que hora es" with a confidence of 0.96
+2024-01-02 19:38:04,342 - INFO - Selecting response from 31 optimal responses.
+2024-01-02 19:38:04,342 - INFO - Selecting first response from list of 31 options.
+2024-01-02 19:38:04,342 - INFO - Response selected. Using "Son las {hora}"
+2024-01-02 19:38:04,342 - INFO - BestMatch selected "Son las {hora}" as a response with a confidence of 0.96
+2024-01-02 19:38:04,388 - INFO - Adding "que hora es" as a response to "como te llamas"
+2024-01-02 19:39:13,788 - INFO - Beginning search for close text match
+2024-01-02 19:39:13,789 - INFO - Processing search results
+2024-01-02 19:39:13,830 - INFO - Similar text found: quién fue el primer ser humano en viajar al espacio 0.33
+2024-01-02 19:39:13,831 - INFO - Similar text found: La persona que hace las leyes se llama legislador 0.37
+2024-01-02 19:39:13,832 - INFO - Similar text found: cómo mejorar la señal wifi en casa 0.39
+2024-01-02 19:39:13,833 - INFO - Similar text found: cómo se llama mi novia 0.95
+2024-01-02 19:39:13,833 - INFO - Using "cómo se llama mi novia" as a close match to "como se llama mi novia" with a confidence of 0.95
+2024-01-02 19:39:13,882 - INFO - Selecting response from 31 optimal responses.
+2024-01-02 19:39:13,882 - INFO - Selecting first response from list of 31 options.
+2024-01-02 19:39:13,882 - INFO - Response selected. Using "Según te he visto hablas con una tal, Anita , y eso me enfada pendejo"
+2024-01-02 19:39:13,883 - INFO - BestMatch selected "Según te he visto hablas con una tal, Anita , y eso me enfada pendejo" as a response with a confidence of 0.95
+2024-01-02 19:39:13,931 - INFO - Adding "como se llama mi novia" as a response to "que hora es"
+2024-01-02 19:39:34,204 - INFO - Beginning search for close text match
+2024-01-02 19:39:34,205 - INFO - Processing search results
+2024-01-02 19:39:34,221 - INFO - Similar text found: La ley de la oferta y la demanda es un principio económico que establece que el precio de un bien o servicio está determinado por la oferta y la demanda. 0.09
+2024-01-02 19:39:34,221 - INFO - Similar text found: Un ecosistema es un conjunto de organismos vivos y no vivos que interactúan entre sí en un ambiente determinado 0.12
+2024-01-02 19:39:34,229 - INFO - Using "La ley de la oferta y la demanda es un principio económico que establece que el precio de un bien o servicio está determinado por la oferta y la demanda." as a close match to "termina" with a confidence of 0.09
+2024-01-02 19:39:34,283 - INFO - Selecting response from 31 optimal responses.
+2024-01-02 19:39:34,283 - INFO - Selecting first response from list of 31 options.
+2024-01-02 19:39:34,283 - INFO - Response selected. Using "cuál es el país más visitado del mundo"
+2024-01-02 19:39:34,283 - INFO - BestMatch selected "cuál es el país más visitado del mundo" as a response with a confidence of 0.09
+2024-01-02 19:39:34,330 - INFO - Adding "termina" as a response to "como se llama mi novia"

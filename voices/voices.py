@@ -4,10 +4,12 @@ import pyttsx3
 # tipo de voz del asistente
 def spanish_voice():
     change_voice(0)
+    talk("Esta es mi voz enn Español")
 
 
 def english_voice():
     change_voice(1)
+    talk("this is my voice in english")
 
 
 def change_voice(id):

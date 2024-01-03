@@ -3,21 +3,7 @@ import pyautogui as at
 import time
 from voices.voices import talk
 from motor.motor import listen
-
-# funcion para recorrer los archivos de los diccionarios
-def change_data(name_dict, name_file):
-    try:
-        with open(name_file) as f:
-            for line in f:
-                key, val = line.strip().split(",")
-                name_dict[key] = val
-
-    except FileNotFoundError as e:
-        print(e)
-
-
-contact = dict()
-change_data(contact, "contact.txt")
+from diccionary.read import change_data, contact
 
 def send_message(contact, message):
     webbrowser.open(f"https://web.whatsapp.com/send?phone={contact}&text={message}")
@@ -27,11 +13,12 @@ def send_message(contact, message):
 
 
 def envia_mensaje(rec):
+    change_data(contact, "C:\\Users\Ariel\Desktop\\Lucy_AI_v2.0\\diccionary\\contact.txt")
     talk("¿A quién quieres enviar el mensaje?")
     contacts = listen()
     contacts = contacts.strip().capitalize()
 
-    if contacts in cd.contact:
+    if contacts in contact:
         for cont in contact:
             if cont == contacts:
                 contacts = contact[cont]

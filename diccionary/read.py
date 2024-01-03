@@ -1,3 +1,10 @@
+# Rutas de archivos
+WEB = "C:\\Users\\Ariel\\Desktop\\Lucy_AI_v2.0\\diccionary\\web.txt"
+APP = "C:\\Users\\Ariel\\Desktop\\Lucy_AI_v2.0\\diccionary\\app.txt"
+FILE = "C:\\Users\\Ariel\\Desktop\\Lucy_AI_v2.0\\diccionary\\file.txt"
+CONTACT = "C:\\Users\Ariel\Desktop\\Lucy_AI_v2.0\\diccionary\\contact.txt"
+
+
 # funcion para recorrer los archivos de los diccionarios
 def change_data(name_dict, name_file):
     try:
@@ -9,11 +16,6 @@ def change_data(name_dict, name_file):
     except FileNotFoundError as e:
         print(e)
 
-# Rutas de archivo completas a los archivos de diccionario
-WEB = "C:\\Users\\amval\\OneDrive\\Escritorio\\whisper-python-assistant-main\\diccionary\\web.txt"
-FILE = "C:\\Users\\amval\\OneDrive\\Escritorio\\whisper-python-assistant-main\\diccionary\\file.txt"
-CONTACT = "C:\\Users\\amval\\OneDrive\\Escritorio\\whisper-python-assistant-main\\diccionary\\contact.txt"
-APP = "C:\\Users\\amval\\OneDrive\\Escritorio\\whisper-python-assistant-main\\diccionary\\app.txt"
 
 # Diccionarios
 sites = dict()

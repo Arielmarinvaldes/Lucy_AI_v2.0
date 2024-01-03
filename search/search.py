@@ -1,42 +1,16 @@
 import wikipedia
 import pywhatkit
-from voices.voices import talk
 import subprocess as sub
 import os
-
-
-# funcion para recorrer los archivos de los diccionarios
-def change_data(name_dict, name_file):
-    try:
-        with open(name_file) as f:
-            for line in f:
-                (key, val) = line.split(",")
-                val = val.rstrip("\n")
-                name_dict[key] = val
-
-    except FileNotFoundError as e:
-        print(e)
-
-# # diccionarios
-# sites = dict()
-# change_data(sites, "web.txt")
-
-# files = dict()
-# change_data(files, "file.txt")
-
-# contact = dict()
-# change_data(contact, "contact.txt")
-
-# apps = dict()
-# change_data(apps, "app.txt")
-
+import requests
+from voices.voices import talk
+from diccionary.read import change_data, sites, apps, files
 
 def busca(rec):
     search = rec.replace('busca', '')
     wikipedia.set_lang("es")
     wiki = wikipedia.summary(search, 1)
     talk(wiki)
-    write_text(search + ": " + wiki)
 
 
 def reproduce(rec):
@@ -46,6 +20,7 @@ def reproduce(rec):
 
 
 def abre(rec):
+    change_data(sites, "C:\\Users\\Ariel\\Desktop\\Lucy_AI_v2.0\\diccionary\\web.txt")
     task = rec.replace('abre', '').strip()
     if task in sites:
         for task in sites:
@@ -63,6 +38,7 @@ def abre(rec):
 
 
 def archivo(rec):
+    change_data(files, "C:\\Users\\Ariel\\Desktop\\Lucy_AI_v2.0\\diccionary\\file.txt")
     file = rec.replace('archivo', '').strip()
     if file in files:
         for file in files:
@@ -71,3 +47,25 @@ def archivo(rec):
                 talk(f'Abriendo {file}')
     else:
         talk(f'No se ha encontrado el archivo {file}')
+
+
+# Función para obtener un chiste de Chuck Norris desde la API
+def obtener_chiste_chuck_norris():
+    url = 'https://api.chucknorris.io/jokes/random'
+    
+    try:
+        response = requests.get(url)
+        data = response.json()
+
+        if response.status_code == 200:
+            return data['value']
+        else:
+            return 'No se pudo obtener un chiste de Chuck Norris en este momento.'
+
+    except Exception as e:
+        return 'Hubo un error al intentar obtener un chiste de Chuck Norris.'
+
+def chiste():
+    chiste = obtener_chiste_chuck_norris()
+    print("Lucy:", chiste)
+    talk(chiste)
