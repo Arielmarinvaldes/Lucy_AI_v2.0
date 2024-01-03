@@ -16,7 +16,7 @@ def reconocimiento(rec):
         talk("Desactivando reconocimiento")
         face_rec(1)
 
-intrusos_path = 'C:\\Users\\amval\\OneDrive\\Escritorio\\Lucy_AI_v2.0\\\intrusos'
+intrusos_path = 'C:\\Users\\amval\\OneDrive\\Escritorio\\Lucy_AI_v2.0\\intrusos'
 data_path = 'Data_Face'
 
 if os.path.exists(data_path):
