@@ -63,4 +63,3 @@ def capture():
     # Liberar la cámara y cerrar todas las ventanas
     cap.release()
     cv2.destroyAllWindows()
-

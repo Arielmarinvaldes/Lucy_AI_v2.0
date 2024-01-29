@@ -6,11 +6,8 @@ import os
 from pydub import AudioSegment
 from voices.voices import talk
 
-
 temp_file = tempfile.mkdtemp()
 save_path = os.path.join(temp_file, 'temp.wav')
-print (save_path)
-
 
 listener = sr.Recognizer()
 
@@ -18,8 +15,8 @@ listener = sr.Recognizer()
 def listen():
     try:
         with sr.Microphone() as source:
-            print("Listening...")
-            talk("Listening...")
+            print("Escuchando...")
+            talk("Escuchando...")
             listener.adjust_for_ambient_noise(source)
             audio = listener.listen(source)
             data = io.BytesIO(audio.get_wav_data())

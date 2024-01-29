@@ -9,18 +9,18 @@ from voices.voices import talk
 
 def reconocimiento(rec):
     rec = rec.replace('reconocimiento', '').strip()
-    if rec == 'activado.':
+    if rec == 'activado':
         talk("Activando reconocimiento")
         face_rec(0)
-    elif 'desactivado.':
+    else:
         talk("Desactivando reconocimiento")
         face_rec(1)
 
-intrusos_path = 'C:\\Users\\amval\\OneDrive\\Escritorio\\Lucy_AI_v2.0\\\intrusos'
+intrusos_path = r'intrusos'
 data_path = 'Data_Face'
 
 if os.path.exists(data_path):
-    print("Cargando rostros de 'Data_Face'.")
+    print("Cargando rostros")
 else:
     print("La carpeta 'Data_Face' no se encontró en la ubicación especificada.")
 
@@ -30,14 +30,14 @@ face_recognizer = cv2.face.LBPHFaceRecognizer_create()
 
 try:
     # Leyendo el modelo
-    face_recognizer.read('C:\\Users\\amval\\OneDrive\\Escritorio\\Lucy_AI_v2.0\\camara\\LBPHFaceModel.xml')
+    face_recognizer.read(r'camara/LBPHFaceModel.xml')
     print("Modelo cargado correctamente.")
 except cv2.error as e:
     print(f"Error al cargar el modelo: {e}")
     
 
 
-face_classif = cv2.CascadeClassifier('camara\\haarcascade_frontalface_default.xml')
+face_classif = cv2.CascadeClassifier(r'camara/haarcascade_frontalface_default.xml')
 
 def face_rec(state):
     # Inicialización de la cámara

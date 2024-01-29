@@ -1362,3 +1362,349 @@
 2024-01-02 19:39:34,283 - INFO - Response selected. Using "cuál es el país más visitado del mundo"
 2024-01-02 19:39:34,283 - INFO - BestMatch selected "cuál es el país más visitado del mundo" as a response with a confidence of 0.09
 2024-01-02 19:39:34,330 - INFO - Adding "termina" as a response to "como se llama mi novia"
+2024-01-04 17:30:53,258 - INFO - Beginning search for close text match
+2024-01-04 17:30:53,258 - INFO - Processing search results
+2024-01-04 17:30:53,285 - INFO - Using "camara" as a close match to "camara" with a confidence of 0
+2024-01-04 17:30:53,336 - INFO - No responses found. Generating alternate response list.
+2024-01-04 17:30:53,354 - INFO - No known response to the input was found. Selecting a random response.
+2024-01-04 17:30:53,354 - INFO - BestMatch selected "t" as a response with a confidence of 0
+2024-01-04 17:30:53,409 - INFO - Adding "camara" as a response to "termina"
+2024-01-04 21:33:43,816 - INFO - Beginning search for close text match
+2024-01-04 21:33:43,816 - INFO - Processing search results
+2024-01-04 21:33:43,843 - INFO - Using "c:/Users/Ariel/Desktop/Lucy_AI_v2.0/root/Scripts/python.exe c:/Users/Ariel/Desktop/Lucy_AI_v2.0/listen.py" as a close match to "c:/Users/Ariel/Desktop/Lucy_AI_v2.0/root/Scripts/python.exe c:/Users/Ariel/Desktop/Lucy_AI_v2.0/listen.py" with a confidence of 0
+2024-01-04 21:33:43,894 - INFO - No responses found. Generating alternate response list.
+2024-01-04 21:33:43,911 - INFO - No known response to the input was found. Selecting a random response.
+2024-01-04 21:33:43,911 - INFO - BestMatch selected "c" as a response with a confidence of 0
+2024-01-04 21:33:43,973 - INFO - Adding "c:/Users/Ariel/Desktop/Lucy_AI_v2.0/root/Scripts/python.exe c:/Users/Ariel/Desktop/Lucy_AI_v2.0/listen.py" as a response to "camara"
+2024-01-04 21:33:51,906 - INFO - Beginning search for close text match
+2024-01-04 21:33:51,906 - INFO - Processing search results
+2024-01-04 21:33:51,927 - INFO - Similar text found: hola 1.0
+2024-01-04 21:33:51,953 - INFO - Using "hola" as a close match to "hola" with a confidence of 1.0
+2024-01-04 21:33:52,031 - INFO - Selecting response from 70 optimal responses.
+2024-01-04 21:33:52,031 - INFO - Selecting first response from list of 70 options.
+2024-01-04 21:33:52,031 - INFO - Response selected. Using "hola que tal"
+2024-01-04 21:33:52,031 - INFO - BestMatch selected "hola que tal" as a response with a confidence of 1.0
+2024-01-04 21:33:52,090 - INFO - Adding "hola" as a response to "c:/Users/Ariel/Desktop/Lucy_AI_v2.0/root/Scripts/python.exe c:/Users/Ariel/Desktop/Lucy_AI_v2.0/listen.py"
+2024-01-04 21:33:59,738 - INFO - Beginning search for close text match
+2024-01-04 21:33:59,738 - INFO - Processing search results
+2024-01-04 21:33:59,777 - INFO - Similar text found: cómo se llama el presidente de francia 0.46
+2024-01-04 21:33:59,777 - INFO - Similar text found: como te llamas 1.0
+2024-01-04 21:33:59,777 - INFO - Using "como te llamas" as a close match to "como te llamas" with a confidence of 1.0
+2024-01-04 21:33:59,900 - INFO - Selecting response from 35 optimal responses.
+2024-01-04 21:33:59,900 - INFO - Selecting first response from list of 35 options.
+2024-01-04 21:33:59,900 - INFO - Response selected. Using "mi nombre es lucy ya lo deverias saber"
+2024-01-04 21:33:59,900 - INFO - BestMatch selected "mi nombre es lucy ya lo deverias saber" as a response with a confidence of 1.0
+2024-01-04 21:33:59,953 - INFO - Adding "como te llamas" as a response to "hola"
+2024-01-04 21:35:12,472 - INFO - Beginning search for close text match
+2024-01-04 21:35:12,472 - INFO - Processing search results
+2024-01-04 21:35:12,493 - INFO - Similar text found: hola 1.0
+2024-01-04 21:35:12,520 - INFO - Using "hola" as a close match to "hola" with a confidence of 1.0
+2024-01-04 21:35:12,585 - INFO - Selecting response from 72 optimal responses.
+2024-01-04 21:35:12,586 - INFO - Selecting first response from list of 72 options.
+2024-01-04 21:35:12,586 - INFO - Response selected. Using "hola que tal"
+2024-01-04 21:35:12,586 - INFO - BestMatch selected "hola que tal" as a response with a confidence of 1.0
+2024-01-04 21:35:12,641 - INFO - Adding "hola" as a response to "como te llamas"
+2024-01-04 21:37:54,442 - INFO - Beginning search for close text match
+2024-01-04 21:37:54,442 - INFO - Processing search results
+2024-01-04 21:37:54,456 - INFO - Using "c:/Users/Ariel/Desktop/Lucy_AI_v2.0/root/Scripts/python.exe c:/Users/Ariel/Desktop/Lucy_AI_v2.0/voices/voices.py" as a close match to "c:/Users/Ariel/Desktop/Lucy_AI_v2.0/root/Scripts/python.exe c:/Users/Ariel/Desktop/Lucy_AI_v2.0/voices/voices.py" with a confidence of 0
+2024-01-04 21:37:54,515 - INFO - No responses found. Generating alternate response list.
+2024-01-04 21:37:54,531 - INFO - No known response to the input was found. Selecting a random response.
+2024-01-04 21:37:54,532 - INFO - BestMatch selected "en qué puedo ayudarte" as a response with a confidence of 0
+2024-01-04 21:37:54,592 - INFO - Adding "c:/Users/Ariel/Desktop/Lucy_AI_v2.0/root/Scripts/python.exe c:/Users/Ariel/Desktop/Lucy_AI_v2.0/voices/voices.py" as a response to "hola"
+2024-01-04 21:44:17,596 - INFO - Beginning search for close text match
+2024-01-04 21:44:17,596 - INFO - Processing search results
+2024-01-04 21:44:17,634 - INFO - Similar text found: c:/Users/Ariel/Desktop/Lucy_AI_v2.0/root/Scripts/python.exe c:/Users/Ariel/Desktop/Lucy_AI_v2.0/voices/voices.py 1.0
+2024-01-04 21:44:17,635 - INFO - Using "c:/Users/Ariel/Desktop/Lucy_AI_v2.0/root/Scripts/python.exe c:/Users/Ariel/Desktop/Lucy_AI_v2.0/voices/voices.py" as a close match to "c:/Users/Ariel/Desktop/Lucy_AI_v2.0/root/Scripts/python.exe c:/Users/Ariel/Desktop/Lucy_AI_v2.0/voices/voices.py" with a confidence of 1.0
+2024-01-04 21:44:17,690 - INFO - No responses found. Generating alternate response list.
+2024-01-04 21:44:17,708 - INFO - No known response to the input was found. Selecting a random response.
+2024-01-04 21:44:17,708 - INFO - BestMatch selected "qué es un virus" as a response with a confidence of 0
+2024-01-04 21:44:17,769 - INFO - Adding "c:/Users/Ariel/Desktop/Lucy_AI_v2.0/root/Scripts/python.exe c:/Users/Ariel/Desktop/Lucy_AI_v2.0/voices/voices.py" as a response to "c:/Users/Ariel/Desktop/Lucy_AI_v2.0/root/Scripts/python.exe c:/Users/Ariel/Desktop/Lucy_AI_v2.0/voices/voices.py"
+2024-01-09 13:52:06,471 - INFO - Beginning search for close text match
+2024-01-09 13:52:06,471 - INFO - Processing search results
+2024-01-09 13:52:06,512 - INFO - Similar text found: hola 1.0
+2024-01-09 13:52:06,544 - INFO - Using "hola" as a close match to "hola" with a confidence of 1.0
+2024-01-09 13:52:06,618 - INFO - Selecting response from 76 optimal responses.
+2024-01-09 13:52:06,619 - INFO - Selecting first response from list of 76 options.
+2024-01-09 13:52:06,619 - INFO - Response selected. Using "hola que tal"
+2024-01-09 13:52:06,619 - INFO - BestMatch selected "hola que tal" as a response with a confidence of 1.0
+2024-01-09 13:52:06,685 - INFO - Adding "hola" as a response to "c:/Users/Ariel/Desktop/Lucy_AI_v2.0/root/Scripts/python.exe c:/Users/Ariel/Desktop/Lucy_AI_v2.0/voices/voices.py"
+2024-01-09 13:52:11,017 - INFO - Beginning search for close text match
+2024-01-09 13:52:11,017 - INFO - Processing search results
+2024-01-09 13:52:11,060 - INFO - Similar text found: cómo se llama el presidente de francia 0.46
+2024-01-09 13:52:11,061 - INFO - Similar text found: como te llamas 1.0
+2024-01-09 13:52:11,061 - INFO - Using "como te llamas" as a close match to "como te llamas" with a confidence of 1.0
+2024-01-09 13:52:11,121 - INFO - Selecting response from 38 optimal responses.
+2024-01-09 13:52:11,121 - INFO - Selecting first response from list of 38 options.
+2024-01-09 13:52:11,121 - INFO - Response selected. Using "mi nombre es lucy ya lo deverias saber"
+2024-01-09 13:52:11,121 - INFO - BestMatch selected "mi nombre es lucy ya lo deverias saber" as a response with a confidence of 1.0
+2024-01-09 13:52:11,183 - INFO - Adding "como te llamas" as a response to "hola"
+2024-01-10 13:42:04,235 - INFO - Beginning search for close text match
+2024-01-10 13:42:04,235 - INFO - Processing search results
+2024-01-10 13:42:04,279 - INFO - Similar text found: La ley de la oferta y la demanda es un principio económico que establece que el precio de un bien o servicio está determinado por la oferta y la demanda. 0.09
+2024-01-10 13:42:04,279 - INFO - Similar text found: Un ecosistema es un conjunto de organismos vivos y no vivos que interactúan entre sí en un ambiente determinado 0.12
+2024-01-10 13:42:04,288 - INFO - Similar text found: termina 1.0
+2024-01-10 13:42:04,289 - INFO - Using "termina" as a close match to "termina" with a confidence of 1.0
+2024-01-10 13:42:04,351 - INFO - No responses found. Generating alternate response list.
+2024-01-10 13:42:04,366 - INFO - No known response to the input was found. Selecting a random response.
+2024-01-10 13:42:04,367 - INFO - BestMatch selected "c" as a response with a confidence of 0
+2024-01-10 13:42:04,430 - INFO - Adding "termina" as a response to "como te llamas"
+2024-01-10 17:47:49,250 - INFO - Beginning search for close text match
+2024-01-10 17:47:49,250 - INFO - Processing search results
+2024-01-10 17:47:49,299 - INFO - Similar text found: hola 1.0
+2024-01-10 17:47:49,339 - INFO - Using "hola" as a close match to "hola" with a confidence of 1.0
+2024-01-10 17:47:49,426 - INFO - Selecting response from 82 optimal responses.
+2024-01-10 17:47:49,426 - INFO - Selecting first response from list of 82 options.
+2024-01-10 17:47:49,426 - INFO - Response selected. Using "hola que tal"
+2024-01-10 17:47:49,426 - INFO - BestMatch selected "hola que tal" as a response with a confidence of 1.0
+2024-01-10 17:47:49,512 - INFO - Adding "hola" as a response to "termina"
+2024-01-10 17:47:55,171 - INFO - Beginning search for close text match
+2024-01-10 17:47:55,171 - INFO - Processing search results
+2024-01-10 17:47:55,221 - INFO - Similar text found: cómo se llama el presidente de francia 0.46
+2024-01-10 17:47:55,221 - INFO - Similar text found: como te llamas 1.0
+2024-01-10 17:47:55,221 - INFO - Using "como te llamas" as a close match to "como te llamas" with a confidence of 1.0
+2024-01-10 17:47:55,381 - INFO - Selecting response from 41 optimal responses.
+2024-01-10 17:47:55,381 - INFO - Selecting first response from list of 41 options.
+2024-01-10 17:47:55,381 - INFO - Response selected. Using "mi nombre es lucy ya lo deverias saber"
+2024-01-10 17:47:55,381 - INFO - BestMatch selected "mi nombre es lucy ya lo deverias saber" as a response with a confidence of 1.0
+2024-01-10 17:47:55,467 - INFO - Adding "como te llamas" as a response to "hola"
+2024-01-10 18:18:29,942 - INFO - Beginning search for close text match
+2024-01-10 18:18:29,943 - INFO - Processing search results
+2024-01-10 18:18:29,972 - INFO - Similar text found: hola 1.0
+2024-01-10 18:18:30,016 - INFO - Using "hola" as a close match to "hola" with a confidence of 1.0
+2024-01-10 18:18:30,117 - INFO - Selecting response from 102 optimal responses.
+2024-01-10 18:18:30,117 - INFO - Selecting first response from list of 102 options.
+2024-01-10 18:18:30,117 - INFO - Response selected. Using "hola que tal"
+2024-01-10 18:18:30,117 - INFO - BestMatch selected "hola que tal" as a response with a confidence of 1.0
+2024-01-10 18:18:30,189 - INFO - Adding "hola" as a response to "como te llamas"
+2024-01-10 19:52:48,030 - INFO - Beginning search for close text match
+2024-01-10 19:52:48,030 - INFO - Processing search results
+2024-01-10 19:52:48,061 - INFO - Similar text found: hola 0.89
+2024-01-10 19:52:48,062 - INFO - Similar text found: hola.. 0.91
+2024-01-10 19:52:48,062 - INFO - Similar text found: hola. 1.0
+2024-01-10 19:52:48,062 - INFO - Using "hola." as a close match to "hola." with a confidence of 1.0
+2024-01-10 19:52:48,143 - INFO - Selecting response from 106 optimal responses.
+2024-01-10 19:52:48,143 - INFO - Selecting first response from list of 106 options.
+2024-01-10 19:52:48,143 - INFO - Response selected. Using "hola que tal"
+2024-01-10 19:52:48,143 - INFO - BestMatch selected "hola que tal" as a response with a confidence of 1.0
+2024-01-10 19:52:48,217 - INFO - Adding "hola." as a response to "hola"
+2024-01-10 19:52:55,055 - INFO - Beginning search for close text match
+2024-01-10 19:52:55,055 - WARNING - No value for search_text was available on the provided input
+2024-01-10 19:52:55,055 - INFO - Processing search results
+2024-01-10 19:52:57,864 - INFO - Using "" as a close match to "" with a confidence of 0
+2024-01-10 19:52:57,911 - INFO - 0. Excluding recent repeated response of "hola que tal"
+2024-01-10 19:52:57,968 - INFO - Selecting response from 408 optimal responses.
+2024-01-10 19:52:57,968 - INFO - Selecting first response from list of 408 options.
+2024-01-10 19:52:57,968 - INFO - Response selected. Using "hola"
+2024-01-10 19:52:57,968 - INFO - BestMatch selected "hola" as a response with a confidence of 0
+2024-01-10 19:52:58,034 - INFO - Adding "" as a response to "hola."
+2024-01-10 19:53:07,075 - INFO - Beginning search for close text match
+2024-01-10 19:53:07,075 - INFO - Processing search results
+2024-01-10 19:53:07,137 - INFO - Similar text found: cómo se llama el presidente de francia 0.46
+2024-01-10 19:53:07,137 - INFO - Similar text found: como te llamas 1.0
+2024-01-10 19:53:07,137 - INFO - Using "como te llamas" as a close match to "como te llamas" with a confidence of 1.0
+2024-01-10 19:53:07,185 - INFO - 0. Excluding recent repeated response of "hola"
+2024-01-10 19:53:07,186 - INFO - 1. Excluding recent repeated response of "hola que tal"
+2024-01-10 19:53:07,209 - INFO - Selecting response from 53 optimal responses.
+2024-01-10 19:53:07,209 - INFO - Selecting first response from list of 53 options.
+2024-01-10 19:53:07,209 - INFO - Response selected. Using "mi nombre es lucy ya lo deverias saber"
+2024-01-10 19:53:07,210 - INFO - BestMatch selected "mi nombre es lucy ya lo deverias saber" as a response with a confidence of 1.0
+2024-01-10 19:53:07,260 - INFO - Adding "como te llamas" as a response to "hola"
+2024-01-10 20:07:44,041 - INFO - Beginning search for close text match
+2024-01-10 20:07:44,041 - INFO - Processing search results
+2024-01-10 20:07:44,110 - INFO - Similar text found: cómo se llama el presidente de francia 0.45
+2024-01-10 20:07:44,110 - INFO - Similar text found: como te llamas 0.97
+2024-01-10 20:07:44,110 - INFO - Using "como te llamas" as a close match to "como te llamas." with a confidence of 0.97
+2024-01-10 20:07:44,202 - INFO - Selecting response from 54 optimal responses.
+2024-01-10 20:07:44,202 - INFO - Selecting first response from list of 54 options.
+2024-01-10 20:07:44,202 - INFO - Response selected. Using "mi nombre es lucy ya lo deverias saber"
+2024-01-10 20:07:44,203 - INFO - BestMatch selected "mi nombre es lucy ya lo deverias saber" as a response with a confidence of 0.97
+2024-01-10 20:07:44,271 - INFO - Adding "como te llamas." as a response to "como te llamas"
+2024-01-10 20:08:26,300 - INFO - Beginning search for close text match
+2024-01-10 20:08:26,300 - INFO - Processing search results
+2024-01-10 20:08:26,329 - INFO - Similar text found: hola 1.0
+2024-01-10 20:08:26,368 - INFO - Using "hola" as a close match to "hola" with a confidence of 1.0
+2024-01-10 20:08:26,451 - INFO - Selecting response from 110 optimal responses.
+2024-01-10 20:08:26,451 - INFO - Selecting first response from list of 110 options.
+2024-01-10 20:08:26,451 - INFO - Response selected. Using "hola que tal"
+2024-01-10 20:08:26,451 - INFO - BestMatch selected "hola que tal" as a response with a confidence of 1.0
+2024-01-10 20:08:26,516 - INFO - Adding "hola" as a response to "como te llamas."
+2024-01-10 20:08:31,097 - INFO - Beginning search for close text match
+2024-01-10 20:08:31,097 - INFO - Processing search results
+2024-01-10 20:08:31,154 - INFO - Similar text found: cómo se llama el presidente de francia 0.46
+2024-01-10 20:08:31,154 - INFO - Similar text found: como te llamas 1.0
+2024-01-10 20:08:31,154 - INFO - Using "como te llamas" as a close match to "como te llamas" with a confidence of 1.0
+2024-01-10 20:08:31,311 - INFO - Selecting response from 55 optimal responses.
+2024-01-10 20:08:31,311 - INFO - Selecting first response from list of 55 options.
+2024-01-10 20:08:31,311 - INFO - Response selected. Using "mi nombre es lucy ya lo deverias saber"
+2024-01-10 20:08:31,312 - INFO - BestMatch selected "mi nombre es lucy ya lo deverias saber" as a response with a confidence of 1.0
+2024-01-10 20:08:31,377 - INFO - Adding "como te llamas" as a response to "hola"
+2024-01-10 20:08:39,221 - INFO - Beginning search for close text match
+2024-01-10 20:08:39,221 - INFO - Processing search results
+2024-01-10 20:08:39,270 - INFO - Similar text found: cómo estas 0.36
+2024-01-10 20:08:39,271 - INFO - Similar text found: quién escribió el quijote 0.43
+2024-01-10 20:08:39,273 - INFO - Similar text found: quién escribió la odisea 0.5
+2024-01-10 20:08:39,277 - INFO - Similar text found: qué es 5g 0.76
+2024-01-10 20:08:39,610 - INFO - Using "cómo estas" as a close match to "que es la 5g" with a confidence of 0.36
+2024-01-10 20:08:39,657 - INFO - 0. Excluding recent repeated response of "mi nombre es lucy ya lo deverias saber"
+2024-01-10 20:08:39,678 - INFO - Selecting response from 55 optimal responses.
+2024-01-10 20:08:39,678 - INFO - Selecting first response from list of 55 options.
+2024-01-10 20:08:39,678 - INFO - Response selected. Using "me alegro yo tambien estoy muy bien"
+2024-01-10 20:08:39,678 - INFO - BestMatch selected "me alegro yo tambien estoy muy bien" as a response with a confidence of 0.36
+2024-01-10 20:08:39,737 - INFO - Adding "que es la 5g" as a response to "como te llamas"
+2024-01-10 20:08:44,345 - INFO - Beginning search for close text match
+2024-01-10 20:08:44,345 - INFO - Processing search results
+2024-01-10 20:08:44,370 - INFO - Similar text found: hola 1.0
+2024-01-10 20:08:44,413 - INFO - Using "hola" as a close match to "hola" with a confidence of 1.0
+2024-01-10 20:08:44,462 - INFO - 0. Excluding recent repeated response of "mi nombre es lucy ya lo deverias saber"
+2024-01-10 20:08:44,489 - INFO - Selecting response from 110 optimal responses.
+2024-01-10 20:08:44,489 - INFO - Selecting first response from list of 110 options.
+2024-01-10 20:08:44,489 - INFO - Response selected. Using "hola que tal"
+2024-01-10 20:08:44,489 - INFO - BestMatch selected "hola que tal" as a response with a confidence of 1.0
+2024-01-10 20:08:44,556 - INFO - Adding "hola" as a response to "que es la 5g"
+2024-01-10 20:08:47,436 - INFO - Beginning search for close text match
+2024-01-10 20:08:47,436 - INFO - Processing search results
+2024-01-10 20:08:47,475 - INFO - Similar text found: cómo estas 0.84
+2024-01-10 20:08:47,498 - INFO - Similar text found: como estas 0.95
+2024-01-10 20:08:47,498 - INFO - Using "como estas" as a close match to "como esta" with a confidence of 0.95
+2024-01-10 20:08:47,568 - INFO - Selecting response from 55 optimal responses.
+2024-01-10 20:08:47,569 - INFO - Selecting first response from list of 55 options.
+2024-01-10 20:08:47,569 - INFO - Response selected. Using "me alegro yo tambien estoy muy bien"
+2024-01-10 20:08:47,569 - INFO - BestMatch selected "me alegro yo tambien estoy muy bien" as a response with a confidence of 0.95
+2024-01-10 20:08:47,633 - INFO - Adding "como esta" as a response to "hola"
+2024-01-10 21:12:27,507 - INFO - Beginning search for close text match
+2024-01-10 21:12:27,508 - INFO - Processing search results
+2024-01-10 21:12:27,541 - INFO - Similar text found: hola 1.0
+2024-01-10 21:12:27,592 - INFO - Using "hola" as a close match to "hola" with a confidence of 1.0
+2024-01-10 21:12:27,685 - INFO - Selecting response from 126 optimal responses.
+2024-01-10 21:12:27,685 - INFO - Selecting first response from list of 126 options.
+2024-01-10 21:12:27,685 - INFO - Response selected. Using "hola que tal"
+2024-01-10 21:12:27,685 - INFO - BestMatch selected "hola que tal" as a response with a confidence of 1.0
+2024-01-10 21:12:27,758 - INFO - Adding "hola" as a response to "como esta"
+2024-01-10 21:12:35,320 - INFO - Beginning search for close text match
+2024-01-10 21:12:35,320 - INFO - Processing search results
+2024-01-10 21:12:35,383 - INFO - Similar text found: cómo se llama el presidente de francia 0.46
+2024-01-10 21:12:35,383 - INFO - Similar text found: como te llamas 1.0
+2024-01-10 21:12:35,383 - INFO - Using "como te llamas" as a close match to "como te llamas" with a confidence of 1.0
+2024-01-10 21:12:35,523 - INFO - Selecting response from 63 optimal responses.
+2024-01-10 21:12:35,524 - INFO - Selecting first response from list of 63 options.
+2024-01-10 21:12:35,524 - INFO - Response selected. Using "mi nombre es lucy ya lo deverias saber"
+2024-01-10 21:12:35,524 - INFO - BestMatch selected "mi nombre es lucy ya lo deverias saber" as a response with a confidence of 1.0
+2024-01-10 21:12:35,591 - INFO - Adding "como te llamas" as a response to "hola"
+2024-01-10 21:12:39,444 - INFO - Beginning search for close text match
+2024-01-10 21:12:39,444 - INFO - Processing search results
+2024-01-10 21:12:39,477 - INFO - Similar text found: La ley de la oferta y la demanda es un principio económico que establece que el precio de un bien o servicio está determinado por la oferta y la demanda. 0.09
+2024-01-10 21:12:39,478 - INFO - Similar text found: Un ecosistema es un conjunto de organismos vivos y no vivos que interactúan entre sí en un ambiente determinado 0.12
+2024-01-10 21:12:39,487 - INFO - Similar text found: termina 1.0
+2024-01-10 21:12:39,487 - INFO - Using "termina" as a close match to "termina" with a confidence of 1.0
+2024-01-10 21:12:39,544 - INFO - No responses found. Generating alternate response list.
+2024-01-10 21:12:39,561 - INFO - No known response to the input was found. Selecting a random response.
+2024-01-10 21:12:39,562 - INFO - BestMatch selected "el movimiento barroco se desarrolló en Europa durante los siglos XVII y XVIII" as a response with a confidence of 0
+2024-01-10 21:12:39,625 - INFO - Adding "termina" as a response to "como te llamas"
+2024-01-11 17:15:34,363 - INFO - Beginning search for close text match
+2024-01-11 17:15:34,365 - INFO - Processing search results
+2024-01-11 17:15:34,435 - INFO - Similar text found: hola 1.0
+2024-01-11 17:15:34,493 - INFO - Using "hola" as a close match to "hola" with a confidence of 1.0
+2024-01-11 17:15:34,600 - INFO - Selecting response from 138 optimal responses.
+2024-01-11 17:15:34,600 - INFO - Selecting first response from list of 138 options.
+2024-01-11 17:15:34,600 - INFO - Response selected. Using "hola que tal"
+2024-01-11 17:15:34,600 - INFO - BestMatch selected "hola que tal" as a response with a confidence of 1.0
+2024-01-11 17:15:34,686 - INFO - Adding "hola" as a response to "termina"
+2024-01-11 17:17:54,582 - INFO - Beginning search for close text match
+2024-01-11 17:17:54,582 - INFO - Processing search results
+2024-01-11 17:17:54,615 - INFO - Using "c:/Users/Ariel/Desktop/Lucy_AI_v2.0/root/Scripts/python.exe c:/Users/Ariel/Desktop/Lucy_AI_v2.0/login/intefez.py" as a close match to "c:/Users/Ariel/Desktop/Lucy_AI_v2.0/root/Scripts/python.exe c:/Users/Ariel/Desktop/Lucy_AI_v2.0/login/intefez.py" with a confidence of 0
+2024-01-11 17:17:54,702 - INFO - No responses found. Generating alternate response list.
+2024-01-11 17:17:54,730 - INFO - No known response to the input was found. Selecting a random response.
+2024-01-11 17:17:54,730 - INFO - BestMatch selected "cuál fue la primera civilización que desarrolló la escritura" as a response with a confidence of 0
+2024-01-11 17:17:54,828 - INFO - Adding "c:/Users/Ariel/Desktop/Lucy_AI_v2.0/root/Scripts/python.exe c:/Users/Ariel/Desktop/Lucy_AI_v2.0/login/intefez.py" as a response to "hola"
+2024-01-11 17:32:59,029 - INFO - Beginning search for close text match
+2024-01-11 17:32:59,030 - INFO - Processing search results
+2024-01-11 17:32:59,068 - INFO - Similar text found: hola 1.0
+2024-01-11 17:32:59,126 - INFO - Using "hola" as a close match to "hola" with a confidence of 1.0
+2024-01-11 17:32:59,231 - INFO - Selecting response from 148 optimal responses.
+2024-01-11 17:32:59,231 - INFO - Selecting first response from list of 148 options.
+2024-01-11 17:32:59,231 - INFO - Response selected. Using "hola que tal"
+2024-01-11 17:32:59,231 - INFO - BestMatch selected "hola que tal" as a response with a confidence of 1.0
+2024-01-11 17:32:59,323 - INFO - Adding "hola" as a response to "c:/Users/Ariel/Desktop/Lucy_AI_v2.0/root/Scripts/python.exe c:/Users/Ariel/Desktop/Lucy_AI_v2.0/login/intefez.py"
+2024-01-15 18:08:01,031 - INFO - Beginning search for close text match
+2024-01-15 18:08:01,031 - INFO - Processing search results
+2024-01-15 18:08:01,120 - INFO - Similar text found: hola 1.0
+2024-01-15 18:08:01,201 - INFO - Using "hola" as a close match to "hola" with a confidence of 1.0
+2024-01-15 18:08:01,318 - INFO - Selecting response from 176 optimal responses.
+2024-01-15 18:08:01,318 - INFO - Selecting first response from list of 176 options.
+2024-01-15 18:08:01,318 - INFO - Response selected. Using "hola que tal"
+2024-01-15 18:08:01,318 - INFO - BestMatch selected "hola que tal" as a response with a confidence of 1.0
+2024-01-15 18:08:01,421 - INFO - Adding "hola" as a response to "hola"
+2024-01-15 18:08:08,713 - INFO - Beginning search for close text match
+2024-01-15 18:08:08,713 - INFO - Processing search results
+2024-01-15 18:08:08,813 - INFO - Similar text found: cómo se llama el presidente de francia 0.43
+2024-01-15 18:08:08,813 - INFO - Similar text found: como te llamas 0.96
+2024-01-15 18:08:08,813 - INFO - Using "como te llamas" as a close match to "como te llama" with a confidence of 0.96
+2024-01-15 18:08:08,878 - INFO - 0. Excluding recent repeated response of "hola"
+2024-01-15 18:08:08,878 - INFO - 1. Excluding recent repeated response of "hola que tal"
+2024-01-15 18:08:08,915 - INFO - Selecting response from 88 optimal responses.
+2024-01-15 18:08:08,915 - INFO - Selecting first response from list of 88 options.
+2024-01-15 18:08:08,915 - INFO - Response selected. Using "mi nombre es lucy ya lo deverias saber"
+2024-01-15 18:08:08,916 - INFO - BestMatch selected "mi nombre es lucy ya lo deverias saber" as a response with a confidence of 0.96
+2024-01-15 18:08:09,018 - INFO - Adding "como te llama" as a response to "hola"
+2024-01-29 21:56:48,780 - INFO - Beginning search for close text match
+2024-01-29 21:56:48,780 - INFO - Processing search results
+2024-01-29 21:56:48,870 - INFO - Similar text found: La ley de la oferta y la demanda es un principio económico que establece que el precio de un bien o servicio está determinado por la oferta y la demanda. 0.09
+2024-01-29 21:56:48,871 - INFO - Similar text found: Un ecosistema es un conjunto de organismos vivos y no vivos que interactúan entre sí en un ambiente determinado 0.12
+2024-01-29 21:56:48,880 - INFO - Similar text found: termina 1.0
+2024-01-29 21:56:48,880 - INFO - Using "termina" as a close match to "termina" with a confidence of 1.0
+2024-01-29 21:56:48,935 - INFO - 0. Excluding recent repeated response of "hola"
+2024-01-29 21:56:48,935 - INFO - 1. Excluding recent repeated response of "hola que tal"
+2024-01-29 21:56:48,948 - INFO - No responses found. Generating alternate response list.
+2024-01-29 21:56:48,974 - INFO - No known response to the input was found. Selecting a random response.
+2024-01-29 21:56:48,974 - INFO - BestMatch selected "qué juego de estrategia y simulación de construcción de ciudades fue lanzado en 1989" as a response with a confidence of 0
+2024-01-29 21:56:49,052 - INFO - Adding "termina" as a response to "como te llama"
+2024-01-29 21:58:54,876 - INFO - Beginning search for close text match
+2024-01-29 21:58:54,876 - INFO - Processing search results
+2024-01-29 21:58:54,918 - INFO - Similar text found: hola 1.0
+2024-01-29 21:58:54,986 - INFO - Using "hola" as a close match to "hola" with a confidence of 1.0
+2024-01-29 21:58:55,095 - INFO - Selecting response from 180 optimal responses.
+2024-01-29 21:58:55,095 - INFO - Selecting first response from list of 180 options.
+2024-01-29 21:58:55,095 - INFO - Response selected. Using "hola que tal"
+2024-01-29 21:58:55,095 - INFO - BestMatch selected "hola que tal" as a response with a confidence of 1.0
+2024-01-29 21:58:55,178 - INFO - Adding "hola" as a response to "termina"
+2024-01-29 22:05:09,611 - INFO - Beginning search for close text match
+2024-01-29 22:05:09,611 - INFO - Processing search results
+2024-01-29 22:05:09,657 - INFO - Similar text found: hola 1.0
+2024-01-29 22:05:09,722 - INFO - Using "hola" as a close match to "hola" with a confidence of 1.0
+2024-01-29 22:05:09,786 - INFO - 0. Excluding recent repeated response of "hola"
+2024-01-29 22:05:09,786 - INFO - 1. Excluding recent repeated response of "hola que tal"
+2024-01-29 22:05:09,803 - INFO - No responses found. Generating alternate response list.
+2024-01-29 22:05:09,832 - INFO - No known response to the input was found. Selecting a random response.
+2024-01-29 22:05:09,832 - INFO - BestMatch selected "cuál es el velocista más rápido de la historia" as a response with a confidence of 0
+2024-01-29 22:05:09,939 - INFO - Adding "hola" as a response to "hola"
+2024-01-29 22:05:14,872 - INFO - Beginning search for close text match
+2024-01-29 22:05:14,872 - INFO - Processing search results
+2024-01-29 22:05:14,913 - INFO - Similar text found: hola 1.0
+2024-01-29 22:05:14,977 - INFO - Using "hola" as a close match to "hola" with a confidence of 1.0
+2024-01-29 22:05:15,037 - INFO - 0. Excluding recent repeated response of "hola"
+2024-01-29 22:05:15,092 - INFO - Selecting response from 184 optimal responses.
+2024-01-29 22:05:15,092 - INFO - Selecting first response from list of 184 options.
+2024-01-29 22:05:15,092 - INFO - Response selected. Using "hola que tal"
+2024-01-29 22:05:15,092 - INFO - BestMatch selected "hola que tal" as a response with a confidence of 1.0
+2024-01-29 22:05:15,260 - INFO - Adding "hola" as a response to "hola"
+2024-01-29 22:05:19,197 - INFO - Beginning search for close text match
+2024-01-29 22:05:19,197 - INFO - Processing search results
+2024-01-29 22:05:19,286 - INFO - Similar text found: cómo se llama el presidente de francia 0.46
+2024-01-29 22:05:19,287 - INFO - Similar text found: como te llamas 1.0
+2024-01-29 22:05:19,287 - INFO - Using "como te llamas" as a close match to "como te llamas" with a confidence of 1.0
+2024-01-29 22:05:19,342 - INFO - 0. Excluding recent repeated response of "hola"
+2024-01-29 22:05:19,374 - INFO - Selecting response from 92 optimal responses.
+2024-01-29 22:05:19,374 - INFO - Selecting first response from list of 92 options.
+2024-01-29 22:05:19,374 - INFO - Response selected. Using "mi nombre es lucy ya lo deverias saber"
+2024-01-29 22:05:19,375 - INFO - BestMatch selected "mi nombre es lucy ya lo deverias saber" as a response with a confidence of 1.0
+2024-01-29 22:05:19,455 - INFO - Adding "como te llamas" as a response to "hola"
+2024-01-29 22:06:27,622 - INFO - Beginning search for close text match
+2024-01-29 22:06:27,622 - INFO - Processing search results
+2024-01-29 22:06:27,665 - INFO - Similar text found: hola 1.0
+2024-01-29 22:06:27,735 - INFO - Using "hola" as a close match to "hola" with a confidence of 1.0
+2024-01-29 22:06:27,801 - INFO - 0. Excluding recent repeated response of "hola"
+2024-01-29 22:06:27,848 - INFO - Selecting response from 186 optimal responses.
+2024-01-29 22:06:27,848 - INFO - Selecting first response from list of 186 options.
+2024-01-29 22:06:27,848 - INFO - Response selected. Using "hola que tal"
+2024-01-29 22:06:27,848 - INFO - BestMatch selected "hola que tal" as a response with a confidence of 1.0
+2024-01-29 22:06:27,936 - INFO - Adding "hola" as a response to "como te llamas"

@@ -3,24 +3,21 @@ import pyttsx3
 
 # tipo de voz del asistente
 def spanish_voice():
-    change_voice(0)
-    talk("Esta es mi voz enn Español")
-
+    change_voice('spanish-spain')
+    talk("Esta es mi voz en Español")
 
 def english_voice():
-    change_voice(1)
-    talk("this is my voice in english")
+    change_voice('english-us')
+    talk("This is my voice in English")
 
-
-def change_voice(id):
-    engine.setProperty('voice', voices[id].id)
-    engine.setProperty('rate', 145)
-    talk("Hola soy Lucy")
+def change_voice(voice_id):
+    engine.setProperty('voice', voice_id)
+    engine.setProperty('rate', 138)
 
 engine = pyttsx3.init()
-voices = engine.getProperty('voices')
-engine.setProperty('rate', 145)
-engine.setProperty('rate', voices[0].id)
+
+# Obtener las voces instaladas
+voices = [voice.id for voice in engine.getProperty('voices')]
 
 
 def talk(text):
