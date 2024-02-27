@@ -3,7 +3,7 @@ import pyautogui as at
 import time
 from voices.voices import talk
 from motor.motor import listen
-from diccionary.read import change_data, contact
+from mappings.read import change_data, contact
 
 def send_message(contact, message):
     webbrowser.open(f"https://web.whatsapp.com/send?phone={contact}&text={message}")

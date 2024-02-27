@@ -4,8 +4,23 @@ import threading as tr
 import winsound
 import numpy as np
 import time
+import login.intefaz as intfz
 from voices.voices import talk
+from chat.speaks import run
+from security.config import read_file
 
+CONFIG_PARAMS = read_file("config", "yaml")
+
+def login_capture():
+    state = 0
+    result, nombre_rostro = face_rec(state)
+    
+    if result == 'reconocido': # Si el reconocimiento coincide coteja con los rostros guardados y ejecuta la funcion main 
+        print(f"Bienvenido {nombre_rostro}")
+        run(True)
+
+    elif result == 'desconocido':
+        intfz.gui()  # Si el reconocimiento no coincide muetra la interfaz de login
 
 def reconocimiento(rec):
     rec = rec.replace('reconocimiento', '').strip()
@@ -71,7 +86,7 @@ def face_rec(state):
                 nombre_rostro = data_path[result[0]]
                 talk(f'Bienvenido {nombre_rostro}')
                 time.sleep(2) # Agrega un retraso para permitir que el mensaje se reproduzca
-
+                return 'reconocido', nombre_rostro
             else:
                 unknown_detected = True
                 alarma_song(0) # Activa la alarma
@@ -97,12 +112,14 @@ def face_rec(state):
     cv2.destroyAllWindows()
     # sys.exit()
     
-    return 'reconocido' if recognized else 'desconocido'  # Retorna 'no_reconocido' cuando no se reconoce ningún rostro
-
+    if recognized:
+        return 'reconocido', nombre_rostro
+    else:
+        return 'desconocido', None
 
 def alarma_song(state):
     if state == 0:
-        winsound.PlaySound("sonido\\repeating-alarm-tone-metal-detector.wav", winsound.SND_FILENAME)
+        winsound.PlaySound("sound\\repeating-alarm-tone-metal-detector.wav", winsound.SND_FILENAME)
 
 
 def thread_alarma_song(state):

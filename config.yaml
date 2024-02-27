@@ -1,0 +1,11 @@
+#config.yaml
+face_detection:
+  data_path: './Data_Face'
+  model_path: r'./camara/LBPHFaceModel.xml'
+  sound_path: "sound\\repeating-alarm-tone-metal-detector.wav"
+  hard_cascade_path: r'./camara/haarcascade_frontalface_default.xml'
+  intrusos_path: r'./intrusos
+
+chat_bot:
+  name: Lucy
+  log_file: 'chat\\chatbot_log.log'

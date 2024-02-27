@@ -14,7 +14,7 @@ listener = sr.Recognizer()
 
 def listen():
     try:
-        with sr.Microphone() as source:
+        with sr.Microphone(sample_rate=16000) as source:
             print("Escuchando...")
             talk("Escuchando...")
             listener.adjust_for_ambient_noise(source)
@@ -34,7 +34,7 @@ def recognize_audio(save_path):
         # tiny, base, small, medium, large
         audio_model = whisper.load_model('base')
         transcription = audio_model.transcribe(
-            save_path, language='spanish', fp16=False)
+            save_path, language='es', fp16=False)
         return transcription['text']
 
     except Exception as e:

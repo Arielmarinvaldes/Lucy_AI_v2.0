@@ -25,7 +25,7 @@ def clock(rec):
         if datetime.datetime.now().strftime('%H:%M') == num:
             talk("DESPIERTA!!!")
             mixer.init()
-            mixer.music.load("sonido\\Game-of-Thrones.mp3")
+            mixer.music.load("sound\\Game-of-Thrones.mp3")
             mixer.music.play()
         else:
             continue

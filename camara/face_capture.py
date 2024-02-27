@@ -45,9 +45,7 @@ def run(nombre):
     detect_faces_and_save(person_name, video_file)
 
 
-# CAPTURA DE VIDEO AL COMENZAR LA APP
 def capture_video():
-
 
     # Nombre del archivo de video con el número de seguimiento
     video_filename = f'camara\\video_usuario_1.avi'
@@ -67,4 +65,3 @@ def capture_video():
     capture.release()
     video_writer.release()
     cv2.destroyAllWindows()  # Cierra todas las ventanas de OpenCV
-

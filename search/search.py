@@ -4,7 +4,7 @@ import subprocess as sub
 import os
 import requests
 from voices.voices import talk
-from diccionary.read import change_data, sites, apps, files
+from mappings.read import change_data, sites, apps, files
 
 def busca(rec):
     search = rec.replace('busca', '')
