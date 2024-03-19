@@ -4,7 +4,7 @@ import threading as tr
 import winsound
 import numpy as np
 import time
-import login.intefaz as intfz
+from login.gui_login import init
 from voices.voices import talk
 from chat.speaks import run
 from security.config import read_file
@@ -20,7 +20,7 @@ def login_capture():
         run(True)
 
     elif result == 'desconocido':
-        intfz.gui()  # Si el reconocimiento no coincide muetra la interfaz de login
+        init()  # Si el reconocimiento no coincide muetra la interfaz de login
 
 def reconocimiento(rec):
     rec = rec.replace('reconocimiento', '').strip()

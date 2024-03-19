@@ -66,4 +66,29 @@ def verificar_hash(password, hashed_password, salt):
     new_hashed_password = hashlib.pbkdf2_hmac('sha256', password.encode('utf-8'), salt, 100000)
     return new_hashed_password == hashed_password
 
+def validar_correo_electronico(correo):
+    expresion_regular = r"^(?!\.)[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}(?<!\.)$"
+    if re.match(expresion_regular, correo):
+        return True
+    else:
+        if '.' not in correo:
+            talk("Advertencia: Falta la extensión del dominio.")
+        if correo.count('@') != 1:
+            talk("Advertencia: El correo electrónico debe contener exactamente una '@'.")
+        if correo.startswith('.') or correo.endswith('.'):
+            talk("Advertencia: El correo electrónico no puede comenzar ni terminar con un punto.")
+        if '..' in correo:
+            talk("Advertencia: El correo electrónico no puede contener dos puntos consecutivos.")
+        if '_@' in correo:
+            talk("Advertencia: No se permite un guión bajo antes de '@'.")
+        if '@.' in correo:
+            talk("Advertencia: La posición del punto y la '@' no es válida.")
+        return False
 
+def validar_telefono_movil(numero):
+    expresion_regular = r"^(?:(?:\+|00)([1-9]|1[0-9]|2[0-9]|3[0-9]|4[0-9]|5[0-9]|6[0-9]|7[0-9]|8[0-9]|9[0-9])\d{1,14}|(?:\((?:00|\+)([1-9]|1[0-9]|2[0-9]|3[0-9]|4[0-9]|5[0-9]|6[0-9]|7[0-9]|8[0-9]|9[0-9])\))\d{1,14}(?:\-?\d{1,8})?|(?:00|\+)([1-9]|1[0-9]|2[0-9]|3[0-9]|4[0-9]|5[0-9]|6[0-9]|7[0-9]|8[0-9]|9[0-9])\d{1,14}(?:\-?\d{1,8})?|(?:\((?:00|\+)([1-9]|1[0-9]|2[0-9]|3[0-9]|4[0-9]|5[0-9]|6[0-9]|7[0-9]|8[0-9]|9[0-9])\))\d{1,14})$"
+    if re.match(expresion_regular, numero):
+        return True
+    else:
+        talk("El numero de telefono es incorrecto.")
+        return False

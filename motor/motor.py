@@ -9,6 +9,7 @@ from voices.voices import talk
 temp_file = tempfile.mkdtemp()
 save_path = os.path.join(temp_file, 'temp.wav')
 
+
 listener = sr.Recognizer()
 
 
@@ -33,6 +34,9 @@ def recognize_audio(save_path):
     try:
         # tiny, base, small, medium, large
         audio_model = whisper.load_model('base')
+        if audio_model is not None:
+            # print("No se pudo cargar el modelo de reconocimiento")
+            pass
         transcription = audio_model.transcribe(
             save_path, language='es', fp16=False)
         return transcription['text']

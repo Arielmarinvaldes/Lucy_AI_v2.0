@@ -2265,3 +2265,31 @@
 2024-02-09 12:50:56,696 - INFO - No known response to the input was found. Selecting a random response.
 2024-02-09 12:50:56,696 - INFO - BestMatch selected "la estatua de la libertad fue creada por el escultor francés frédéric auguste bartholdi" as a response with a confidence of 0
 2024-02-09 12:50:56,836 - INFO - Adding "termino." as a response to "termino."
+2024-03-06 23:20:30,230 - INFO - Beginning search for close text match
+2024-03-06 23:20:30,230 - INFO - Processing search results
+2024-03-06 23:20:30,313 - INFO - Using "¡hola a ketel!" as a close match to "¡hola a ketel!" with a confidence of 0
+2024-03-06 23:20:30,411 - INFO - No responses found. Generating alternate response list.
+2024-03-06 23:20:30,446 - INFO - No known response to the input was found. Selecting a random response.
+2024-03-06 23:20:30,446 - INFO - BestMatch selected "qué es el gluten" as a response with a confidence of 0
+2024-03-06 23:20:30,552 - INFO - Adding "¡hola a ketel!" as a response to "termino."
+2024-03-06 23:20:42,752 - INFO - Beginning search for close text match
+2024-03-06 23:20:42,752 - INFO - Processing search results
+2024-03-06 23:20:42,860 - INFO - Similar text found: cómo se llama el presidente de francia 0.46
+2024-03-06 23:20:42,860 - INFO - Similar text found: como te llamas 1.0
+2024-03-06 23:20:42,860 - INFO - Using "como te llamas" as a close match to "como te llamas" with a confidence of 1.0
+2024-03-06 23:20:42,977 - INFO - Selecting response from 121 optimal responses.
+2024-03-06 23:20:42,977 - INFO - Selecting first response from list of 121 options.
+2024-03-06 23:20:42,977 - INFO - Response selected. Using "mi nombre es lucy ya lo deverias saber"
+2024-03-06 23:20:42,978 - INFO - BestMatch selected "mi nombre es lucy ya lo deverias saber" as a response with a confidence of 1.0
+2024-03-06 23:20:43,077 - INFO - Adding "como te llamas" as a response to "¡hola a ketel!"
+2024-03-06 23:21:48,940 - INFO - Beginning search for close text match
+2024-03-06 23:21:48,941 - INFO - Processing search results
+2024-03-06 23:21:49,058 - INFO - Similar text found: cómo se llama el presidente de francia 0.46
+2024-03-06 23:21:49,058 - INFO - Similar text found: como te llamas 1.0
+2024-03-06 23:21:49,058 - INFO - Using "como te llamas" as a close match to "como te llamas" with a confidence of 1.0
+2024-03-06 23:21:49,182 - INFO - Selecting response from 122 optimal responses.
+2024-03-06 23:21:49,182 - INFO - Selecting first response from list of 122 options.
+2024-03-06 23:21:49,182 - INFO - Response selected. Using "mi nombre es lucy ya lo deverias saber"
+2024-03-06 23:21:49,183 - INFO - BestMatch selected "mi nombre es lucy ya lo deverias saber" as a response with a confidence of 1.0
+2024-03-06 23:21:49,294 - INFO - Adding "como te llamas" as a response to "como te llamas"
+2024-03-06 23:21:56,685 - ERROR - Lo siento, hubo un error: not enough values to unpack (expected at least 1, got 0)
