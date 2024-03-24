@@ -1,6 +1,8 @@
 import os
 import re
 import hashlib
+import random
+import string
 from voices.voices import talk
 
 
@@ -92,3 +94,12 @@ def validar_telefono_movil(numero):
     else:
         talk("El numero de telefono es incorrecto.")
         return False
+    
+def generate_unique_token():
+    # Genera un token aleatorio de 64 caracteres
+    token = ''.join(random.choices(string.ascii_letters + string.digits, k=64))
+    # Generar un número de autorización aleatorio entre 1 y 999
+    authorization_number = random.randint(1, 999)
+    # Combinar el token y el número de autorización en un solo string
+    unique_token = f"{token}_{authorization_number}"
+    return unique_token

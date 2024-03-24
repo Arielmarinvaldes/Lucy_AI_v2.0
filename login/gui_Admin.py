@@ -1,9 +1,10 @@
 from PyQt5 import QtCore, QtWidgets
 from PyQt5.QtWidgets import QTableWidgetItem, QMessageBox
-from PyQt5.QtCore import Qt, QStandardItemModel, QStandardItem
+
 
 from chat import speaks
-from conection.conexion import establecer_conexion
+import datetime
+from conection.conexion import establecer_conexion, establecer_conexion_log
 from voices.voices import talk
 from security.protect import (hash_password, 
                               verificar_len_password, 
@@ -13,7 +14,8 @@ from security.protect import (hash_password,
                               verificar_space_password, 
                               verificar_exist_password_regist,
                               validar_correo_electronico,
-                              validar_telefono_movil
+                              validar_telefono_movil, 
+                              generate_unique_token
                               )
 
 class Ui_AdminPanel_4(object):
@@ -218,7 +220,7 @@ class Ui_AdminPanel_4(object):
         self.tabWidget.addTab(self.AdminPanel, "")
         self.AdminLogs = QtWidgets.QWidget()
         self.AdminLogs.setObjectName("AdminLogs")
-        self.listView_logs = QtWidgets.QListView(self.AdminLogs)
+        self.listView_logs = QtWidgets.QListWidget(self.AdminLogs)
         self.listView_logs.setGeometry(QtCore.QRect(10, 10, 971, 192))
         self.listView_logs.setObjectName("listView_logs")
         self.pushButton_logs = QtWidgets.QPushButton(self.AdminLogs)
@@ -275,6 +277,11 @@ class Ui_AdminPanel_4(object):
         self.pushButton_logs.setText(_translate("AdminPanel_4", "Dell Logs"))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.AdminLogs), _translate("AdminPanel_4", "Tab 2"))
         self.actionAdmin_Panel.setText(_translate("AdminPanel_4", "Admin-Panel"))
+        
+        self.conn = establecer_conexion_log()
+        self.cursor = self.conn.cursor()
+        self.cursor.execute('''CREATE TABLE IF NOT EXISTS logs (id INTEGER PRIMARY KEY AUTOINCREMENT, user TEXT, timestamp TEXT, action TEXT)''')
+        self.conn.commit()
 
         self.u = QtWidgets.QMainWindow()
         self.btn_get.clicked.connect(self.get_user_function)
@@ -369,11 +376,16 @@ class Ui_AdminPanel_4(object):
             return
         conn = establecer_conexion()
         try:
+            unique_token = generate_unique_token()
+            
             # Insertar datos en la base de datos
             cursor = conn.cursor()
-            cursor.execute('INSERT INTO usuarios (Nombre, Apellido, Email, Telefono, User, hashed_password, salt) VALUES (?, ?, ?, ?, ?, ?, ?)', (name, last_name, email, telf, user_name, hashed_password, salt))
+            cursor.execute('INSERT INTO usuarios (Nombre, Apellido, Email, Telefono, User, hashed_password, salt, Token) VALUES (?, ?, ?, ?, ?, ?, ?)', (name, last_name, email, telf, user_name, hashed_password, salt, unique_token))
             conn.commit()
             QMessageBox.information(self.u, "Éxito", "Usuario creado con éxito")
+            action = 'Create_User'
+            self.log("Admin", action)
+            self.show_logs()
             
             # Limpiar campos de entrada
             self.name_entry.clear()
@@ -425,6 +437,9 @@ class Ui_AdminPanel_4(object):
                            (name, last_name, email, telf, user_name, hashed_password, salt, user_id))
             conn.commit()
             QMessageBox.information(self.u, "Éxito", f"Usuario con ID {user_id} actualizado con éxito")
+            action = 'Update_User'
+            self.log("Admin", action)
+            self.show_logs()
             
             # Limpiar campos de entrada
             self.id_entry.clear()
@@ -467,6 +482,9 @@ class Ui_AdminPanel_4(object):
             cursor.execute("DELETE FROM usuarios WHERE id=?", (user_id,))
             conn.commit()
             QMessageBox.information(self.u, "Éxito", f"Usuario con ID {user_id} eliminado con éxito")
+            action = 'Delete_User'
+            self.log("Admin", action)
+            self.show_logs()
             
             # Limpiar campos de entrada
             self.id_entry.clear()
@@ -479,3 +497,20 @@ class Ui_AdminPanel_4(object):
 
         finally:
             conn.close()
+            
+    def log(self, user, action):
+        timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        data = (user , timestamp, action)
+        self.cursor.execute('INSERT INTO logs (user, timestamp, action) VALUES (?, ?, ?)', data)
+        self.conn.commit()
+        
+    def get_log(self):
+        self.cursor.execute('SELECT * FROM logs')
+        return self.cursor.fetchall()
+    
+    def show_logs(self):
+        self.listView_logs.clear()
+        self.cursor.execute('SELECT * FROM logs')
+        for row in self.cursor.fetchall():
+            item = f'User: {row[1]} | Timestamp: {row[2]} | Action: {row[3]}'
+            self.listView_logs.addItem(item)

@@ -1,5 +1,5 @@
 
-from PyQt5.QtCore import Qt, QTimer, pyqtSignal, QStandardItemModel, QStandardItem
+from PyQt5.QtCore import Qt, QTimer, pyqtSignal
 from PyQt5.QtWidgets import QApplication, QMainWindow, QLineEdit, QMessageBox
 from PyQt5.uic import loadUi
 from PyQt5 import QtWidgets
@@ -85,16 +85,6 @@ class Estructured(QMainWindow):
                     self.current_message_index += 1
         else:
             self.timer.stop()
-            
-    def log_login(self, username):
-        now = datetime.datetime.now()
-        log_message = f"User: {username}, Login Time: {now}"
-        
-        # Crear un elemento estándar para la lista
-        item = QStandardItem(log_message)
-        
-        # Agregar el elemento a la lista
-        self.list_model.appendRow(item)
 
                 
     def login(self):
@@ -124,16 +114,16 @@ class Estructured(QMainWindow):
                 if user == "Admin":
                     talk("Bienvenidos al modo Administrador")
                     self.close()
-                    self.ventana=QtWidgets.QMainWindow()
-                    self.ui=Ui_AdminPanel_4()
-                    self.ui.setupUi(self.ventana)
-                    self.ventana.show()
+                    action = 'Login_Admin'
+                    logs = self.admin(user, action)
                 else:
                     hashed_password, salt = result
                     if verificar_hash(password, hashed_password, salt):
                         talk(f"Bienvenido, {user}!")
                         print(f"Bienvenido, {user}!")
                         self.close()
+                        action = 'Login_User'
+                        res = self.admin(user, action)
                         
                         speaks.run(True)
                     else:
@@ -150,10 +140,26 @@ class Estructured(QMainWindow):
 
     def register(self):
         self.ventana=QtWidgets.QMainWindow()
-        self.ui=Ui_Register()
-        self.ui.setupUi(self.ventana)
+        self.uir=Ui_Register()
+        self.uir.setupUi(self.ventana)
         self.ventana.show()
-
+        
+    def admin(self, user, action):
+        
+        if user == "Admin":
+            self.ventana=QtWidgets.QMainWindow()
+            self.uia=Ui_AdminPanel_4()
+            self.uia.setupUi(self.ventana)
+            self.ventana.show()
+        
+            self.uia.log(user, action)
+            self.uia.show_logs()
+            
+        elif user != "Admin":
+            self.uia.log(user, action)
+            self.uia.show_logs()
+    def res():
+        pass
             
 def init():
     app = QApplication(sys.argv)
