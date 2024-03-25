@@ -1,22 +1,22 @@
 from PyQt5 import QtCore, QtWidgets
 from PyQt5.QtWidgets import QTableWidgetItem, QMessageBox
 
-
 from chat import speaks
 import datetime
 from conection.conexion import establecer_conexion, establecer_conexion_log
 from voices.voices import talk
-from security.protect import (hash_password, 
-                              verificar_len_password, 
-                              verificar_capital_password, 
-                              verificar_digit_password, 
-                              verificar_illegal_character_password, 
-                              verificar_space_password, 
+from security.protect import (hash_password,
+                              verificar_len_password,
+                              verificar_capital_password,
+                              verificar_digit_password,
+                              verificar_illegal_character_password,
+                              verificar_space_password,
                               verificar_exist_password_regist,
                               validar_correo_electronico,
-                              validar_telefono_movil, 
+                              validar_telefono_movil,
                               generate_unique_token
                               )
+
 
 class Ui_AdminPanel_4(object):
     def setupUi(self, AdminPanel_4):
@@ -29,7 +29,7 @@ class Ui_AdminPanel_4(object):
         self.tabWidget.setGeometry(QtCore.QRect(0, 0, 1001, 621))
         AdminPanel_4.setWindowFlags(QtCore.Qt.WindowTitleHint | QtCore.Qt.WindowCloseButtonHint)
         self.tabWidget.setStyleSheet("\n"
-"")
+                                     "")
         self.tabWidget.setObjectName("tabWidget")
         self.AdminPanel = QtWidgets.QWidget()
         self.AdminPanel.setObjectName("AdminPanel")
@@ -37,28 +37,28 @@ class Ui_AdminPanel_4(object):
         self.btn_create.setGeometry(QtCore.QRect(880, 20, 101, 31))
         self.btn_create.setFocusPolicy(QtCore.Qt.NoFocus)
         self.btn_create.setStyleSheet("QPushButton {\n"
-"    background-color: rgb(23, 231, 183);\n"
-"    border: none;\n"
-"    border-radius: 10px;\n"
-"}\n"
-"\n"
-"QPushButton:hover {\n"
-"    background-color: rgba(23, 231, 183, 150);\n"
-"}")
+                                      "    background-color: rgb(23, 231, 183);\n"
+                                      "    border: none;\n"
+                                      "    border-radius: 10px;\n"
+                                      "}\n"
+                                      "\n"
+                                      "QPushButton:hover {\n"
+                                      "    background-color: rgba(23, 231, 183, 150);\n"
+                                      "}")
         self.btn_create.setObjectName("btn_create")
         self.btn_update = QtWidgets.QPushButton(self.AdminPanel)
         self.btn_update.setGeometry(QtCore.QRect(880, 70, 101, 31))
         self.btn_update.setFocusPolicy(QtCore.Qt.NoFocus)
         self.btn_update.setStyleSheet("QPushButton {\n"
-"    background-color: rgb(137, 206, 206);\n"
-"    border: none;\n"
-"    border-radius: 10px;\n"
-"}\n"
-"\n"
-"QPushButton:hover {\n"
-"    background-color: rgba(137, 206, 206, 150);\n"
-"}\n"
-"")
+                                      "    background-color: rgb(137, 206, 206);\n"
+                                      "    border: none;\n"
+                                      "    border-radius: 10px;\n"
+                                      "}\n"
+                                      "\n"
+                                      "QPushButton:hover {\n"
+                                      "    background-color: rgba(137, 206, 206, 150);\n"
+                                      "}\n"
+                                      "")
         self.btn_update.setObjectName("btn_update")
         self.progress_db_bar = QtWidgets.QProgressBar(self.AdminPanel)
         self.progress_db_bar.setGeometry(QtCore.QRect(650, 550, 331, 23))
@@ -82,15 +82,15 @@ class Ui_AdminPanel_4(object):
         self.btn_run.setGeometry(QtCore.QRect(880, 240, 101, 31))
         self.btn_run.setFocusPolicy(QtCore.Qt.NoFocus)
         self.btn_run.setStyleSheet("QPushButton {\n"
-"    background-color: rgb(181, 181, 181);\n"
-"    border: none;\n"
-"    border-radius: 10px;\n"
-"}\n"
-"\n"
-"QPushButton:hover {\n"
-"    background-color: rgba(181, 181, 181, 150);\n"
-"}\n"
-"")
+                                   "    background-color: rgb(181, 181, 181);\n"
+                                   "    border: none;\n"
+                                   "    border-radius: 10px;\n"
+                                   "}\n"
+                                   "\n"
+                                   "QPushButton:hover {\n"
+                                   "    background-color: rgba(181, 181, 181, 150);\n"
+                                   "}\n"
+                                   "")
         self.btn_run.setObjectName("btn_run")
         self.name_label = QtWidgets.QLabel(self.AdminPanel)
         self.name_label.setGeometry(QtCore.QRect(660, 60, 61, 21))
@@ -127,15 +127,15 @@ class Ui_AdminPanel_4(object):
         self.btn_get.setMouseTracking(False)
         self.btn_get.setFocusPolicy(QtCore.Qt.NoFocus)
         self.btn_get.setStyleSheet("QPushButton {\n"
-"    background-color: rgb(226, 226, 112);\n"
-"    border: none;\n"
-"    border-radius: 10px;\n"
-"}\n"
-"\n"
-"QPushButton:hover {\n"
-"    background-color: rgba(226, 226, 112, 150);\n"
-"}\n"
-"")
+                                   "    background-color: rgb(226, 226, 112);\n"
+                                   "    border: none;\n"
+                                   "    border-radius: 10px;\n"
+                                   "}\n"
+                                   "\n"
+                                   "QPushButton:hover {\n"
+                                   "    background-color: rgba(226, 226, 112, 150);\n"
+                                   "}\n"
+                                   "")
         self.btn_get.setObjectName("btn_get")
         self.last_name_label = QtWidgets.QLabel(self.AdminPanel)
         self.last_name_label.setGeometry(QtCore.QRect(660, 100, 71, 21))
@@ -156,15 +156,15 @@ class Ui_AdminPanel_4(object):
         self.btn_delete.setGeometry(QtCore.QRect(880, 120, 101, 31))
         self.btn_delete.setFocusPolicy(QtCore.Qt.NoFocus)
         self.btn_delete.setStyleSheet("QPushButton {\n"
-"    background-color: rgb(193, 0, 0);\n"
-"    border: none;\n"
-"    border-radius: 10px;\n"
-"}\n"
-"\n"
-"QPushButton:hover {\n"
-"    background-color: rgba(193, 0, 0, 150);\n"
-"}\n"
-"")
+                                      "    background-color: rgb(193, 0, 0);\n"
+                                      "    border: none;\n"
+                                      "    border-radius: 10px;\n"
+                                      "}\n"
+                                      "\n"
+                                      "QPushButton:hover {\n"
+                                      "    background-color: rgba(193, 0, 0, 150);\n"
+                                      "}\n"
+                                      "")
         self.btn_delete.setObjectName("btn_delete")
         self.user_entry = QtWidgets.QLineEdit(self.AdminPanel)
         self.user_entry.setGeometry(QtCore.QRect(750, 220, 113, 20))
@@ -186,7 +186,8 @@ class Ui_AdminPanel_4(object):
         self.phone_label.setObjectName("phone_label")
         self.frame = QtWidgets.QFrame(self.AdminPanel)
         self.frame.setGeometry(QtCore.QRect(-1, -21, 1001, 611))
-        self.frame.setStyleSheet("background-color: qlineargradient(spread:pad, x1:0, y1:0, x3:1, y2:2, stop:0 rgba(10, 38, 31, 255), stop:1 rgba(1, 229, 161, 255));")
+        self.frame.setStyleSheet(
+            "background-color: qlineargradient(spread:pad, x1:0, y1:0, x3:1, y2:2, stop:0 rgba(10, 38, 31, 255), stop:1 rgba(1, 229, 161, 255));")
         self.frame.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.frame.setFrameShadow(QtWidgets.QFrame.Raised)
         self.frame.setObjectName("frame")
@@ -226,19 +227,20 @@ class Ui_AdminPanel_4(object):
         self.pushButton_logs = QtWidgets.QPushButton(self.AdminLogs)
         self.pushButton_logs.setGeometry(QtCore.QRect(850, 220, 130, 31))
         self.pushButton_logs.setStyleSheet("QPushButton {\n"
-"    background-color: rgb(181, 181, 181);\n"
-"    border: none;\n"
-"    border-radius: 10px;\n"
-"}\n"
-"\n"
-"QPushButton:hover {\n"
-"    background-color: rgba(181, 181, 181, 150);\n"
-"}\n"
-"")
+                                           "    background-color: rgb(181, 181, 181);\n"
+                                           "    border: none;\n"
+                                           "    border-radius: 10px;\n"
+                                           "}\n"
+                                           "\n"
+                                           "QPushButton:hover {\n"
+                                           "    background-color: rgba(181, 181, 181, 150);\n"
+                                           "}\n"
+                                           "")
         self.pushButton_logs.setObjectName("pushButton_logs")
         self.frame_2 = QtWidgets.QFrame(self.AdminLogs)
         self.frame_2.setGeometry(QtCore.QRect(-1, -31, 1001, 621))
-        self.frame_2.setStyleSheet("background-color: qlineargradient(spread:pad, x1:0, y1:0, x3:1, y2:2, stop:0 rgba(10, 38, 31, 255), stop:1 rgba(1, 229, 161, 255));")
+        self.frame_2.setStyleSheet(
+            "background-color: qlineargradient(spread:pad, x1:0, y1:0, x3:1, y2:2, stop:0 rgba(10, 38, 31, 255), stop:1 rgba(1, 229, 161, 255));")
         self.frame_2.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.frame_2.setFrameShadow(QtWidgets.QFrame.Raised)
         self.frame_2.setObjectName("frame_2")
@@ -277,10 +279,11 @@ class Ui_AdminPanel_4(object):
         self.pushButton_logs.setText(_translate("AdminPanel_4", "Dell Logs"))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.AdminLogs), _translate("AdminPanel_4", "Tab 2"))
         self.actionAdmin_Panel.setText(_translate("AdminPanel_4", "Admin-Panel"))
-        
+
         self.conn = establecer_conexion_log()
         self.cursor = self.conn.cursor()
-        self.cursor.execute('''CREATE TABLE IF NOT EXISTS logs (id INTEGER PRIMARY KEY AUTOINCREMENT, user TEXT, timestamp TEXT, action TEXT)''')
+        self.cursor.execute(
+            '''CREATE TABLE IF NOT EXISTS logs (id INTEGER PRIMARY KEY AUTOINCREMENT, user TEXT, timestamp TEXT, action TEXT)''')
         self.conn.commit()
 
         self.u = QtWidgets.QMainWindow()
@@ -289,15 +292,15 @@ class Ui_AdminPanel_4(object):
         self.btn_update.clicked.connect(self.update_user_function)
         self.btn_delete.clicked.connect(self.delete_user_function)
         # self.btn_run.clicked.connect(speaks.run(False))
-        
+
         # self.radio_button_manul.clicked.connect(lambda: speaks.run(False))
         # self.radio_button_voice.clicked.connect(lambda: speaks.run(True))
-        
+
         # self.setWindowTitle("Admin-Panel")
         # self.setWindowFlag(Qt.WindowMaximizeButtonHint, False)
-        
+
     def get_user_function(self):
-            
+
         conn = establecer_conexion()
         try:
             # Obtener datos de la base de datos
@@ -311,12 +314,12 @@ class Ui_AdminPanel_4(object):
                 # Limpiar la tabla antes de agregar elementos nuevos
                 self.table_widget_principal.clearContents()
                 self.table_widget_principal.setRowCount(0)
-                
+
                 # Agregar cabeceras
                 headers = ["ID", "Nombre", "Apellido", "Email", "Telefono", "Usuario"]
                 self.table_widget_principal.setColumnCount(len(headers))
                 self.table_widget_principal.setHorizontalHeaderLabels(headers)
-                
+
                 # Mostrar datos en la tabla
                 for row, user in enumerate(users):
                     self.table_widget_principal.insertRow(row)
@@ -334,7 +337,7 @@ class Ui_AdminPanel_4(object):
 
         finally:
             conn.close()
-            
+
     def update_progress_bar(self):
         conn = establecer_conexion()
         try:
@@ -359,17 +362,16 @@ class Ui_AdminPanel_4(object):
         telf = self.phone_entry.text()
         user_name = self.user_entry.text()
         password = self.password_entry.text()
-        
 
         hashed_password, salt = hash_password(password)
         if verificar_len_password(password) and \
-           verificar_space_password(password) and \
-           verificar_capital_password(password) and \
-           verificar_digit_password(password) and \
-           verificar_exist_password_regist(user_name, password, name, last_name) and \
-           validar_telefono_movil(telf) and \
-           validar_correo_electronico(email) and \
-           verificar_illegal_character_password(password):
+                verificar_space_password(password) and \
+                verificar_capital_password(password) and \
+                verificar_digit_password(password) and \
+                verificar_exist_password_regist(user_name, password, name, last_name) and \
+                validar_telefono_movil(telf) and \
+                validar_correo_electronico(email) and \
+                verificar_illegal_character_password(password):
             pass
         else:
             talk("Contraseña no válida. Acceso denegado.")
@@ -377,16 +379,18 @@ class Ui_AdminPanel_4(object):
         conn = establecer_conexion()
         try:
             unique_token = generate_unique_token()
-            
+
             # Insertar datos en la base de datos
             cursor = conn.cursor()
-            cursor.execute('INSERT INTO usuarios (Nombre, Apellido, Email, Telefono, User, hashed_password, salt, Token) VALUES (?, ?, ?, ?, ?, ?, ?)', (name, last_name, email, telf, user_name, hashed_password, salt, unique_token))
+            cursor.execute(
+                'INSERT INTO usuarios (Nombre, Apellido, Email, Telefono, User, hashed_password, salt, Token) VALUES (?, ?, ?, ?, ?, ?, ?)',
+                (name, last_name, email, telf, user_name, hashed_password, salt, unique_token))
             conn.commit()
             QMessageBox.information(self.u, "Éxito", "Usuario creado con éxito")
             action = 'Create_User'
             self.log("Admin", action)
             self.show_logs()
-            
+
             # Limpiar campos de entrada
             self.name_entry.clear()
             self.last_name_entry.clear()
@@ -403,8 +407,7 @@ class Ui_AdminPanel_4(object):
 
         finally:
             conn.close()
-            
-            
+
     def update_user_function(self):
         user_id = self.id_entry.text()
         name = self.name_entry.text()
@@ -414,33 +417,33 @@ class Ui_AdminPanel_4(object):
         user_name = self.user_entry.text()
         password = self.password_entry.text()
 
-
         hashed_password, salt = hash_password(password)
         if verificar_len_password(password) and \
-           verificar_space_password(password) and \
-           verificar_capital_password(password) and \
-           verificar_digit_password(password) and \
-           verificar_exist_password_regist(user_name, password, name, last_name) and \
-           validar_telefono_movil(telf) and \
-           validar_correo_electronico(email) and \
-           verificar_illegal_character_password(password):
+                verificar_space_password(password) and \
+                verificar_capital_password(password) and \
+                verificar_digit_password(password) and \
+                verificar_exist_password_regist(user_name, password, name, last_name) and \
+                validar_telefono_movil(telf) and \
+                validar_correo_electronico(email) and \
+                verificar_illegal_character_password(password):
             pass
         else:
             QMessageBox.information(self.u, "Información", "Contraseña no válida. Acceso denegado.")
             return
-        
+
         conn = establecer_conexion()
         try:
             # Actualiza el usuario en la base de datos
             cursor = conn.cursor()
-            cursor.execute("UPDATE usuarios SET Nombre=?, Apellido=?, Email=?, Telefono=?, User=?, hashed_password=?, salt=? WHERE id=?",
-                           (name, last_name, email, telf, user_name, hashed_password, salt, user_id))
+            cursor.execute(
+                "UPDATE usuarios SET Nombre=?, Apellido=?, Email=?, Telefono=?, User=?, hashed_password=?, salt=? WHERE id=?",
+                (name, last_name, email, telf, user_name, hashed_password, salt, user_id))
             conn.commit()
             QMessageBox.information(self.u, "Éxito", f"Usuario con ID {user_id} actualizado con éxito")
             action = 'Update_User'
             self.log("Admin", action)
             self.show_logs()
-            
+
             # Limpiar campos de entrada
             self.id_entry.clear()
             self.name_entry.clear()
@@ -458,15 +461,14 @@ class Ui_AdminPanel_4(object):
 
         finally:
             conn.close()
-            
-            
+
     def delete_user_function(self):
         user_id = self.id_entry.text()
 
         if not user_id:
             QMessageBox.critical(self.u, "Error", "Por favor, proporciona un ID de usuario.")
             return
-        
+
         conn = establecer_conexion()
         try:
             # Verificar si el usuario con el ID dado existe
@@ -476,7 +478,7 @@ class Ui_AdminPanel_4(object):
             if not user:
                 QMessageBox.information(self.u, "Información", f"El usuario con ID {user_id} no existe.")
                 return
-            
+
             # Elimina el usuario de la base de datos
             cursor = conn.cursor()
             cursor.execute("DELETE FROM usuarios WHERE id=?", (user_id,))
@@ -485,7 +487,7 @@ class Ui_AdminPanel_4(object):
             action = 'Delete_User'
             self.log("Admin", action)
             self.show_logs()
-            
+
             # Limpiar campos de entrada
             self.id_entry.clear()
 
@@ -497,17 +499,17 @@ class Ui_AdminPanel_4(object):
 
         finally:
             conn.close()
-            
+
     def log(self, user, action):
         timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        data = (user , timestamp, action)
+        data = (user, timestamp, action)
         self.cursor.execute('INSERT INTO logs (user, timestamp, action) VALUES (?, ?, ?)', data)
         self.conn.commit()
-        
+
     def get_log(self):
         self.cursor.execute('SELECT * FROM logs')
         return self.cursor.fetchall()
-    
+
     def show_logs(self):
         self.listView_logs.clear()
         self.cursor.execute('SELECT * FROM logs')

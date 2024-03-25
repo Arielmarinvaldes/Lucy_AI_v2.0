@@ -9,7 +9,6 @@ from voices.voices import talk
 temp_file = tempfile.mkdtemp()
 save_path = os.path.join(temp_file, 'temp.wav')
 
-
 listener = sr.Recognizer()
 
 

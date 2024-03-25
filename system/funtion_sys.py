@@ -38,6 +38,7 @@ def thread_alarma(rec):
     t = tr.Thread(target=clock, args=(rec,))
     t.start()
 
+
 # # abrir paginas web
 # def abre(rec):
 #     task = rec.replace('abre', '').strip()
@@ -65,6 +66,7 @@ def escribe():
         file = open("nota.txt", 'w')
         write(file)
 
+
 def write(f):
     talk("¿Qué quieres que escriba?")
     rec_write = listen()
@@ -77,7 +79,7 @@ def write(f):
 # Clima o Temperatura 
 def return_weather(city):
     url = f"https://es.wttr.in/{city}?format=j1"
-    
+
     response = requests.get(url)
     weather_dic = response.json()
 
@@ -86,6 +88,7 @@ def return_weather(city):
     desc_temp = desc_temp[0]['value']
     return temp_c, desc_temp
 
+
 def clima():
     talk("De que pais o ciudad quiere saber el clima")
     city = listen()
@@ -93,7 +96,6 @@ def clima():
     temp_c, desc_temp = return_weather(city)
     # talk(f"La temperatura actual de {city} es {temp_c} grados célcius, y esta {desc_temp}.")
     print(f"La temperatura actual de {city} es {temp_c} °C. {desc_temp}.")
-
 
 
 # Fecha y hora

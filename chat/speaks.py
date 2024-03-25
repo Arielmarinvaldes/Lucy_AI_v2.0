@@ -1,22 +1,22 @@
 import logging
-from search.search import busca as srh
-from search.search import reproduce as rep
-from search.search import chiste
-from voices.voices import talk as talk
-from voices.voices import spanish_voice as spanish
-from voices.voices import english_voice as english
-from camara.lucy_cam import camara as cam
-# from camara.face_recognizer import reconocimiento as fr
-from chat.chat_wasapp import envia_mensaje as send
-from system.funtion_sys import thread_alarma
-from system.funtion_sys import escribe
-from system.funtion_sys import clima
-from system.funtion_sys import fecha
 from chatterbot import ChatBot
 from chatterbot.trainers import ListTrainer
-from chat import chat_bot as db
-from motor.motor import listen, recognize_audio
 
+from camara.lucy_cam import camara as cam
+from chat import chat_bot as db
+# from camara.face_recognizer import reconocimiento as fr
+from chat.chat_wasapp import envia_mensaje as send
+from motor.motor import listen, recognize_audio
+from search.search import busca as srh
+from search.search import chiste
+from search.search import reproduce as rep
+from system.funtion_sys import clima
+from system.funtion_sys import escribe
+from system.funtion_sys import fecha
+from system.funtion_sys import thread_alarma
+from voices.voices import english_voice as english
+from voices.voices import spanish_voice as spanish
+from voices.voices import talk as talk
 
 LOG_FILE = 'chat\\chatbot_log.log'
 CHATBOT_NAME = 'lucy'
@@ -78,7 +78,7 @@ def run(modo_automatico=True):
             # Verifica los comandos especiales
             if command in key_words:
                 key_words[command](word)
-            
+
             elif 'termina.' in user_input:
                 talk("Hasta luego")
                 break

@@ -1,9 +1,11 @@
-import webbrowser
 import pyautogui as at
 import time
-from voices.voices import talk
-from motor.motor import listen
+import webbrowser
+
 from mappings.read import change_data, contact
+from motor.motor import listen
+from voices.voices import talk
+
 
 def send_message(contact, message):
     webbrowser.open(f"https://web.whatsapp.com/send?phone={contact}&text={message}")

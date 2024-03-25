@@ -3,6 +3,7 @@ import os
 import imutils
 import time
 
+
 def detect_faces_and_save(person, video_path, data_path='Data_Face', max_count=300):
     person_path = os.path.join(data_path, person)
 
@@ -25,9 +26,9 @@ def detect_faces_and_save(person, video_path, data_path='Data_Face', max_count=3
         faces = face_classif.detectMultiScale(gray, 1.3, 7)
 
         for (x, y, w, h) in faces:
-            cv2.rectangle(frame, (x,y), (x + w, y + h), (0,255,0), 2)
-            face = aux_frame[y:y+h, x:x+w]
-            face = cv2.resize(face, (150,150), interpolation=cv2.INTER_CUBIC)
+            cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 255, 0), 2)
+            face = aux_frame[y:y + h, x:x + w]
+            face = cv2.resize(face, (150, 150), interpolation=cv2.INTER_CUBIC)
             cv2.imwrite(os.path.join(person_path, f'face_{count}.jpg'), face)
             count += 1
         cv2.imshow('frame', frame)
@@ -38,6 +39,7 @@ def detect_faces_and_save(person, video_path, data_path='Data_Face', max_count=3
     capture.release()
     cv2.destroyAllWindows()
 
+
 # Inicia el aprendizaje de rostros
 def run(nombre):
     person_name = nombre
@@ -46,7 +48,6 @@ def run(nombre):
 
 
 def capture_video():
-
     # Nombre del archivo de video con el número de seguimiento
     video_filename = f'camara\\video_usuario_1.avi'
 

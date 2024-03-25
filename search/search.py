@@ -6,6 +6,7 @@ import requests
 from voices.voices import talk
 from mappings.read import change_data, sites, apps, files
 
+
 def busca(rec):
     search = rec.replace('busca', '')
     wikipedia.set_lang("es")
@@ -36,7 +37,6 @@ def abre(rec):
         talk(f'No se ha encontrado el programa {task}')
 
 
-
 def archivo(rec):
     change_data(files, "C:\\Users\\Ariel\\Desktop\\Lucy_AI_v2.0\\diccionary\\file.txt")
     file = rec.replace('archivo', '').strip()
@@ -52,7 +52,7 @@ def archivo(rec):
 # Función para obtener un chiste de Chuck Norris desde la API
 def obtener_chiste_chuck_norris():
     url = 'https://api.chucknorris.io/jokes/random'
-    
+
     try:
         response = requests.get(url)
         data = response.json()
@@ -64,6 +64,7 @@ def obtener_chiste_chuck_norris():
 
     except Exception as e:
         return 'Hubo un error al intentar obtener un chiste de Chuck Norris.'
+
 
 def chiste():
     chiste = obtener_chiste_chuck_norris()

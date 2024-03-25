@@ -19,16 +19,16 @@ from voices.voices import talk
 from camara.face_trainer import trainer
 from camara.face_capture import capture_video
 from camara.face_capture import run as runcapture
-from security.protect import (hash_password, 
-                              verificar_len_password, 
-                              verificar_capital_password, 
-                              verificar_digit_password, 
-                              verificar_illegal_character_password, 
-                              verificar_space_password, 
+from security.protect import (hash_password,
+                              verificar_len_password,
+                              verificar_capital_password,
+                              verificar_digit_password,
+                              verificar_illegal_character_password,
+                              verificar_space_password,
                               verificar_exist_password_regist,
                               validar_telefono_movil,
                               validar_correo_electronico
-                              ) 
+                              )
 
 
 class Ui_Register(object):
@@ -83,19 +83,20 @@ class Ui_Register(object):
         self.pushButton_register = QtWidgets.QPushButton(self.centralwidget)
         self.pushButton_register.setGeometry(QtCore.QRect(70, 290, 91, 31))
         self.pushButton_register.setStyleSheet("QPushButton {\n"
-"    background-color: rgb(23, 231, 183);\n"
-"    border: none;\n"
-"    border-radius: 10px;\n"
-"}\n"
-"\n"
-"QPushButton:hover {\n"
-"    background-color: rgba(23, 231, 183, 150);\n"
-"}\n"
-"")
+                                               "    background-color: rgb(23, 231, 183);\n"
+                                               "    border: none;\n"
+                                               "    border-radius: 10px;\n"
+                                               "}\n"
+                                               "\n"
+                                               "QPushButton:hover {\n"
+                                               "    background-color: rgba(23, 231, 183, 150);\n"
+                                               "}\n"
+                                               "")
         self.pushButton_register.setObjectName("pushButton_register")
         self.frame = QtWidgets.QFrame(self.centralwidget)
         self.frame.setGeometry(QtCore.QRect(0, 0, 251, 361))
-        self.frame.setStyleSheet("background-color: qlineargradient(spread:pad, x1:0, y1:0, x3:1, y2:2, stop:0 rgba(10, 38, 31, 255), stop:1 rgba(1, 229, 161, 255));")
+        self.frame.setStyleSheet(
+            "background-color: qlineargradient(spread:pad, x1:0, y1:0, x3:1, y2:2, stop:0 rgba(10, 38, 31, 255), stop:1 rgba(1, 229, 161, 255));")
         self.frame.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.frame.setFrameShadow(QtWidgets.QFrame.Raised)
         self.frame.setObjectName("frame")
@@ -119,7 +120,6 @@ class Ui_Register(object):
         QtCore.QMetaObject.connectSlotsByName(Register)
         Register.setWindowFlags(QtCore.Qt.WindowTitleHint | QtCore.Qt.WindowCloseButtonHint)
 
-
     def retranslateUi(self, Register):
         _translate = QtCore.QCoreApplication.translate
         Register.setWindowTitle(_translate("Register", "MainWindow"))
@@ -140,17 +140,16 @@ class Ui_Register(object):
         telf = self.phone_entry_register.text()
         user_name = self.user_entry_register.text()
         password = self.password_entry_register.text()
-        
 
         hashed_password, salt = hash_password(password)
         if verificar_len_password(password) and \
-           verificar_space_password(password) and \
-           verificar_capital_password(password) and \
-           verificar_digit_password(password) and \
-           verificar_exist_password_regist(user_name, password, name, last_name) and \
-           validar_telefono_movil(telf) and \
-           validar_correo_electronico(email) and \
-           verificar_illegal_character_password(password):
+                verificar_space_password(password) and \
+                verificar_capital_password(password) and \
+                verificar_digit_password(password) and \
+                verificar_exist_password_regist(user_name, password, name, last_name) and \
+                validar_telefono_movil(telf) and \
+                validar_correo_electronico(email) and \
+                verificar_illegal_character_password(password):
             pass
         else:
             talk("Contraseña no válida. Acceso denegado.")
@@ -159,10 +158,12 @@ class Ui_Register(object):
         try:
             # Insertar datos en la base de datos
             cursor = conn.cursor()
-            cursor.execute('INSERT INTO usuarios (Nombre, Apellido, Email, Telefono, User, hashed_password, salt) VALUES (?, ?, ?, ?, ?, ?, ?)', (name, last_name, email, telf, user_name, hashed_password, salt))
+            cursor.execute(
+                'INSERT INTO usuarios (Nombre, Apellido, Email, Telefono, User, hashed_password, salt) VALUES (?, ?, ?, ?, ?, ?, ?)',
+                (name, last_name, email, telf, user_name, hashed_password, salt))
             conn.commit()
             QMessageBox.information(self.u, "Éxito", "Usuario creado con éxito")
-            
+
             # Llama a la función para capturar el video de la reconocimiento
             capture_video()
             # cerrar la ventana despues de terminar el reconocimiento
@@ -178,7 +179,7 @@ class Ui_Register(object):
             # Entrenando el modelo de reconocimiento
             trainer()
             talk("Ya puede iniciar seción")
-            
+
             # Limpiar campos de entrada
             self.name_entry_register.clear()
             self.last_name_entry_register.clear()

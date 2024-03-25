@@ -1,6 +1,6 @@
-from aifc import Error
-import sqlite3
 import os
+import sqlite3
+from aifc import Error
 
 
 def create_connection():
@@ -28,7 +28,8 @@ def hide_database_files():
     os.rename("db/Brain.db", ".Brain.db")
     os.rename("db/Brain.db-shm", ".Brain.db-shm")
     os.rename("db/sqlite3", ".sqlite3")
-    
+
+
 bot_list = list()
 
 

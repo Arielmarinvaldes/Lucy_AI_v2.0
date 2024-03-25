@@ -13,6 +13,7 @@ def verificar_len_password(password):
     # La contraseña pasa la verificaciones
     return True
 
+
 def verificar_space_password(password):
     # Verifica si la contraseña consiste solo en espacios o puntos
     if password.isspace() or password == '.' * len(password):
@@ -20,6 +21,7 @@ def verificar_space_password(password):
         return False
     # La contraseña pasa la verificaciones
     return True
+
 
 def verificar_capital_password(password):
     # Verifica si la contraseña contiene al menos una mayúscula y al menos un número
@@ -29,12 +31,14 @@ def verificar_capital_password(password):
     # La contraseña pasa la verificaciones
     return True
 
+
 def verificar_digit_password(password):
     if not re.search(r"\d", password):
         talk("Error: La contraseña debe contener al menos un número.")
         return False
     # La contraseña pasa la verificaciones
     return True
+
 
 def verificar_illegal_character_password(password):
     # Verifica si la contraseña contiene caracteres no permitidos
@@ -46,16 +50,19 @@ def verificar_illegal_character_password(password):
     # La contraseña pasa la verificaciones
     return True
 
+
 def verificar_exist_password_regist(user, password, nombre, apellido):
     if not user or not password or not nombre or not apellido:
         talk("Error Por favor complete los campos vacíos.")
         return False
     return True
-    
+
+
 def verificar_exist_password_login(user, password):
     if not user or not password:
         talk("Error. Por favor complete ambos campos para iniciar seción.")
         return
+
 
 # Función para hashear una contraseña y generar un salt
 def hash_password(password):
@@ -63,10 +70,12 @@ def hash_password(password):
     hashed_password = hashlib.pbkdf2_hmac('sha256', password.encode('utf-8'), salt, 100000)
     return hashed_password, salt
 
+
 # Función para verificar si la contraseña ingresada coincide con la almacenada como hash
 def verificar_hash(password, hashed_password, salt):
     new_hashed_password = hashlib.pbkdf2_hmac('sha256', password.encode('utf-8'), salt, 100000)
     return new_hashed_password == hashed_password
+
 
 def validar_correo_electronico(correo):
     expresion_regular = r"^(?!\.)[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}(?<!\.)$"
@@ -87,6 +96,7 @@ def validar_correo_electronico(correo):
             talk("Advertencia: La posición del punto y la '@' no es válida.")
         return False
 
+
 def validar_telefono_movil(numero):
     expresion_regular = r"^(?:(?:\+|00)([1-9]|1[0-9]|2[0-9]|3[0-9]|4[0-9]|5[0-9]|6[0-9]|7[0-9]|8[0-9]|9[0-9])\d{1,14}|(?:\((?:00|\+)([1-9]|1[0-9]|2[0-9]|3[0-9]|4[0-9]|5[0-9]|6[0-9]|7[0-9]|8[0-9]|9[0-9])\))\d{1,14}(?:\-?\d{1,8})?|(?:00|\+)([1-9]|1[0-9]|2[0-9]|3[0-9]|4[0-9]|5[0-9]|6[0-9]|7[0-9]|8[0-9]|9[0-9])\d{1,14}(?:\-?\d{1,8})?|(?:\((?:00|\+)([1-9]|1[0-9]|2[0-9]|3[0-9]|4[0-9]|5[0-9]|6[0-9]|7[0-9]|8[0-9]|9[0-9])\))\d{1,14})$"
     if re.match(expresion_regular, numero):
@@ -94,7 +104,8 @@ def validar_telefono_movil(numero):
     else:
         talk("El numero de telefono es incorrecto.")
         return False
-    
+
+
 def generate_unique_token():
     # Genera un token aleatorio de 64 caracteres
     token = ''.join(random.choices(string.ascii_letters + string.digits, k=64))

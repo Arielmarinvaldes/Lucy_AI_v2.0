@@ -11,16 +11,18 @@ from security.config import read_file
 
 CONFIG_PARAMS = read_file("config", "yaml")
 
+
 def login_capture():
     state = 0
     result, nombre_rostro = face_rec(state)
-    
-    if result == 'reconocido': # Si el reconocimiento coincide coteja con los rostros guardados y ejecuta la funcion main 
+
+    if result == 'reconocido':  # Si el reconocimiento coincide coteja con los rostros guardados y ejecuta la funcion main
         print(f"Bienvenido {nombre_rostro}")
         run(True)
 
     elif result == 'desconocido':
         init()  # Si el reconocimiento no coincide muetra la interfaz de login
+
 
 def reconocimiento(rec):
     rec = rec.replace('reconocimiento', '').strip()
@@ -31,6 +33,7 @@ def reconocimiento(rec):
         talk("Desactivando reconocimiento")
         face_rec(1)
 
+
 intrusos_path = r'intrusos'
 data_path = 'Data_Face'
 
@@ -38,7 +41,6 @@ if os.path.exists(data_path):
     print("Cargando rostros")
 else:
     print("La carpeta 'Data_Face' no se encontró en la ubicación especificada.")
-
 
 # Crear el reconocedor de rostros LBPH
 face_recognizer = cv2.face.LBPHFaceRecognizer_create()
@@ -49,10 +51,9 @@ try:
     print("Modelo cargado correctamente.")
 except cv2.error as e:
     print(f"Error al cargar el modelo: {e}")
-    
-
 
 face_classif = cv2.CascadeClassifier(r'camara/haarcascade_frontalface_default.xml')
+
 
 def face_rec(state):
     # Inicialización de la cámara
@@ -85,16 +86,16 @@ def face_rec(state):
                 cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 255, 0), 2)
                 nombre_rostro = data_path[result[0]]
                 talk(f'Bienvenido {nombre_rostro}')
-                time.sleep(2) # Agrega un retraso para permitir que el mensaje se reproduzca
+                time.sleep(2)  # Agrega un retraso para permitir que el mensaje se reproduzca
                 return 'reconocido', nombre_rostro
             else:
                 unknown_detected = True
-                alarma_song(0) # Activa la alarma
+                alarma_song(0)  # Activa la alarma
                 cv2.putText(frame, 'Desconocido', (x, y - 20), 1, 0.8, (0, 0, 255), 1,
                             cv2.LINE_AA)
                 cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 0, 255), 2)
                 talk('Rostro Desconocido')
-                
+
                 # Tomar la foto del rostro desconocido
                 img_name = f'imagen_{np.random.randint(100000)}.jpg'  # Generar un nombre aleatorio para la imagen
                 img_path = os.path.join(intrusos_path, img_name)
@@ -103,19 +104,20 @@ def face_rec(state):
 
         cv2.imshow('frame', frame)
         key = cv2.waitKey(1)
-        
+
         if key == 27 or recognized or unknown_detected:
             break
-    
+
     # Liberación de recursos
     capture.release()
     cv2.destroyAllWindows()
     # sys.exit()
-    
+
     if recognized:
         return 'reconocido', nombre_rostro
     else:
         return 'desconocido', None
+
 
 def alarma_song(state):
     if state == 0:

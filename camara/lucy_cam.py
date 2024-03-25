@@ -9,15 +9,17 @@ def camara(rec):
     t = tr.Thread(target=capture)
     t.start()
 
+
 def draw(mask, color, frame):
     # Encontrar los contornos de la máscara
-    contornos,_ = cv2.findContours(mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+    contornos, _ = cv2.findContours(mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
     # Dibujar los contornos en el marco original
     for c in contornos:
         area = cv2.contourArea(c)
         if area > 1000:
             new_contour = cv2.convexHull(c)
             cv2.drawContours(frame, [new_contour], 0, color, 3)
+
 
 def capture():
     cap = cv2.VideoCapture(0)
@@ -44,14 +46,14 @@ def capture():
             yellow_mask = cv2.inRange(frame_HSV, low_yellow, high_yellow)
             blue_mask = cv2.inRange(frame_HSV, low_blue, high_blue)
             green_mask = cv2.inRange(frame_HSV, low_green, high_green)
-            
+
             red_mask1 = cv2.inRange(frame_HSV, low_red1, high_red1)
             red_mask2 = cv2.inRange(frame_HSV, low_red2, high_red2)
             red_mask = cv2.add(red_mask1, red_mask2)
             # Dibujar los contornos de cada color en el fotograma original
             draw(yellow_mask, [0, 255, 255], frame)
             draw(blue_mask, [255, 0, 0], frame)
-            
+
             draw(green_mask, [0, 255, 0], frame)
             draw(red_mask, [0, 0, 255], frame)
             # Mostrar el fotograma en una ventana
